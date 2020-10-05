@@ -6,22 +6,24 @@ output: html_document
 
 --- 
 
+# Deutsche Kolonialzeit in China
+
 ![](Bild-Kolonialzeit-Postkarte-Qingdao.jpg)  
 *Postkarte aus der chinesischen Provinz Kiao-Tschau, Deutsches Reich, 1900* [Quelle: Lemo](https://www.dhm.de/lemo/bestand/objekt/gruss-aus-kiao-tschau-postkarte-zum-deutsch-chinesischen-konflikt-1900.html)
 
 *Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist das Verhältnis zwischen Chinesen und Deutschen hier abgebildet? Notieren Sie.*
 
-<textarea rows="4" cols="50"></textarea>
+<textarea rows="8" cols="50"></textarea>
 
 *Was wissen Sie schon über die deutsche Kolonialherrschaft in China? Notieren Sie.*
 
-<textarea rows="4" cols="50"></textarea>
+<textarea rows="8" cols="50"></textarea>
 
 ---
 
 *Im Folgenden hören und lesen Sie einen Podcast. Vorher sehen Sie sich die Wortwolke mit häufigen Wörtern aus dem Podcast an. Welche Wörter sind Ihnen unbekannt? Schauen Sie ihre Bedeutung im <a href="https://www.dwds.de/" target="_blank">Wörterbuch</a> nach und notieren Sie.*
 
-<textarea rows="4" cols="50"></textarea>
+<textarea rows="8" cols="50"></textarea>
 
 ![](Audio-Deutsche-Kolonialzeit-China.png) 
 
@@ -53,7 +55,7 @@ function setCurTime0() {
 </script> 
 
 <br>
-<input type="text" style="width:50%; font-weight:bold;">
+<input type="text" style="width:75%; font-weight:bold;">
 
 Die Deutschlandfunk Denkfabrik
 
@@ -70,7 +72,7 @@ function setCurTime1() {
 
 </script> 
 
-<br> <input type="text" style="width:50%; font-weight:bold;">
+<br> <input type="text" style="width:75%; font-weight:bold;">
 
 Deutsche Matrosen, die Anfang des 20. Jahrhunderts an Chinas Ostküste Karten spielen und Flaschenbier trinken. Bier aus der Germania Brauerei. Die wurde 1903 von deutschen und britischen Kaufleuten in Qingdao gegründet. Die alten Schwarz-Weiß-Fotos hängen im Biermuseum in der Tsingtao-Brauerei in Qingdao. 
 
@@ -84,7 +86,7 @@ function setCurTime2() {
 } 
 </script> 
 
-<br> <input type="text" style="width:50%; font-weight:bold;">
+<br> <input type="text" style="width:75%; font-weight:bold;">
 
 Die chinesische Stadt Qingdao am Gelben Meer war damals eine deutsche Kolonie. Und wo ein Stützpunkt war, sollte auch eine Brauerei sein, erzählt Li Jingyuan vom Biermuseum der Tsingtao-Brauerei: &bdquo;1897 haben deutsche Truppen Qingdao besetzt. Und dann haben sie schon bald die Brauerei gegründet, vor allem für die deutschen Matrosen und Truppen. Die wollten nicht ohne Bier sein, deshalb wurde diese Brauerei 1903 eröffnet. 2000 Tonnen konnten sie damals im Jahr produzieren, das produzieren wir heute am Tag.&ldquo;
 
@@ -98,7 +100,7 @@ function setCurTime3() {
 } 
 </script>
 
-<br> <input type="text" style="width:50%; font-weight:bold;">
+<br> <input type="text" style="width:75%; font-weight:bold;">
 
 
 Das Deutsche Kaiserreich hat das Gebiet um die Bucht von Kiaotschou im Jahr 1898 für 99 Jahre gepachtet. Man wollte einen Stützpunkt an der chinesischen Ostküste, sowohl für die eigene Flotte als auch für den Chinahandel. Es entstand eine ethnisch und ständisch gegliederte Siedlung. Im Süden die Europäer-Stadt, im Norden chinesische Geschäftsleute, noch weiter draußen die Arbeitersiedlungen. Das frische Quellwasser für die Brauerei kam damals aus dem benachbarten Berg Lao Shan, die anderen Rohstoffe mit dem Schiff aus Deutschland.
@@ -113,7 +115,7 @@ function setCurTime4() {
 } 
 </script>
 
-<br> <input type="text" style="width:50%; font-weight:bold;">
+<br> <input type="text" style="width:75%; font-weight:bold;">
 
 Die Gebäude der Tsingtao-Brauerei erinnern an klassische deutsche Brauerei-Architektur: Rote Backsteinfassaden, eine Turmuhr, die für damals typische Unterteilung in Mälzerei, Sudhaus, Kühl- und Lagerhaus sowie Nebengebäude. Gebraut wurde 1903 zunächst ein helles Bier nach Pilsner Art und ein dunkles Bier nach Münchener Art - anfangs noch nach dem deutschen Reinheitsgebot. Davon hat man sich aber im Laufe der Zeit verabschiedet. Passt nicht zum Bier-Geschmack der Chinesen, sagt Tsingtao-Braumeisterin Zhang Pei:
 
@@ -127,7 +129,7 @@ function setCurTime5() {
 } 
 </script>
 
-<br> <input type="text" style="width:50%; font-weight:bold;">
+<br> <input type="text" style="width:75%; font-weight:bold;">
 
 &bdquo;Wir haben das Bier dem Bedarf unserer Verbraucher angepasst. Der einzige Unterschied zum deutschen Bier liegt darin, dass wir Reis dazu genommen haben, damit der Geschmack leichter und süffiger wird. Ansonsten ist der traditionelle deutsche Geschmack zum großen Teil erhalten. Nur was die Bitterkeit angeht, schmeckt das Tsingtao-Bier leichter und süßer, nicht so stark wie früher.&ldquo;
 
@@ -141,7 +143,7 @@ function setCurTime6() {
 } 
 </script>
 
-<br> <input type="text" style="width:50%; font-weight:bold;">
+<br> <input type="text" style="width:75%; font-weight:bold;">
 
 Das Tsingtao-Bier ist eine der bekanntesten und ältesten Biermarken in China. Und die Brauerei hat eine wechselvolle Geschichte. Nach dem Ausbruch des Ersten Weltkrieges haben die Japaner die Brauerei betrieben, fast 30 Jahre wurden neben dem Tsingtao-Bier auch die Marken Asai und Kirin produziert. 1945 haben die Chinesen die Brauerei wieder übernommen, sie wurde zum Staatsbetrieb. Li Jingyuan vom Tsingtao-Biermuseum zeigt auf die vielen Fotos an der Wand, alles Kader der Kommunistischen Partei. &bdquo;Das sind die Direktoren der Tsingtao-Brauerei von 1949 bis 1993. Nach 1993 wurde es dann eine Aktiengesellschaft. Heute haben wir einen Vorstandsvorsitzenden.&ldquo;
 
@@ -155,7 +157,7 @@ function setCurTime7() {
 } 
 </script>
 
-<br> <input type="text" style="width:50%; font-weight:bold;">
+<br> <input type="text" style="width:75%; font-weight:bold;">
 
 Obwohl die Chinesen die deutsche Kolonialherren damals ablehnten, wurde das Bier schon relativ bald beliebt. Unter der Planwirtschaft von Staatsgründer Mao Zedong gab es Bier aber Jahrzehnte lang nur mit speziellen Lebensmittelmarken. Heute gibt es 70 Tsingtao-Brauereien in ganz China - und das Bier wird in über 100 Länder exportiert. 1993 war die Tsingtao-Brauerei das erste festlandchinesische Unternehmen an der Börse in Hongkong. Auf dem Börsenparkett gab es damals Freibier - wie heute in der Kneipe des Biermuseums. 
 
@@ -169,7 +171,7 @@ function setCurTime8() {
 } 
 </script>
 
-<br> <input type="text" style="width:50%; font-weight:bold;">
+<br> <input type="text" style="width:75%; font-weight:bold;">
 
 Kang Lu aus der Provinz Shanxi ist mit seinen Freunden auf einem Kurztrip in Qingdao. Auf dem Tisch vor ihm stehen acht kleine Gläser mit verschiedenen Bieren. &bdquo;Natürlich gehört dieses Museum in der Tsingtao-Brauerei zum Pflichtprogramm. Die Brauerei gehört zu den bekanntesten Gebäuden in Qingdao. Und die Geschichte hier kennt jeder Chinese. Wir kommen aber nicht nur, um uns die Gebäude anzuschauen, sondern auch um die Biere zu probieren.&ldquo;
 
@@ -183,7 +185,7 @@ function setCurTime9() {
 } 
 </script>
 
-<br> <input type="text" style="width:50%; font-weight:bold;">
+<br> <input type="text" style="width:75%; font-weight:bold;">
 
 Qingdao ist heute eine der bekanntesten Küsten- und Hafenstädte in China, mit rund neun Millionen Einwohnern. Spuren der deutschen Kolonialgeschichte gibt es viele: das alte Gouverneurshaus, der Offiziersklub, die evangelische Christuskirche. Ganze Straßenzüge mit Architektur aus dem deutschen Kaiserreich. Dazu die alte Brauerei, die es zu Weltruhm gebracht hat. Deren Aktien steigen gerade wieder: Seit der Corona-Krise geht der Bierverkauf nach oben, auf dem heimischen Markt in China um 30 bis 40 Prozent.
 
@@ -215,24 +217,23 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 *Von Anfang an lebten Chinesen und Deutsche friedlich und harmonisch zusammen.*
 
 <input type="checkbox"> Richtig  
-<input type="checkbox"> Falsch, richtig ist <input type="text" style="width:50%;">
+<input type="checkbox"> Falsch, richtig ist <input type="text" style="width:75%;">
 
 *Nach dem Ausbruch des Ersten Weltkrieges wurde die Brauerei geschlossen.*
 
 <input type="checkbox"> Richtig  
-<input type="checkbox"> Falsch, richtig ist <input type="text" style="width:50%;">
+<input type="checkbox"> Falsch, richtig ist <input type="text" style="width:75%;">
 
 *Welche &bdquo;Spuren der deutschen Kolonialgeschichte&ldquo; werden im Texte erwähnt? Notieren Sie.*  
 
-<input type="text" style="width:50%;">
+<input type="text" style="width:75%;">
 
 ---
 
 *Vergleichen Sie den Podcast mit der Postkarte vom Anfang. Die Beziehung zwischen Chinesen und Deutschen werden im Podcast und auf der Postkarte unterschiedlich dargestellt. Diskutieren Sie.* 
 
-<textarea rows="4" cols="50"></textarea>
+<textarea rows="12" cols="50"></textarea>
 
 ---
 
-
-
+*Speichern Sie die Webseite mit Ihren Antworten, indem Sie einen Screenshot von der ganzen Webseite machen. In Firefox zum Beispiel: Machen Sie einen Rechtsklick. Wählen Sie &bdquo;Take a Screenshot&ldquo;. Wählen Sie &bdquo;Save full page&ldquo; aus.*
