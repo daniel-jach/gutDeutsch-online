@@ -31,7 +31,7 @@ output: html_document
 
 ---
 
-*Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende. Hören und lesen Sie dann jeden Abschnitt noch einmal einzeln und formulieren Sie für jeden Abschnitt eine geeignete Zwischenüberschrift. Wählen Sie hierzu eine passende Zeit und drücken Sie auf* Abspielen/Pause*. Drücken Sie auf *Zurückspulen*, um die letzten fünf Sekunden noch einmal anzuhören.*
+*Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende. Hören und lesen Sie dann jeden Abschnitt noch einmal einzeln und formulieren Sie für jeden Abschnitt eine geeignete Zwischenüberschrift. Wählen Sie hierzu eine passende Zeit und drücken Sie auf* Abspielen/Pause*. Drücken Sie auf* Zurückspulen *, um die letzten fünf Sekunden noch einmal anzuhören.*
 
 ### Es blieben Architektur und Bier
 
