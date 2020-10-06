@@ -10,7 +10,7 @@ output: html_document
 |**Dauer**|45 Minuten| 
 |**Fähigkeiten**|Hören, Lesen|
 
-![](Bild-Kolonialzeit-Postkarte-Qingdao.jpg)  
+![](Bild-Kolonialzeit-Postkarte-Qingdao.jpg){ width=100% }
 *Postkarte aus der chinesischen Provinz Kiao-Tschau, Deutsches Reich, 1900.* [Quelle: Lemo](https://www.dhm.de/lemo/bestand/objekt/gruss-aus-kiao-tschau-postkarte-zum-deutsch-chinesischen-konflikt-1900.html)
 
 *Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist der Deutsche, wie sind die beiden Chinesen hier abgebildet? Wie ist ihre Beziehung dargestellt? Notieren Sie.*
@@ -25,7 +25,7 @@ output: html_document
 
 *Im Folgenden hören und lesen Sie einen Podcast. Vorher sehen Sie sich die Wortwolke mit häufigen Wörtern aus dem Podcast an. Welche Wörter sind Ihnen unbekannt? Schauen Sie ihre Bedeutung im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> nach und notieren Sie.*
 
-![](Audio-Deutsche-Kolonialzeit-China.png) 
+![](Audio-Deutsche-Kolonialzeit-China.png){ width=100% }
 
 <textarea rows="8" style="width:100%;"></textarea>
 
@@ -218,7 +218,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 ---
 
-![](./Bild-Kolonialzeit-Brauerei-Qingdao.jpg)  
+![](./Bild-Kolonialzeit-Brauerei-Qingdao.jpg){ width=100% } 
 [Quelle: Bundesarchiv N224/90 (fol. 34)](https://www.bundesarchiv.de/DE/Content/Virtuelle-Ausstellungen/Deutschlands-Adler-Im-Reich-Des-Drachen-Deutschland-Und-China-Im-Zeitalter-Des-Kolonialismus-Teil-5-Gouvernement-Kiautschou/deutschlands-adler-im-reich-des-drachen-deutschland-und-china-im-zeitalter-des-kolonialismus-teil-5-gouvernement-kiautschou.html)
 
 *Kreuzen Sie die richtigen Antworten an. Was ist vermutlich auf dem Bild zu sehen?*
