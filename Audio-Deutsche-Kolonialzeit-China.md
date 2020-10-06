@@ -4,19 +4,11 @@ output: html_document
 
 # Deutsche Kolonialzeit in China
 
-<table>
-<tbody>
-<tr>
-<td>**Niveau**</td><td>B1, B2</td>
-</tr>
-<tr>
-<td>**Dauer**</td><td>45 Minuten</td>
-</tr>
-<tr>
-<td>**Fähigkeiten**</td><td>Hören, Lesen</td>
-</tr>
-</tbody>
-</table>
+|  |  |
+|------|------|
+|**Niveau**|B1, B2|
+|**Dauer**|45 Minuten| 
+|**Fähigkeiten**|Hören, Lesen|
 
 ![](Bild-Kolonialzeit-Postkarte-Qingdao.jpg)  
 *Postkarte aus der chinesischen Provinz Kiao-Tschau, Deutsches Reich, 1900.* [Quelle: Lemo](https://www.dhm.de/lemo/bestand/objekt/gruss-aus-kiao-tschau-postkarte-zum-deutsch-chinesischen-konflikt-1900.html)
@@ -275,15 +267,15 @@ Das Tsingtao-Bier ist eine der bekanntesten und ältesten Biermarken in China. U
 
 *Vergleichen Sie mit folgenden Beispielen aus dem [DWDS-Korpus](https://www.dwds.de/r/?q=wechselvoll&corpus=korpus21&date-start=2000&date-end=2010&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=kwic&sort=date_asc&limit=10). Welche Gemeinsamkeiten bemerken Sie im Gebrauch von* wechselvoll *? Was ist mit dem Ausdruck vermutlich gemeint? Notieren Sie.*
 
-Linker Kontext | **wechselvoll** ...
----------------|----------------------
-und Juden teilten die Alexans das | **wechselvolle** Schicksal vieler Emigranten jener Jahre
-Die lange, | **wechselvolle** Geschichte der deutsch-polnischen Beziehungen fand im
-Leid, das sich Christen und Muslime in ihrer | **wechselvollen** Geschichte angetan haben - auch 
-der uns in ganz besonderer Weise mit der | **wechselvollen** Geschichte unserer Heimat
-Nach einer dramatisch | **wechselvollen**	Geschichte zwischen uns sind wir nun unterwegs in
-Vorstellung chaotisch, unvorhersehbar und | **wechselvoll** war.
-Es war ein | **wechselvoller** Tag.
+|  |  |
+|---------------|----------------------|
+|und Juden teilten die Alexans das | **wechselvolle** Schicksal vieler Emigranten jener Jahre|
+|Die lange, | **wechselvolle** Geschichte der deutsch-polnischen Beziehungen fand im|
+|Leid, das sich Christen und Muslime in ihrer | **wechselvollen** Geschichte angetan haben - auch|
+|der uns in ganz besonderer Weise mit der | **wechselvollen** Geschichte unserer Heimat|
+|Nach einer dramatisch | **wechselvollen**	Geschichte zwischen uns sind wir nun unterwegs in|
+|Vorstellung chaotisch, unvorhersehbar und | **wechselvoll** war.|
+|Es war ein | **wechselvoller** Tag.|
 
 <textarea rows="8" style="width:100%;"></textarea>
 
