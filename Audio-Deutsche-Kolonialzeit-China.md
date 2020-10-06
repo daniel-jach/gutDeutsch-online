@@ -9,6 +9,7 @@ output: html_document
 |**Niveau**|B1, B2|
 |**Dauer**|45 Minuten| 
 |**Fähigkeiten**|Hören, Lesen|
+|**Kurs**|Landeskunde, Geschichte|
 
 <img src="Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
 *Postkarte aus der chinesischen Provinz Kiao-Tschau, Deutsches Reich, 1900.* [Quelle: Lemo](https://www.dhm.de/lemo/bestand/objekt/gruss-aus-kiao-tschau-postkarte-zum-deutsch-chinesischen-konflikt-1900.html)
