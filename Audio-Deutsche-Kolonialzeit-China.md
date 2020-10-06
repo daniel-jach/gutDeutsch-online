@@ -60,8 +60,6 @@ function setCurTime0() {
 
 </script> 
 
-<br>
-
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die Deutschlandfunk Denkfabrik
@@ -79,8 +77,6 @@ function setCurTime1() {
 
 </script> 
 
-<br> 
-
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Deutsche Matrosen, die Anfang des 20. Jahrhunderts an Chinas Ostküste Karten spielen und Flaschenbier trinken. Bier aus der Germania Brauerei. Die wurde 1903 von deutschen und britischen Kaufleuten in Qingdao gegründet. Die alten Schwarz-Weiß-Fotos hängen im Biermuseum in der Tsingtao-Brauerei in Qingdao. 
@@ -95,8 +91,6 @@ function setCurTime2() {
 } 
 </script> 
 
-<br> 
-
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die chinesische Stadt Qingdao am Gelben Meer war damals eine deutsche Kolonie. Und wo ein Stützpunkt war, sollte auch eine Brauerei sein, erzählt Li Jingyuan vom Biermuseum der Tsingtao-Brauerei: &bdquo;1897 haben deutsche Truppen Qingdao besetzt. Und dann haben sie schon bald die Brauerei gegründet, vor allem für die deutschen Matrosen und Truppen. Die wollten nicht ohne Bier sein, deshalb wurde diese Brauerei 1903 eröffnet. 2000 Tonnen konnten sie damals im Jahr produzieren, das produzieren wir heute am Tag.&ldquo;
@@ -110,8 +104,6 @@ function setCurTime3() {
   audio.currentTime=104;
 } 
 </script>
-
-<br> 
 
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
@@ -128,8 +120,6 @@ function setCurTime4() {
 } 
 </script>
 
-<br> 
-
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die Gebäude der Tsingtao-Brauerei erinnern an klassische deutsche Brauerei-Architektur: Rote Backsteinfassaden, eine Turmuhr, die für damals typische Unterteilung in Mälzerei, Sudhaus, Kühl- und Lagerhaus sowie Nebengebäude. Gebraut wurde 1903 zunächst ein helles Bier nach Pilsner Art und ein dunkles Bier nach Münchener Art -- anfangs noch nach dem deutschen Reinheitsgebot. Davon hat man sich aber im Laufe der Zeit verabschiedet. Passt nicht zum Bier-Geschmack der Chinesen, sagt Tsingtao-Braumeisterin Zhang Pei:
@@ -143,8 +133,6 @@ function setCurTime5() {
   audio.currentTime=169;
 } 
 </script>
-
-<br> 
 
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
@@ -160,8 +148,6 @@ function setCurTime6() {
 } 
 </script>
 
-<br> 
-
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Das Tsingtao-Bier ist eine der bekanntesten und ältesten Biermarken in China. Und die Brauerei hat eine wechselvolle Geschichte. Nach dem Ausbruch des Ersten Weltkrieges haben die Japaner die Brauerei betrieben, fast 30 Jahre wurden neben dem Tsingtao-Bier auch die Marken Asai und Kirin produziert. 1945 haben die Chinesen die Brauerei wieder übernommen, sie wurde zum Staatsbetrieb. Li Jingyuan vom Tsingtao-Biermuseum zeigt auf die vielen Fotos an der Wand, alles Kader der Kommunistischen Partei. &bdquo;Das sind die Direktoren der Tsingtao-Brauerei von 1949 bis 1993. Nach 1993 wurde es dann eine Aktiengesellschaft. Heute haben wir einen Vorstandsvorsitzenden.&ldquo;
@@ -175,8 +161,6 @@ function setCurTime7() {
   audio.currentTime=237;
 } 
 </script>
-
-<br> 
 
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
@@ -192,8 +176,6 @@ function setCurTime8() {
 } 
 </script>
 
-<br> 
-
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Kang Lu aus der Provinz Shanxi ist mit seinen Freunden auf einem Kurztrip in Qingdao. Auf dem Tisch vor ihm stehen acht kleine Gläser mit verschiedenen Bieren. &bdquo;Natürlich gehört dieses Museum in der Tsingtao-Brauerei zum Pflichtprogramm. Die Brauerei gehört zu den bekanntesten Gebäuden in Qingdao. Und die Geschichte hier kennt jeder Chinese. Wir kommen aber nicht nur, um uns die Gebäude anzuschauen, sondern auch um die Biere zu probieren.&ldquo;
@@ -207,8 +189,6 @@ function setCurTime9() {
   audio.currentTime=296;
 } 
 </script>
-
-<br> 
 
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
