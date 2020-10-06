@@ -291,7 +291,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 </div> 
 <!--- end of div container for screenshot ---> 
 
-*Speichern Sie die Webseite mit Ihren Antworten als Screenshot. Drücken Sie hierfür auf* Screenshot machen *und warten Sie einen Moment. Der Screenshot erscheint unten. Sie können ihn mit Rechtsklick als Bild speichern.*
+*Speichern Sie die Webseite mit Ihren Antworten als Screenshot. Nutzen Sie am besten die Screenshot-Funktion Ihres Browsers. In Firefox: Rechtsklick,* Screenshot machen *auswählen,* Ganze Seite speichern *auswählen. Oder drücken Sie hier auf* Screenshot machen *und warten Sie einen Moment. Der Screenshot erscheint unten. Sie können ihn mit Rechtsklick als Bild speichern. **Achtung** Diese Funktion funktioniert nur eingeschränkt.*
 
 <button onclick='screenshot();'>Screenshot machen</button>
 
@@ -303,5 +303,3 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
    });
   }
   </script>
-
-*Wenn Probleme auftreten, nutzen Sie die Screenshot-Funktion Ihres Browsers. In Firefox: Rechtsklick,* Screenshot machen *auswählen,* Ganze Seite speichern *auswählen.*
