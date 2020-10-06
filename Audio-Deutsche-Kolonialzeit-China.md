@@ -33,7 +33,7 @@ output: html_document
 
 ---
 
-*Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende. Hören und lesen Sie dann jeden Abschnitt noch einmal einzeln und formulieren Sie für jeden Abschnitt eine geeignete Zwischenüberschrift. Wählen Sie hierzu eine passende Zeit und drücken Sie auf* Abspielen/Pause*. Drücken Sie auf* Zurückspulen*, um die letzten fünf Sekunden noch einmal anzuhören.*
+*Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende. Hören und lesen Sie dann jeden Abschnitt noch einmal einzeln und formulieren Sie für jeden Abschnitt eine passende Zwischenüberschrift oder Frage. Wählen Sie hierzu eine Zeit und drücken Sie auf* Abspielen/Pause*. Drücken Sie auf* Zurückspulen*, um die letzten fünf Sekunden noch einmal anzuhören.*
 
 ### Es blieben Architektur und Bier
 
@@ -108,7 +108,6 @@ function setCurTime3() {
 </script>
 
 <input type="text" style="width:100%; text-align:center; font-weight:bold;">
-
 
 Das Deutsche Kaiserreich hat das Gebiet um die Bucht von Kiaotschou im Jahr 1898 für 99 Jahre gepachtet. Man wollte einen Stützpunkt an der chinesischen Ostküste, sowohl für die eigene Flotte als auch für den Chinahandel. Es entstand eine ethnisch und ständisch gegliederte Siedlung. Im Süden die Europäer-Stadt, im Norden chinesische Geschäftsleute, noch weiter draußen die Arbeitersiedlungen. Das frische Quellwasser für die Brauerei kam damals aus dem benachbarten Berg Lao Shan, die anderen Rohstoffe mit dem Schiff aus Deutschland.
 
@@ -226,21 +225,21 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 <input type="checkbox"> Richtig  
 <input type="checkbox"> Falsch, richtig ist...  
-<input type="text" style="width:100%">
+<textarea rows="2" style="width:100%;"></textarea>
 
 *Nach Ausbruch des Ersten Weltkrieges war die Brauerei außer Betrieb.*
 
 <input type="checkbox"> Richtig  
 <input type="checkbox"> Falsch, richtig ist...
-<input type="text" style="width:100%">
+<textarea rows="2" style="width:100%;"></textarea>
 
 *Der Geschmack von Tsingtao-Bier hat sich verändert. Wie und wieso? Notieren Sie.* 
 
-<input type="text" style="width:100%">
+<textarea rows="2" style="width:100%;"></textarea>
 
 *Welche &bdquo;Spuren der deutschen Kolonialgeschichte&ldquo; werden im Texte erwähnt? Notieren Sie.*  
 
-<input type="text" style="width:100%">
+<textarea rows="2" style="width:100%;"></textarea>
 
 ---
 
