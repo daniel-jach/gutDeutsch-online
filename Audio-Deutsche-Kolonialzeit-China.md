@@ -12,6 +12,7 @@ output: html_document
 |**Kurs**|Landeskunde, Geschichte|
 
 <img src="Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
+
 *Postkarte aus der chinesischen Provinz Kiao-Tschau, Deutsches Reich, 1900.* [Quelle: Lemo](https://www.dhm.de/lemo/bestand/objekt/gruss-aus-kiao-tschau-postkarte-zum-deutsch-chinesischen-konflikt-1900.html)
 
 *Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist der Deutsche, wie sind die beiden Chinesen hier abgebildet? Wie ist ihre Beziehung dargestellt? Notieren Sie.*
