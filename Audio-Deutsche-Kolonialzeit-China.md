@@ -303,3 +303,5 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
    });
   }
   </script>
+
+*Wenn Probleme auftreten, nutzen Sie die Screenshot-Funktion Ihres Browsers. In Firefox: Rechtsklick,* Screenshot machen *auswählen,* Ganze Seite speichern *auswählen.*
