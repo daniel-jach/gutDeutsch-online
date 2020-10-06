@@ -1,23 +1,19 @@
 ---
-title: Deutsche Kolonialzeit in China
-author: Daniel Jach
 output: html_document
 ---
-
---- 
 
 # Deutsche Kolonialzeit in China
 
 <table>
 <tbody>
 <tr>
-<td>Niveau</td><td>B1, B2</td>
+<td>**Niveau**</td><td>B1, B2</td>
 </tr>
 <tr>
-<td>Dauer</td><td>45 Minuten</td>
+<td>**Dauer**</td><td>45 Minuten</td>
 </tr>
 <tr>
-<td>Fähigkeiten</td><td>Hören, Lesen</td>
+<td>**Fähigkeiten**</td><td>Hören, Lesen</td>
 </tr>
 </tbody>
 </table>
@@ -27,19 +23,19 @@ output: html_document
 
 *Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist der Deutsche, wie sind die beiden Chinesen hier abgebildet? Wie ist ihre Beziehung dargestellt? Notieren Sie.*
 
-<textarea rows="8" cols="50"></textarea>
+<textarea rows="8" style="width:100%;"></textarea>
 
 *Was wissen Sie schon über die deutsche Kolonialherrschaft in China? Notieren Sie.*
 
-<textarea rows="8" cols="50"></textarea>
+<textarea rows="8" style="width:100%;"></textarea>
 
 ---
 
 *Im Folgenden hören und lesen Sie einen Podcast. Vorher sehen Sie sich die Wortwolke mit häufigen Wörtern aus dem Podcast an. Welche Wörter sind Ihnen unbekannt? Schauen Sie ihre Bedeutung im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> nach und notieren Sie.*
 
-<textarea rows="8" cols="50"></textarea>
-
 ![](Audio-Deutsche-Kolonialzeit-China.png) 
+
+<textarea rows="8" style="width:100%;"></textarea>
 
 ---
 
@@ -73,7 +69,8 @@ function setCurTime0() {
 </script> 
 
 <br>
-<input type="text" style="width:75%; font-weight:bold;">
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die Deutschlandfunk Denkfabrik
 
@@ -90,7 +87,9 @@ function setCurTime1() {
 
 </script> 
 
-<br> <input type="text" style="width:75%; font-weight:bold;">
+<br> 
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Deutsche Matrosen, die Anfang des 20. Jahrhunderts an Chinas Ostküste Karten spielen und Flaschenbier trinken. Bier aus der Germania Brauerei. Die wurde 1903 von deutschen und britischen Kaufleuten in Qingdao gegründet. Die alten Schwarz-Weiß-Fotos hängen im Biermuseum in der Tsingtao-Brauerei in Qingdao. 
 
@@ -104,7 +103,9 @@ function setCurTime2() {
 } 
 </script> 
 
-<br> <input type="text" style="width:75%; font-weight:bold;">
+<br> 
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die chinesische Stadt Qingdao am Gelben Meer war damals eine deutsche Kolonie. Und wo ein Stützpunkt war, sollte auch eine Brauerei sein, erzählt Li Jingyuan vom Biermuseum der Tsingtao-Brauerei: &bdquo;1897 haben deutsche Truppen Qingdao besetzt. Und dann haben sie schon bald die Brauerei gegründet, vor allem für die deutschen Matrosen und Truppen. Die wollten nicht ohne Bier sein, deshalb wurde diese Brauerei 1903 eröffnet. 2000 Tonnen konnten sie damals im Jahr produzieren, das produzieren wir heute am Tag.&ldquo;
 
@@ -118,7 +119,9 @@ function setCurTime3() {
 } 
 </script>
 
-<br> <input type="text" style="width:75%; font-weight:bold;">
+<br> 
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 
 Das Deutsche Kaiserreich hat das Gebiet um die Bucht von Kiaotschou im Jahr 1898 für 99 Jahre gepachtet. Man wollte einen Stützpunkt an der chinesischen Ostküste, sowohl für die eigene Flotte als auch für den Chinahandel. Es entstand eine ethnisch und ständisch gegliederte Siedlung. Im Süden die Europäer-Stadt, im Norden chinesische Geschäftsleute, noch weiter draußen die Arbeitersiedlungen. Das frische Quellwasser für die Brauerei kam damals aus dem benachbarten Berg Lao Shan, die anderen Rohstoffe mit dem Schiff aus Deutschland.
@@ -133,7 +136,9 @@ function setCurTime4() {
 } 
 </script>
 
-<br> <input type="text" style="width:75%; font-weight:bold;">
+<br> 
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die Gebäude der Tsingtao-Brauerei erinnern an klassische deutsche Brauerei-Architektur: Rote Backsteinfassaden, eine Turmuhr, die für damals typische Unterteilung in Mälzerei, Sudhaus, Kühl- und Lagerhaus sowie Nebengebäude. Gebraut wurde 1903 zunächst ein helles Bier nach Pilsner Art und ein dunkles Bier nach Münchener Art -- anfangs noch nach dem deutschen Reinheitsgebot. Davon hat man sich aber im Laufe der Zeit verabschiedet. Passt nicht zum Bier-Geschmack der Chinesen, sagt Tsingtao-Braumeisterin Zhang Pei:
 
@@ -147,7 +152,9 @@ function setCurTime5() {
 } 
 </script>
 
-<br> <input type="text" style="width:75%; font-weight:bold;">
+<br> 
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 &bdquo;Wir haben das Bier dem Bedarf unserer Verbraucher angepasst. Der einzige Unterschied zum deutschen Bier liegt darin, dass wir Reis dazu genommen haben, damit der Geschmack leichter und süffiger wird. Ansonsten ist der traditionelle deutsche Geschmack zum großen Teil erhalten. Nur was die Bitterkeit angeht, schmeckt das Tsingtao-Bier leichter und süßer, nicht so stark wie früher.&ldquo;
 
@@ -161,7 +168,9 @@ function setCurTime6() {
 } 
 </script>
 
-<br> <input type="text" style="width:75%; font-weight:bold;">
+<br> 
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Das Tsingtao-Bier ist eine der bekanntesten und ältesten Biermarken in China. Und die Brauerei hat eine wechselvolle Geschichte. Nach dem Ausbruch des Ersten Weltkrieges haben die Japaner die Brauerei betrieben, fast 30 Jahre wurden neben dem Tsingtao-Bier auch die Marken Asai und Kirin produziert. 1945 haben die Chinesen die Brauerei wieder übernommen, sie wurde zum Staatsbetrieb. Li Jingyuan vom Tsingtao-Biermuseum zeigt auf die vielen Fotos an der Wand, alles Kader der Kommunistischen Partei. &bdquo;Das sind die Direktoren der Tsingtao-Brauerei von 1949 bis 1993. Nach 1993 wurde es dann eine Aktiengesellschaft. Heute haben wir einen Vorstandsvorsitzenden.&ldquo;
 
@@ -175,7 +184,9 @@ function setCurTime7() {
 } 
 </script>
 
-<br> <input type="text" style="width:75%; font-weight:bold;">
+<br> 
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Obwohl die Chinesen die deutsche Kolonialherren damals ablehnten, wurde das Bier schon relativ bald beliebt. Unter der Planwirtschaft von Staatsgründer Mao Zedong gab es Bier aber Jahrzehnte lang nur mit speziellen Lebensmittelmarken. Heute gibt es 70 Tsingtao-Brauereien in ganz China -- und das Bier wird in über 100 Länder exportiert. 1993 war die Tsingtao-Brauerei das erste festlandchinesische Unternehmen an der Börse in Hongkong. Auf dem Börsenparkett gab es damals Freibier -- wie heute in der Kneipe des Biermuseums. 
 
@@ -189,7 +200,9 @@ function setCurTime8() {
 } 
 </script>
 
-<br> <input type="text" style="width:75%; font-weight:bold;">
+<br> 
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Kang Lu aus der Provinz Shanxi ist mit seinen Freunden auf einem Kurztrip in Qingdao. Auf dem Tisch vor ihm stehen acht kleine Gläser mit verschiedenen Bieren. &bdquo;Natürlich gehört dieses Museum in der Tsingtao-Brauerei zum Pflichtprogramm. Die Brauerei gehört zu den bekanntesten Gebäuden in Qingdao. Und die Geschichte hier kennt jeder Chinese. Wir kommen aber nicht nur, um uns die Gebäude anzuschauen, sondern auch um die Biere zu probieren.&ldquo;
 
@@ -203,7 +216,9 @@ function setCurTime9() {
 } 
 </script>
 
-<br> <input type="text" style="width:75%; font-weight:bold;">
+<br> 
+
+<input type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Qingdao ist heute eine der bekanntesten Küsten- und Hafenstädte in China, mit rund neun Millionen Einwohnern. Spuren der deutschen Kolonialgeschichte gibt es viele: das alte Gouverneurshaus, der Offiziersklub, die evangelische Christuskirche. Ganze Straßenzüge mit Architektur aus dem deutschen Kaiserreich. Dazu die alte Brauerei, die es zu Weltruhm gebracht hat. Deren Aktien steigen gerade wieder: Seit der Corona-Krise geht der Bierverkauf nach oben, auf dem heimischen Markt in China um 30 bis 40 Prozent.
 
@@ -235,31 +250,48 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 *Chinesen und Deutsche lebten friedlich, harmonisch und gleichberechtigt zusammen.*
 
 <input type="checkbox"> Richtig  
-<input type="checkbox"> Falsch, richtig ist <input type="text" style="width:75%;">
+<input type="checkbox"> Falsch, richtig ist...  
+<input type="text" style="width:100%">
 
 *Nach Ausbruch des Ersten Weltkrieges war die Brauerei außer Betrieb.*
 
 <input type="checkbox"> Richtig  
-<input type="checkbox"> Falsch, richtig ist <input type="text" style="width:75%;">
+<input type="checkbox"> Falsch, richtig ist...
+<input type="text" style="width:100%">
 
 *Der Geschmack von Tsingtao-Bier hat sich verändert. Wie und wieso? Notieren Sie.* 
 
-<input type="text" style="width:75%;">
+<input type="text" style="width:100%">
 
 *Welche &bdquo;Spuren der deutschen Kolonialgeschichte&ldquo; werden im Texte erwähnt? Notieren Sie.*  
 
-<input type="text" style="width:75%;">
+<input type="text" style="width:100%">
 
 ---
 
+*Im Podcast wird der Ausdruck* wechselvoll *gebraucht.*
 
+Das Tsingtao-Bier ist eine der bekanntesten und ältesten Biermarken in China. Und die Brauerei hat eine **wechselvolle** Geschichte. Nach dem Ausbruch des Ersten Weltkrieges...
 
+*Vergleichen Sie mit folgenden Beispielen aus dem [DWDS-Korpus](https://www.dwds.de/r/?q=wechselvoll&corpus=korpus21&date-start=2000&date-end=2010&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=kwic&sort=date_asc&limit=10). Welche Gemeinsamkeiten bemerken Sie im Gebrauch von* wechselvoll *? Was ist mit dem Ausdruck vermutlich gemeint? Notieren Sie.*
+
+Linker Kontext | **wechselvoll** ...
+---------------|----------------------
+und Juden teilten die Alexans das | **wechselvolle** Schicksal vieler Emigranten jener Jahre
+Die lange, | **wechselvolle** Geschichte der deutsch-polnischen Beziehungen fand im
+Leid, das sich Christen und Muslime in ihrer | **wechselvollen** Geschichte angetan haben - auch 
+der uns in ganz besonderer Weise mit der | **wechselvollen** Geschichte unserer Heimat
+Nach einer dramatisch | **wechselvollen**	Geschichte zwischen uns sind wir nun unterwegs in
+Vorstellung chaotisch, unvorhersehbar und | **wechselvoll** war.
+Es war ein | **wechselvoller** Tag.
+
+<textarea rows="8" style="width:100%;"></textarea>
 
 ---
 
 *Vergleichen Sie den Podcast mit der Postkarte vom Anfang. Die Beziehung zwischen Chinesen und Deutschen werden im Podcast und auf der Postkarte unterschiedlich dargestellt. Diskutieren Sie.* 
 
-<textarea rows="12" cols="50"></textarea>
+<textarea rows="12" style="width:100%;"></textarea>
 
 ---
 
