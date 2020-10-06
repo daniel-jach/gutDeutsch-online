@@ -9,7 +9,8 @@ output: html_document
 |**Niveau**|B1, B2|
 |**Dauer**|45 Minuten| 
 |**Fähigkeiten**|Hören, Lesen|
-|**Kurs**|Landeskunde, Geschichte|
+|**Sprachhandlung**|Über Vergangenheit erzählen|
+|**Kurse**|Landeskunde, Geschichte|
 
 <img src="Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
 
@@ -267,13 +268,13 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 <textarea rows="8" style="width:100%;"></textarea>
 
-*Wie wird der Ausdruck normalerweise gebraucht? Vergleichen Sie noch einmal alle Beispiele und notieren Sie Gemeinsamkeiten im Gebrauch.*
+*Wie wird der Ausdruck* wechselvoll *normalerweise gebraucht? Vergleichen Sie noch einmal alle Beispiele und notieren Sie Gemeinsamkeiten im Gebrauch von* wechselvoll*.*
 
 <textarea rows="8" style="width:100%;"></textarea>
 
 ---
 
-*Vergleichen Sie den Podcast mit der Postkarte vom Anfang. Die Beziehung zwischen Chinesen und Deutschen werden im Podcast und auf der Postkarte unterschiedlich dargestellt. Diskutieren Sie.* 
+*Vergleichen Sie den Podcast mit der Postkarte vom Anfang. Die Beziehung zwischen Chinesen und Deutschen werden im Podcast und auf der Postkarte unterschiedlich dargestellt. Notieren und diskutieren Sie die Unterschiede.* 
 
 <textarea rows="12" style="width:100%;"></textarea>
 
