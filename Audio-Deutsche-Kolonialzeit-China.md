@@ -1,5 +1,4 @@
 ---
-output: html_document
 ---
 
 <head>
@@ -20,7 +19,7 @@ output: html_document
 |**Sprachhandlung**|Über Vergangenheit erzählen|
 |**Kurse**|Landeskunde, Geschichte|
 
-<img src="Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
+<img src="./images/Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
 
 *Postkarte aus der chinesischen Provinz Kiao-Tschau, Deutsches Reich, 1900.* [Quelle: Lemo](https://www.dhm.de/lemo/bestand/objekt/gruss-aus-kiao-tschau-postkarte-zum-deutsch-chinesischen-konflikt-1900.html)
 
@@ -36,7 +35,7 @@ output: html_document
 
 *Im Folgenden hören und lesen Sie einen Podcast. Vorher sehen Sie sich die Wortwolke mit häufigen Wörtern aus dem Podcast an. Welche Wörter sind Ihnen unbekannt? Schauen Sie ihre Bedeutung im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> nach und notieren Sie.*
 
-<img src="Audio-Deutsche-Kolonialzeit-China.png" style="width:100%;">
+<img src="./images/Audio-Deutsche-Kolonialzeit-China-Wortwolke.png" style="width:100%;">
 
 <textarea rows="8" style="width:100%;"></textarea>
 
@@ -49,7 +48,7 @@ output: html_document
 [Quelle: Deutschlandfunk](https://www.deutschlandfunk.de/deutsche-kolonialzeit-in-china-es-blieben-architektur-und.769.de.html?dram:article_id=480264), 20.07.2020
 
 <div>
-<audio controls id="meinAudio" src="Audio-Deutsche-Kolonialzeit-China.mp3" preload="auto"></audio>
+<audio controls id="meinAudio" src="./audios/Audio-Deutsche-Kolonialzeit-China.mp3" preload="auto"></audio>
 </div>
 
 <button onclick="setCurTime0()">Anfang</button><button onclick="togglePlayPause()">Abspielen/Pause</button><button onclick="rewind()">Zurückspulen</button>
@@ -208,7 +207,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 ---
 
-<img src="Bild-Kolonialzeit-Brauerei-Qingdao.jpg" style="width:100%;">
+<img src="./images/Bild-Kolonialzeit-Brauerei-Qingdao.jpg" style="width:100%;">
 
 [Quelle: Bundesarchiv N224/90 (fol. 34)](https://www.bundesarchiv.de/DE/Content/Virtuelle-Ausstellungen/Deutschlands-Adler-Im-Reich-Des-Drachen-Deutschland-Und-China-Im-Zeitalter-Des-Kolonialismus-Teil-5-Gouvernement-Kiautschou/deutschlands-adler-im-reich-des-drachen-deutschland-und-china-im-zeitalter-des-kolonialismus-teil-5-gouvernement-kiautschou.html)
 
