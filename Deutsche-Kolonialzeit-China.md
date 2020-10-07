@@ -11,6 +11,8 @@
 
 # Deutsche Kolonialzeit in China
 
+<a href="https://daniel-jach.github.io/gutDeutsch-online/index.html">Andere Aktivitäten auf GutDeutsch online</a>
+
 |  |  |
 |------|------|
 |**Niveau**|B1, B2|
