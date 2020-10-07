@@ -1,6 +1,8 @@
 ---
 ---
 
+[<-- Andere Aktivitäten auf *GutDeutsch online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
+
 <head>
 <script type="text/javascript" src="html2canvas.js"></script>
 </head>
@@ -10,8 +12,6 @@
 <!--- div container for screenshot, markdown="1" to enable markdown within div ---> 
 
 # Deutsche Kolonialzeit in China
-
-<a href="https://daniel-jach.github.io/gutDeutsch-online/index.html">Andere Aktivitäten auf GutDeutsch online</a>
 
 |  |  |
 |------|------|
