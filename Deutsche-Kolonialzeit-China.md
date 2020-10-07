@@ -1,8 +1,6 @@
 ---
 ---
 
-[<-- Andere Aktivitäten auf *GutDeutsch online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
-
 <head>
 <script type="text/javascript" src="html2canvas.js"></script>
 </head>
@@ -10,6 +8,8 @@
 
 <div class="container" id='container' markdown="1">
 <!--- div container for screenshot, markdown="1" to enable markdown within div ---> 
+
+[<-- Andere Aktivitäten auf *GutDeutsch online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 # Deutsche Kolonialzeit in China
 
