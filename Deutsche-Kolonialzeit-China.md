@@ -43,7 +43,7 @@
 
 ---
 
-*Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende. 
+*Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende.*
 
 ### Es blieben Architektur und Bier
 
@@ -207,7 +207,7 @@ Qingdao ist heute eine der bekanntesten Küsten- und Hafenstädte in China, mit 
 
 Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökonomische Spuren der deutschen Kolonialzeit. Auch als Podcast nachzuhören. 
 
-Hören und lesen Sie dann jeden Abschnitt noch einmal einzeln und formulieren Sie für jeden Abschnitt eine passende Zwischenüberschrift oder Frage. Wählen Sie hierzu eine Zeit und drücken Sie auf* Abspielen/Pause*. Drücken Sie auf* Zurückspulen*, um die letzten fünf Sekunden noch einmal anzuhören.*
+*Hören und lesen Sie dann jeden Abschnitt noch einmal einzeln und formulieren Sie für jeden Abschnitt eine passende Zwischenüberschrift oder Frage. Wählen Sie hierzu eine Zeit und drücken Sie auf* Abspielen/Pause*. Drücken Sie auf* Zurückspulen*, um die letzten fünf Sekunden noch einmal anzuhören.*
 
 ---
 
