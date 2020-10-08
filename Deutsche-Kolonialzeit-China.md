@@ -19,7 +19,7 @@
 |**Dauer**|45 Minuten| 
 |**Fähigkeiten**|Hören, Lesen|
 |**Sprachhandlung**|Über Vergangenheit erzählen|
-|**Kurse**|Landeskunde, Geschichte|
+|**Textsorte**|Radio-Feature|
 
 <img src="./images/Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
 
