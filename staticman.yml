@@ -75,3 +75,10 @@ comments:
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
+    
+  reCaptcha:
+    enabled: true
+    # the siteKey is used as-is (no encryption)
+    siteKey: 6LehZ9UZAAAAAHkubp_Y8J3jjLmJmEJfGYmoExcv
+    # the secret is the encrypted blob you got back from the encrypt call
+    secret: HSLgjonvxlkJs51aIb4oCHN50DS1k9OLBCnFzR8S9nQYu+IrxxwD6wSURtXnfgrHAcacsRfgoVkqxBu9zoQIl9PmPT8v8UDR9cucZD1iEgOoyUhV6Pwp9UX7TxpFZaxcupgbNXFsPyEwEh0d8jp4tyOJaV5CUyLYoL5RBhX0dYg=
