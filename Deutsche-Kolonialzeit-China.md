@@ -2,9 +2,10 @@
 ---
 
 <head>
+<!--- script for taking screenshot --->
 <script type="text/javascript" src="html2canvas.js"></script>
 </head>
-<!--- script for taking screenshot --->
+
 
 <div class="container" id='container' markdown="1">
 <!--- div container for screenshot, markdown="1" to enable markdown within div ---> 

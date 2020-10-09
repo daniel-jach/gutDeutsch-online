@@ -7,3 +7,8 @@
 Folgende Aktivitäten sind im Moment online: 
 
 - [Deutsche Kolonialzeit in China](https://daniel-jach.github.io/gutDeutsch-online/Deutsche-Kolonialzeit-China.html)
+
+<br>
+
+
+{% include comments.html %}
