@@ -1,14 +1,15 @@
 ---
 ---
 
+<!-- script for taking screenshot
 <head>
-<!--- script for taking screenshot --->
 <script type="text/javascript" src="html2canvas.js"></script>
 </head>
+-->
 
-
+<!--- div container for screenshot, markdown="1" to enable markdown within div
 <div class="container" id='container' markdown="1">
-<!--- div container for screenshot, markdown="1" to enable markdown within div ---> 
+ ---> 
 
 [Andere Aktivitäten auf *Gut Deutsch online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
@@ -16,10 +17,10 @@
 
 |  |  |
 |------|------|
-|**Niveau**|B1, B2|
+|**Niveau**|A2|
 |**Dauer**|45 Minuten| 
 |**Fähigkeiten**|Hören, Lesen|
-|**Sprachhandlung**|Über Vergangenheit erzählen|
+|**Sprachhandlung**|Über Vergangenheit erzählen, beschreiben|
 |**Textsorte**|Radio-Feature|
 
 <img src="./images/Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
@@ -286,20 +287,28 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 ---
 
-*Vergleichen Sie den Podcast mit der Postkarte vom Anfang. Die Beziehung zwischen Chinesen und Deutschen werden im Podcast und auf der Postkarte unterschiedlich dargestellt. Notieren und diskutieren Sie die Unterschiede.* 
+*Vergleichen Sie den Podcast mit der Postkarte vom Anfang. Die Beziehung zwischen Chinesen und Deutschen werden im Podcast und auf der Postkarte unterschiedlich dargestellt. Beschreiben und diskutieren Sie die Unterschiede.* 
 
 <textarea rows="12" style="width:100%;"></textarea>
 
 ---
 
+<!--- end of div container for screenshot 
 </div> 
-<!--- end of div container for screenshot ---> 
+---> 
 
-*Speichern Sie die Webseite mit Ihren Antworten als Screenshot. Nutzen Sie am besten die Screenshot-Funktion Ihres Browsers. In Firefox: Rechtsklick,* Screenshot machen *auswählen,* Ganze Seite speichern *auswählen. Oder drücken Sie hier auf* Screenshot machen *und warten Sie einen Moment. Der Screenshot erscheint unten. Sie können ihn mit Rechtsklick als Bild speichern. **Achtung** Diese Funktion ist nur eingeschränkt nutzbar.*
+*Speichern Sie die Webseite mit Ihren Antworten als Screenshot und schicken Sie mir den Screenshot mit Wechat. Nutzen Sie am besten die Screenshot-Funktion Ihres Browsers. In Firefox: Rechtsklick,* Screenshot machen *auswählen,* Ganze Seite speichern *auswählen.* 
+
+--- 
+
+*Sie sind am Ende der Aktivität angekommen. Gut gemacht! Denken Sie jetzt noch einmal über das Gelernte nach. Was war für Sie neu und überraschend? Was hat gefehlt? Schicken Sie eine Nachricht in unserer Wechat-Gruppe.*
+
+
+<!--- call html2canvas script 
+*Oder drücken Sie hier auf* Screenshot machen *und warten Sie einen Moment. Der Screenshot erscheint unten. Sie können ihn mit Rechtsklick als Bild speichern. **Achtung** Diese Funktion ist nur eingeschränkt nutzbar.*
 
 <button onclick='screenshot();'>Screenshot machen</button>
 
-<!-- call html2canvas for screenshot -->
   <script type='text/javascript'>
   function screenshot(){
     html2canvas(document.body).then(function(canvas) {
@@ -307,3 +316,5 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
    });
   }
   </script>
+  
+-->
