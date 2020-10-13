@@ -361,11 +361,11 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
     var email = document.getElementById("email");
     var msg = document.getElementById("message");
 
-    var data = {
-      "name": name.value,
-      "email": email.value,
-      "msg": msg.value
-    }
+  var data = {
+    "name": name.value,
+    "email": email.value,
+    "msg": msg.value
+  }
     push_to_firebase(data);
 
   }
