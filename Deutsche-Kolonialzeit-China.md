@@ -307,21 +307,17 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 
 
-<body>
-    <form>
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name..">
-
-      <label for="email">email</label>
-      <input type="email" id="email" name="email" placeholder="Your email..">
-
-      <label for="message">Subject</label>
-      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
-      <button id="submit_msg" type="button">Submit</button>
-    </form>
-  </body>
-  <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+    <label for="email">email</label>
+    <input type="email" id="email" name="email" placeholder="Your email..">
+    <label for="message">Subject</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+    <button id="submit_msg" type="button">Submit</button>
+  </form>
+    
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-firestore.js"></script>
   <script type="text/javascript">
     (function() {
@@ -370,25 +366,13 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
   }
 
-      document.getElementById("submit_msg").addEventListener("click", contact_submit);
-    })();
+  document.getElementById("submit_msg").addEventListener("click", contact_submit);
+})();
   </script>
 
 
 
 
-
-
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<script>
-  
-</script>
 
 
 
