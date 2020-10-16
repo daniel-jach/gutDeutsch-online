@@ -1,15 +1,7 @@
 ---
 ---
 
-<!-- script for taking screenshot
-<head>
-<script type="text/javascript" src="html2canvas.js"></script>
-</head>
--->
-
-<!--- div container for screenshot, markdown="1" to enable markdown within div
-<div class="container" id='container' markdown="1">
- ---> 
+<form style="width:100%;" markdown="1">
 
 [Andere Aktivitäten auf *Gut Deutsch online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
@@ -29,11 +21,11 @@
 
 *Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist der Deutsche, wie sind die beiden Chinesen hier abgebildet? Wie ist ihre Beziehung dargestellt? Notieren Sie.*
 
-<textarea rows="8" style="width:100%;"></textarea>
+<textarea id="Postkarte" name="Postkarte" rows="8" style="width:100%;"></textarea>
 
 *Was wissen Sie schon über die deutsche Kolonialherrschaft in China? Notieren Sie.*
 
-<textarea rows="8" style="width:100%;"></textarea>
+<textarea id="Vorwissen" name="Vorwissen" rows="8" style="width:100%;"></textarea>
 
 ---
 
@@ -41,7 +33,7 @@
 
 <img src="./images/Audio-Deutsche-Kolonialzeit-China-Wortwolke.png" style="width:100%;">
 
-<textarea rows="8" style="width:100%;"></textarea>
+<textarea id="Vokabular" name="Vokabular" rows="8" style="width:100%;"></textarea>
 
 ---
 
@@ -74,7 +66,7 @@ function setCurTime0() {
 
 </script> 
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz1" name="Absatz1" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die Deutschlandfunk Denkfabrik
 
@@ -91,7 +83,7 @@ function setCurTime1() {
 
 </script> 
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz2" name="Absatz2" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Deutsche Matrosen, die Anfang des 20. Jahrhunderts an Chinas Ostküste Karten spielen und Flaschenbier trinken. Bier aus der Germania Brauerei. Die wurde 1903 von deutschen und britischen Kaufleuten in Qingdao gegründet. Die alten Schwarz-Weiß-Fotos hängen im Biermuseum in der Tsingtao-Brauerei in Qingdao. 
 
@@ -105,7 +97,7 @@ function setCurTime2() {
 } 
 </script> 
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz3" name="Absatz3" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die chinesische Stadt Qingdao am Gelben Meer war damals eine deutsche Kolonie. Und wo ein Stützpunkt war, sollte auch eine Brauerei sein, erzählt Li Jingyuan vom Biermuseum der Tsingtao-Brauerei: &bdquo;1897 haben deutsche Truppen Qingdao besetzt. Und dann haben sie schon bald die Brauerei gegründet, vor allem für die deutschen Matrosen und Truppen. Die wollten nicht ohne Bier sein, deshalb wurde diese Brauerei 1903 eröffnet. 2000 Tonnen konnten sie damals im Jahr produzieren, das produzieren wir heute am Tag.&ldquo;
 
@@ -119,7 +111,7 @@ function setCurTime3() {
 } 
 </script>
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz4" name="Absatz4" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Das Deutsche Kaiserreich hat das Gebiet um die Bucht von Kiaotschou im Jahr 1898 für 99 Jahre gepachtet. Man wollte einen Stützpunkt an der chinesischen Ostküste, sowohl für die eigene Flotte als auch für den Chinahandel. Es entstand eine ethnisch und ständisch gegliederte Siedlung. Im Süden die Europäer-Stadt, im Norden chinesische Geschäftsleute, noch weiter draußen die Arbeitersiedlungen. Das frische Quellwasser für die Brauerei kam damals aus dem benachbarten Berg Lao Shan, die anderen Rohstoffe mit dem Schiff aus Deutschland.
 
@@ -133,7 +125,7 @@ function setCurTime4() {
 } 
 </script>
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz5" name="Absatz5" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die Gebäude der Tsingtao-Brauerei erinnern an klassische deutsche Brauerei-Architektur: Rote Backsteinfassaden, eine Turmuhr, die für damals typische Unterteilung in Mälzerei, Sudhaus, Kühl- und Lagerhaus sowie Nebengebäude. Gebraut wurde 1903 zunächst ein helles Bier nach Pilsner Art und ein dunkles Bier nach Münchener Art -- anfangs noch nach dem deutschen Reinheitsgebot. Davon hat man sich aber im Laufe der Zeit verabschiedet. Passt nicht zum Bier-Geschmack der Chinesen, sagt Tsingtao-Braumeisterin Zhang Pei:
 
@@ -147,7 +139,7 @@ function setCurTime5() {
 } 
 </script>
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz6" name="Absatz6" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 &bdquo;Wir haben das Bier dem Bedarf unserer Verbraucher angepasst. Der einzige Unterschied zum deutschen Bier liegt darin, dass wir Reis dazu genommen haben, damit der Geschmack leichter und süffiger wird. Ansonsten ist der traditionelle deutsche Geschmack zum großen Teil erhalten. Nur was die Bitterkeit angeht, schmeckt das Tsingtao-Bier leichter und süßer, nicht so stark wie früher.&ldquo;
 
@@ -161,7 +153,7 @@ function setCurTime6() {
 } 
 </script>
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz7" name="Absatz7" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Das Tsingtao-Bier ist eine der bekanntesten und ältesten Biermarken in China. Und die Brauerei hat eine wechselvolle Geschichte. Nach dem Ausbruch des Ersten Weltkrieges haben die Japaner die Brauerei betrieben, fast 30 Jahre wurden neben dem Tsingtao-Bier auch die Marken Asai und Kirin produziert. 1945 haben die Chinesen die Brauerei wieder übernommen, sie wurde zum Staatsbetrieb. Li Jingyuan vom Tsingtao-Biermuseum zeigt auf die vielen Fotos an der Wand, alles Kader der Kommunistischen Partei. &bdquo;Das sind die Direktoren der Tsingtao-Brauerei von 1949 bis 1993. Nach 1993 wurde es dann eine Aktiengesellschaft. Heute haben wir einen Vorstandsvorsitzenden.&ldquo;
 
@@ -175,7 +167,7 @@ function setCurTime7() {
 } 
 </script>
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz8" name="Absatz8" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Obwohl die Chinesen die deutsche Kolonialherren damals ablehnten, wurde das Bier schon relativ bald beliebt. Unter der Planwirtschaft von Staatsgründer Mao Zedong gab es Bier aber Jahrzehnte lang nur mit speziellen Lebensmittelmarken. Heute gibt es 70 Tsingtao-Brauereien in ganz China -- und das Bier wird in über 100 Länder exportiert. 1993 war die Tsingtao-Brauerei das erste festlandchinesische Unternehmen an der Börse in Hongkong. Auf dem Börsenparkett gab es damals Freibier -- wie heute in der Kneipe des Biermuseums. 
 
@@ -189,7 +181,7 @@ function setCurTime8() {
 } 
 </script>
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz9" name="Absatz9" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Kang Lu aus der Provinz Shanxi ist mit seinen Freunden auf einem Kurztrip in Qingdao. Auf dem Tisch vor ihm stehen acht kleine Gläser mit verschiedenen Bieren. &bdquo;Natürlich gehört dieses Museum in der Tsingtao-Brauerei zum Pflichtprogramm. Die Brauerei gehört zu den bekanntesten Gebäuden in Qingdao. Und die Geschichte hier kennt jeder Chinese. Wir kommen aber nicht nur, um uns die Gebäude anzuschauen, sondern auch um die Biere zu probieren.&ldquo;
 
@@ -203,7 +195,7 @@ function setCurTime9() {
 } 
 </script>
 
-<input type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz10" name="Absatz10" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Qingdao ist heute eine der bekanntesten Küsten- und Hafenstädte in China, mit rund neun Millionen Einwohnern. Spuren der deutschen Kolonialgeschichte gibt es viele: das alte Gouverneurshaus, der Offiziersklub, die evangelische Christuskirche. Ganze Straßenzüge mit Architektur aus dem deutschen Kaiserreich. Dazu die alte Brauerei, die es zu Weltruhm gebracht hat. Deren Aktien steigen gerade wieder: Seit der Corona-Krise geht der Bierverkauf nach oben, auf dem heimischen Markt in China um 30 bis 40 Prozent.
 
@@ -217,43 +209,60 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 [Quelle: Bundesarchiv N224/90 (fol. 34)](https://www.bundesarchiv.de/DE/Content/Virtuelle-Ausstellungen/Deutschlands-Adler-Im-Reich-Des-Drachen-Deutschland-Und-China-Im-Zeitalter-Des-Kolonialismus-Teil-5-Gouvernement-Kiautschou/deutschlands-adler-im-reich-des-drachen-deutschland-und-china-im-zeitalter-des-kolonialismus-teil-5-gouvernement-kiautschou.html)
 
-*Kreuzen Sie die richtigen Antworten an. Was ist vermutlich auf dem Bild zu sehen?*
+*Was ist vermutlich auf dem Bild zu sehen?*
 
-<input type="checkbox"> Deutsches Gouverneurshaus  
-<input type="checkbox"> Brauerei *Germania*  
-<input type="checkbox"> Evangelische Christuskirche
+<select id="FrageBild" name="no-default-select">
+  <option disabled selected value value="">Wählen Sie die richtigen Antworten aus.</option>
+  <option value="Haus">Deutsches Gouverneurshaus</option>
+  <option value="Brauerei">Brauerei Germania</option>
+  <option value="Kirche">Evangelische Christuskirche</option>
+</select>
 
 *Von wann bis wann war Qingdao eine deutsche Kolonie?*
 
-<input type="checkbox"> Von 1898 bis 1919  
-<input type="checkbox"> Von 1918 bis 1945  
-<input type="checkbox"> Von 1945 bis 1949
+<select name="no-default-select" id="FrageKolonialzeit">
+  <option disabled selected value value="">Wählen Sie die richtigen Antworten aus.</option>
+  <option value="1898 bis 1919">Von 1898 bis 1919</option>
+  <option value="1918 bis 1945">Von 1918 bis 1945</option>
+  <option value="1945 bis 1949">Von 1945 bis 1949</option>
+</select>
 
 *Für wen wurde das Bier anfangs vor allem gebraut?*
 
-<input type="checkbox"> Chinesische Einwohner von Qingdao  
-<input type="checkbox"> Kaiser und Adelige der Qing-Dynastie  
-<input type="checkbox"> Deutsche Matrosen und Soldaten
+<select name="no-default-select" id="FrageBiertrinker">
+  <option disabled selected value value="">Wählen Sie die richtigen Antworten aus.</option>
+  <option value="Chinesische Einwohner">Chinesische Einwohner von Qingdao</option>
+  <option value="Qing-Adelige">Kaiser und Adelige der Qing-Dynastie</option>
+  <option value="Deutsche Matrosen und Soldaten">Deutsche Matrosen und Soldaten</option>
+</select>
 
 *Chinesen und Deutsche lebten friedlich, harmonisch und gleichberechtigt zusammen.*
 
-<input type="checkbox"> Richtig  
-<input type="checkbox"> Falsch, richtig ist...  
-<textarea rows="4" style="width:100%;"></textarea>
+<select name="no-default-select" id="FrageZusammenleben">
+  <option disabled selected value value="">Wählen sie richtig oder falsch aus.</option>
+  <option value="harmonisch">Richtig</option>
+  <option value="nicht-harmonisch">Falsch, richtig ist...</option>
+</select>
+
+<textarea id="FrageZusammenlebenText" rows="4" style="width:100%;"></textarea>
 
 *Nach Ausbruch des Ersten Weltkrieges war die Brauerei außer Betrieb.*
 
-<input type="checkbox"> Richtig  
-<input type="checkbox"> Falsch, richtig ist...
-<textarea rows="4" style="width:100%;"></textarea>
+<select name="no-default-select" id="FrageNachWW2">
+  <option disabled selected value value="">Wählen sie richtig oder falsch aus.</option>
+  <option value="außerBetrieb">Richtig</option>
+  <option value="nichtAußerBetrieb">Falsch, richtig ist...</option>
+</select>
+
+<textarea id="FrageNachWW2Text" rows="4" style="width:100%;"></textarea>
 
 *Der Geschmack von Tsingtao-Bier hat sich verändert. Wie und wieso? Notieren Sie.* 
 
-<textarea rows="4" style="width:100%;"></textarea>
+<textarea id="FrageGeschmack" rows="4" style="width:100%;"></textarea>
 
 *Welche &bdquo;Spuren der deutschen Kolonialgeschichte&ldquo; werden im Texte erwähnt? Notieren Sie.*  
 
-<textarea rows="4" style="width:100%;"></textarea>
+<textarea id="FrageSpuren" rows="4" style="width:100%;"></textarea>
 
 ---
 
@@ -279,44 +288,43 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Was bedeutet der Ausdruck* wechselvoll *vermutlich? Notieren Sie.*
 
-<textarea rows="8" style="width:100%;"></textarea>
+<textarea id="FrageBedeutungWechselvoll" rows="8" style="width:100%;"></textarea>
 
 *Wie wird der Ausdruck* wechselvoll *normalerweise gebraucht? Vergleichen Sie noch einmal alle Beispiele und notieren Sie Gemeinsamkeiten im Gebrauch von* wechselvoll*.*
 
-<textarea rows="8" style="width:100%;"></textarea>
+<textarea id="FrageGebrauchWechselvoll" rows="8" style="width:100%;"></textarea>
 
 ---
 
 *Vergleichen Sie den Podcast mit der Postkarte vom Anfang. Die Beziehung zwischen Chinesen und Deutschen werden im Podcast und auf der Postkarte unterschiedlich dargestellt. Beschreiben und diskutieren Sie die Unterschiede.* 
 
-<textarea rows="12" style="width:100%;"></textarea>
-
----
-
-<!--- end of div container for screenshot 
-</div> 
----> 
-
-*Speichern Sie die Webseite mit Ihren Antworten als Screenshot und schicken Sie mir den Screenshot mit Wechat. Nutzen Sie am besten die Screenshot-Funktion Ihres Browsers. In Firefox: Rechtsklick,* Screenshot machen *auswählen,* Ganze Seite speichern *auswählen.* 
+<textarea id="VergleichPodcastPostkarte" rows="12" style="width:100%;"></textarea>
 
 --- 
 
-*Sie sind am Ende der Aktivität angekommen. Gut gemacht! Denken Sie jetzt noch einmal über das Gelernte nach. Was war für Sie neu und überraschend? Was hat gefehlt? Schicken Sie eine Nachricht in unserer Wechat-Gruppe.*
+*Sie sind am Ende der Aktivität angekommen. Gut gemacht!*
+
+*Geben Sie Ihren deutschen Namen ein.*  
+<input id="Name" type="text" style="width:100%">
+
+*Geben Sie Ihre Matrikelnummer ein.*  
+<input id="Matrikelnummer" type="text" style="width:100%">
+
+<button id="submit_button" type="button">Antworten einreichen.</button>
+
+</form>
+
+*Denken Sie jetzt noch einmal über das Gelernte nach. Was war für Sie neu und überraschend? Was hat gefehlt? Schicken Sie eine Nachricht in unserer Wechat-Gruppe.*
 
 
 
+<!-- scripts for firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+<script src="push-to-firebase.js"></script> 
 
-<!--- call html2canvas script 
-*Oder drücken Sie hier auf* Screenshot machen *und warten Sie einen Moment. Der Screenshot erscheint unten. Sie können ihn mit Rechtsklick als Bild speichern. **Achtung** Diese Funktion ist nur eingeschränkt nutzbar.*
-
-<button onclick='screenshot();'>Screenshot machen</button>
-
-  <script type='text/javascript'>
-  function screenshot(){
-    html2canvas(document.body).then(function(canvas) {
-    document.body.appendChild(canvas);
-   });
-  }
-  </script>
-  
--->
+<!-- convert select into buttons -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="jQuery.select2Buttons.js"></script>
+<link rel="stylesheet" type="text/css" href="select2Buttons.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
