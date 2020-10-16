@@ -1,8 +1,6 @@
 ---
 ---
 
-<form style="width:100%;" markdown="1">
-
 [Andere Aktivitäten auf *Gut Deutsch online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 # Deutsche Kolonialzeit in China
@@ -212,7 +210,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 *Was ist vermutlich auf dem Bild zu sehen?*
 
 <select id="FrageBild" name="no-default-select">
-  <option disabled selected value value="">Wählen Sie die richtigen Antworten aus.</option>
+  <option style="display:none;" value="">Wählen Sie die richtige Antwort aus.</option>
   <option value="Haus">Deutsches Gouverneurshaus</option>
   <option value="Brauerei">Brauerei Germania</option>
   <option value="Kirche">Evangelische Christuskirche</option>
@@ -220,8 +218,8 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Von wann bis wann war Qingdao eine deutsche Kolonie?*
 
-<select name="no-default-select" id="FrageKolonialzeit">
-  <option disabled selected value value="">Wählen Sie die richtigen Antworten aus.</option>
+<select id="FrageKolonialzeit">
+  <option style="display:none;" value="">Wählen Sie die richtige Antwort aus.</option>
   <option value="1898 bis 1919">Von 1898 bis 1919</option>
   <option value="1918 bis 1945">Von 1918 bis 1945</option>
   <option value="1945 bis 1949">Von 1945 bis 1949</option>
@@ -229,8 +227,8 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Für wen wurde das Bier anfangs vor allem gebraut?*
 
-<select name="no-default-select" id="FrageBiertrinker">
-  <option disabled selected value value="">Wählen Sie die richtigen Antworten aus.</option>
+<select id="FrageBiertrinker">
+  <option style="display:none;" value="">Wählen Sie die richtige Antwort aus.</option>
   <option value="Chinesische Einwohner">Chinesische Einwohner von Qingdao</option>
   <option value="Qing-Adelige">Kaiser und Adelige der Qing-Dynastie</option>
   <option value="Deutsche Matrosen und Soldaten">Deutsche Matrosen und Soldaten</option>
@@ -238,8 +236,8 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Chinesen und Deutsche lebten friedlich, harmonisch und gleichberechtigt zusammen.*
 
-<select name="no-default-select" id="FrageZusammenleben">
-  <option disabled selected value value="">Wählen sie richtig oder falsch aus.</option>
+<select id="FrageZusammenleben">
+  <option style="display:none;" value="">Wählen Sie richtig oder falsch aus.</option>
   <option value="harmonisch">Richtig</option>
   <option value="nicht-harmonisch">Falsch, richtig ist...</option>
 </select>
@@ -248,8 +246,8 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Nach Ausbruch des Ersten Weltkrieges war die Brauerei außer Betrieb.*
 
-<select name="no-default-select" id="FrageNachWW2">
-  <option disabled selected value value="">Wählen sie richtig oder falsch aus.</option>
+<select id="FrageNachWW2">
+  <option style="display:none;" value="">Wählen Sie richtig oder falsch aus.</option>
   <option value="außerBetrieb">Richtig</option>
   <option value="nichtAußerBetrieb">Falsch, richtig ist...</option>
 </select>
@@ -312,8 +310,6 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 <button id="submit_button" type="button">Antworten einreichen.</button>
 
-</form>
-
 *Denken Sie jetzt noch einmal über das Gelernte nach. Was war für Sie neu und überraschend? Was hat gefehlt? Schicken Sie eine Nachricht in unserer Wechat-Gruppe.*
 
 
@@ -322,9 +318,3 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
 <script src="push-to-firebase.js"></script> 
-
-<!-- convert select into buttons -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="jQuery.select2Buttons.js"></script>
-<link rel="stylesheet" type="text/css" href="select2Buttons.css" />
-<link rel="stylesheet" type="text/css" href="style.css" />
