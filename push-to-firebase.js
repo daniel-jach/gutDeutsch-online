@@ -16,34 +16,34 @@
     var db = firebase.firestore();
 
     db.collection("Deutsche-Kolonialzeit-China").add({
-      aName: data["Name"],
-      bMatrikelnummer: data["Matrikelnummer"],
-      ctimestamp: Date.now(),
-      dPostkarte: data["Postkarte"],
-      eVorwissen: data["Vorwissen"],
-      fVokabular: data["Vokabular"],
-      gAbsatz1: data["Absatz.1"],
-      hAbsatz2: data["Absatz.2"],
-      iAbsatz3: data["Absatz.3"],
-      jAbsatz4: data["Absatz.4"],
-      kAbsatz5: data["Absatz.5"],
-      lAbsatz6: data["Absatz.6"],
-      mAbsatz7: data["Absatz.7"],
-      nAbsatz8: data["Absatz.8"],
-      oAbsatz9: data["Absatz.9"],
-      pAbsatz10: data["Absatz.10"],
-      qFrageBild: data["FrageBild"],
-      rFrageKolonialzeit: data["FrageKolonialzeit"],
-      sFrageBiertrinker: data["FrageBiertrinker"],
-      tFrageZusammenleben: data["FrageZusammenleben"],
-      uFrageZusammenlebenText: data["FrageZusammenlebenText"],
-      vFrageNachWW2: data["FrageNachWW2"],
-      wFrageNachWW2Text: data["FrageNachWW2Text"],
-      xFrageGeschmack: data["FrageGeschmack"],
-      yFrageSpuren: data["FrageSpuren"],
-      zFrageBedeutungWechselvoll: data["FrageBedeutungWechselvoll"],
-      zzFrageGebrauchWechselvoll: data["FrageGebrauchWechselvoll"],
-      zzzVergleichPodcastPostkarte: data["VergleichPodcastPostkarte"]
+      i01Name: data["Name"],
+      i02Matrikelnummer: data["Matrikelnummer"],
+      i03timestamp: Date.now(),
+      i04Postkarte: data["Postkarte"],
+      i05Vorwissen: data["Vorwissen"],
+      i06Vokabular: data["Vokabular"],
+      i07Absatz1: data["Absatz.1"],
+      i08Absatz2: data["Absatz.2"],
+      i09Absatz3: data["Absatz.3"],
+      i10Absatz4: data["Absatz.4"],
+      i11Absatz5: data["Absatz.5"],
+      i12Absatz6: data["Absatz.6"],
+      i13Absatz7: data["Absatz.7"],
+      i14Absatz8: data["Absatz.8"],
+      i15Absatz9: data["Absatz.9"],
+      i16Absatz10: data["Absatz.10"],
+      i17Bild: data["Bild"],
+      i18Kolonialzeit: data["Kolonialzeit"],
+      i19Biertrinker: data["Biertrinker"],
+      i20Zusammenleben: data["Zusammenleben"],
+      i21ZusammenlebenText: data["ZusammenlebenText"],
+      i22NachWW2: data["NachWW2"],
+      i23NachWW2Text: data["NachWW2Text"],
+      i24Geschmack: data["Geschmack"],
+      i25Spuren: data["Spuren"],
+      i26BedeutungWechselvoll: data["BedeutungWechselvoll"],
+      i27GebrauchWechselvoll: data["GebrauchWechselvoll"],
+      i28VergleichPodcastPostkarte: data["VergleichPodcastPostkarte"]
     })
     .then(function(docRef) {
       console.log("Message sent, ID: ", docRef.id);
@@ -68,17 +68,17 @@
     var Absatz8 = document.getElementById("Absatz8");
     var Absatz9 = document.getElementById("Absatz9");
     var Absatz10 = document.getElementById("Absatz10");
-    var FrageBild = document.getElementById("FrageBild");
-    var FrageKolonialzeit = document.getElementById("FrageKolonialzeit");
-    var FrageBiertrinker =  document.getElementById("FrageBiertrinker");
-    var FrageZusammenleben = document.getElementById("FrageZusammenleben");
-    var FrageZusammenlebenText = document.getElementById("FrageZusammenlebenText");
-    var FrageNachWW2 = document.getElementById("FrageNachWW2");
-    var FrageNachWW2Text = document.getElementById("FrageNachWW2Text");
-    var FrageGeschmack = document.getElementById("FrageGeschmack");
-    var FrageSpuren = document.getElementById("FrageSpuren");
-    var FrageBedeutungWechselvoll = document.getElementById("FrageBedeutungWechselvoll");
-    var FrageGebrauchWechselvoll = document.getElementById("FrageGebrauchWechselvoll");
+    var Bild = document.getElementById("Bild");
+    var Kolonialzeit = document.getElementById("Kolonialzeit");
+    var Biertrinker =  document.getElementById("Biertrinker");
+    var Zusammenleben = document.getElementById("Zusammenleben");
+    var ZusammenlebenText = document.getElementById("ZusammenlebenText");
+    var NachWW2 = document.getElementById("NachWW2");
+    var NachWW2Text = document.getElementById("NachWW2Text");
+    var Geschmack = document.getElementById("Geschmack");
+    var Spuren = document.getElementById("Spuren");
+    var BedeutungWechselvoll = document.getElementById("BedeutungWechselvoll");
+    var GebrauchWechselvoll = document.getElementById("GebrauchWechselvoll");
     var VergleichPodcastPostkarte = document.getElementById("VergleichPodcastPostkarte");
     var Name = document.getElementById("Name");
     var Matrikelnummer = document.getElementById("Matrikelnummer");
@@ -97,17 +97,17 @@
     "Absatz.8": Absatz8.value,
     "Absatz.9": Absatz9.value,
     "Absatz.10": Absatz10.value,
-    "FrageBild": FrageBild.value,
-    "FrageKolonialzeit": FrageKolonialzeit.value,
-    "FrageBiertrinker": FrageBiertrinker.value,
-    "FrageZusammenleben": FrageZusammenleben.value,
-    "FrageZusammenlebenText": FrageZusammenlebenText.value,
-    "FrageNachWW2": FrageNachWW2.value,
-    "FrageNachWW2Text": FrageNachWW2Text.value,
-    "FrageGeschmack": FrageGeschmack.value,
-    "FrageSpuren": FrageSpuren.value,
-    "FrageBedeutungWechselvoll": FrageBedeutungWechselvoll.value,
-    "FrageGebrauchWechselvoll": FrageGebrauchWechselvoll.value,
+    "Bild": Bild.value,
+    "Kolonialzeit": Kolonialzeit.value,
+    "Biertrinker": Biertrinker.value,
+    "Zusammenleben": Zusammenleben.value,
+    "ZusammenlebenText": ZusammenlebenText.value,
+    "NachWW2": NachWW2.value,
+    "NachWW2Text": NachWW2Text.value,
+    "Geschmack": Geschmack.value,
+    "Spuren": Spuren.value,
+    "BedeutungWechselvoll": BedeutungWechselvoll.value,
+    "GebrauchWechselvoll": GebrauchWechselvoll.value,
     "VergleichPodcastPostkarte": VergleichPodcastPostkarte.value,
     "Name": Name.value,
     "Matrikelnummer": Matrikelnummer.value

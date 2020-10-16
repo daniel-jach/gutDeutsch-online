@@ -209,7 +209,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Was ist vermutlich auf dem Bild zu sehen?*
 
-<select id="FrageBild" name="no-default-select">
+<select id="Bild" name="no-default-select">
   <option style="display:none;" value="">Wählen Sie die richtige Antwort aus.</option>
   <option value="Haus">Deutsches Gouverneurshaus</option>
   <option value="Brauerei">Brauerei Germania</option>
@@ -218,7 +218,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Von wann bis wann war Qingdao eine deutsche Kolonie?*
 
-<select id="FrageKolonialzeit">
+<select id="Kolonialzeit">
   <option style="display:none;" value="">Wählen Sie die richtige Antwort aus.</option>
   <option value="1898 bis 1919">Von 1898 bis 1919</option>
   <option value="1918 bis 1945">Von 1918 bis 1945</option>
@@ -227,7 +227,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Für wen wurde das Bier anfangs vor allem gebraut?*
 
-<select id="FrageBiertrinker">
+<select id="Biertrinker">
   <option style="display:none;" value="">Wählen Sie die richtige Antwort aus.</option>
   <option value="Chinesische Einwohner">Chinesische Einwohner von Qingdao</option>
   <option value="Qing-Adelige">Kaiser und Adelige der Qing-Dynastie</option>
@@ -236,33 +236,33 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Chinesen und Deutsche lebten friedlich, harmonisch und gleichberechtigt zusammen.*
 
-<select id="FrageZusammenleben">
+<select id="Zusammenleben">
   <option style="display:none;" value="">Wählen Sie richtig oder falsch aus.</option>
   <option value="harmonisch">Richtig</option>
   <option value="nicht-harmonisch">Falsch</option>
 </select>
 
 *Richtig ist...*
-<textarea id="FrageZusammenlebenText" rows="4" style="width:100%;"></textarea>
+<textarea id="ZusammenlebenText" rows="4" style="width:100%;"></textarea>
 
 *Nach Ausbruch des Ersten Weltkrieges war die Brauerei außer Betrieb.*
 
-<select id="FrageNachWW2">
+<select id="NachWW2">
   <option style="display:none;" value="">Wählen Sie richtig oder falsch aus.</option>
   <option value="außerBetrieb">Richtig</option>
   <option value="nichtAußerBetrieb">Falsch</option>
 </select>
 
 *Richtig ist...*
-<textarea id="FrageNachWW2Text" rows="4" style="width:100%;"></textarea>
+<textarea id="NachWW2Text" rows="4" style="width:100%;"></textarea>
 
 *Der Geschmack von Tsingtao-Bier hat sich verändert. Wie und wieso? Notieren Sie.* 
 
-<textarea id="FrageGeschmack" rows="4" style="width:100%;"></textarea>
+<textarea id="Geschmack" rows="4" style="width:100%;"></textarea>
 
 *Welche &bdquo;Spuren der deutschen Kolonialgeschichte&ldquo; werden im Texte erwähnt? Notieren Sie.*  
 
-<textarea id="FrageSpuren" rows="4" style="width:100%;"></textarea>
+<textarea id="Spuren" rows="4" style="width:100%;"></textarea>
 
 ---
 
@@ -288,11 +288,11 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Was bedeutet der Ausdruck* wechselvoll *vermutlich? Notieren Sie.*
 
-<textarea id="FrageBedeutungWechselvoll" rows="8" style="width:100%;"></textarea>
+<textarea id="BedeutungWechselvoll" rows="8" style="width:100%;"></textarea>
 
 *Wie wird der Ausdruck* wechselvoll *normalerweise gebraucht? Vergleichen Sie noch einmal alle Beispiele und notieren Sie Gemeinsamkeiten im Gebrauch von* wechselvoll*.*
 
-<textarea id="FrageGebrauchWechselvoll" rows="8" style="width:100%;"></textarea>
+<textarea id="GebrauchWechselvoll" rows="8" style="width:100%;"></textarea>
 
 ---
 
