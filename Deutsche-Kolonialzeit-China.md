@@ -7,7 +7,7 @@
 
 |  |  |
 |------|------|
-|**Niveau**|A2|
+|**Niveau**|B1-B2|
 |**Dauer**|45 Minuten| 
 |**Fähigkeiten**|Hören, Lesen|
 |**Sprachhandlung**|Über Vergangenheit erzählen, beschreiben|
