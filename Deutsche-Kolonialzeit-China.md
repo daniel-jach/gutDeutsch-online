@@ -26,11 +26,11 @@
 
 *Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist der Deutsche, wie sind die beiden Chinesen hier abgebildet? Wie ist ihre Beziehung dargestellt? Notieren Sie.*
 
-<textarea id="Postkarte" name="Postkarte" rows="8" style="width:100%;"></textarea>
+<textarea id="Postkarte" rows="8" style="width:100%;"></textarea>
 
 *Was wissen Sie schon über die deutsche Kolonialherrschaft in China? Notieren Sie.*
 
-<textarea id="Vorwissen" name="Vorwissen" rows="8" style="width:100%;"></textarea>
+<textarea id="Vorwissen" rows="8" style="width:100%;"></textarea>
 
 ---
 
@@ -38,7 +38,7 @@
 
 <img src="./images/Audio-Deutsche-Kolonialzeit-China-Wortwolke.png" style="width:100%;">
 
-<textarea id="Vokabular" name="Vokabular" rows="8" style="width:100%;"></textarea>
+<textarea id="Vokabular" rows="8" style="width:100%;"></textarea>
 
 ---
 
@@ -71,7 +71,7 @@ function setCurTime0() {
 
 </script> 
 
-<input id="Absatz1" name="Absatz1" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz1" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die Deutschlandfunk Denkfabrik
 
@@ -88,7 +88,7 @@ function setCurTime1() {
 
 </script> 
 
-<input id="Absatz2" name="Absatz2" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz2" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Deutsche Matrosen, die Anfang des 20. Jahrhunderts an Chinas Ostküste Karten spielen und Flaschenbier trinken. Bier aus der Germania Brauerei. Die wurde 1903 von deutschen und britischen Kaufleuten in Qingdao gegründet. Die alten Schwarz-Weiß-Fotos hängen im Biermuseum in der Tsingtao-Brauerei in Qingdao. 
 
@@ -102,7 +102,7 @@ function setCurTime2() {
 } 
 </script> 
 
-<input id="Absatz3" name="Absatz3" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz3" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die chinesische Stadt Qingdao am Gelben Meer war damals eine deutsche Kolonie. Und wo ein Stützpunkt war, sollte auch eine Brauerei sein, erzählt Li Jingyuan vom Biermuseum der Tsingtao-Brauerei: &bdquo;1897 haben deutsche Truppen Qingdao besetzt. Und dann haben sie schon bald die Brauerei gegründet, vor allem für die deutschen Matrosen und Truppen. Die wollten nicht ohne Bier sein, deshalb wurde diese Brauerei 1903 eröffnet. 2000 Tonnen konnten sie damals im Jahr produzieren, das produzieren wir heute am Tag.&ldquo;
 
@@ -116,7 +116,7 @@ function setCurTime3() {
 } 
 </script>
 
-<input id="Absatz4" name="Absatz4" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz4" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Das Deutsche Kaiserreich hat das Gebiet um die Bucht von Kiaotschou im Jahr 1898 für 99 Jahre gepachtet. Man wollte einen Stützpunkt an der chinesischen Ostküste, sowohl für die eigene Flotte als auch für den Chinahandel. Es entstand eine ethnisch und ständisch gegliederte Siedlung. Im Süden die Europäer-Stadt, im Norden chinesische Geschäftsleute, noch weiter draußen die Arbeitersiedlungen. Das frische Quellwasser für die Brauerei kam damals aus dem benachbarten Berg Lao Shan, die anderen Rohstoffe mit dem Schiff aus Deutschland.
 
@@ -130,7 +130,7 @@ function setCurTime4() {
 } 
 </script>
 
-<input id="Absatz5" name="Absatz5" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz5" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Die Gebäude der Tsingtao-Brauerei erinnern an klassische deutsche Brauerei-Architektur: Rote Backsteinfassaden, eine Turmuhr, die für damals typische Unterteilung in Mälzerei, Sudhaus, Kühl- und Lagerhaus sowie Nebengebäude. Gebraut wurde 1903 zunächst ein helles Bier nach Pilsner Art und ein dunkles Bier nach Münchener Art -- anfangs noch nach dem deutschen Reinheitsgebot. Davon hat man sich aber im Laufe der Zeit verabschiedet. Passt nicht zum Bier-Geschmack der Chinesen, sagt Tsingtao-Braumeisterin Zhang Pei:
 
@@ -144,7 +144,7 @@ function setCurTime5() {
 } 
 </script>
 
-<input id="Absatz6" name="Absatz6" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz6" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 &bdquo;Wir haben das Bier dem Bedarf unserer Verbraucher angepasst. Der einzige Unterschied zum deutschen Bier liegt darin, dass wir Reis dazu genommen haben, damit der Geschmack leichter und süffiger wird. Ansonsten ist der traditionelle deutsche Geschmack zum großen Teil erhalten. Nur was die Bitterkeit angeht, schmeckt das Tsingtao-Bier leichter und süßer, nicht so stark wie früher.&ldquo;
 
@@ -158,7 +158,7 @@ function setCurTime6() {
 } 
 </script>
 
-<input id="Absatz7" name="Absatz7" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz7" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Das Tsingtao-Bier ist eine der bekanntesten und ältesten Biermarken in China. Und die Brauerei hat eine wechselvolle Geschichte. Nach dem Ausbruch des Ersten Weltkrieges haben die Japaner die Brauerei betrieben, fast 30 Jahre wurden neben dem Tsingtao-Bier auch die Marken Asai und Kirin produziert. 1945 haben die Chinesen die Brauerei wieder übernommen, sie wurde zum Staatsbetrieb. Li Jingyuan vom Tsingtao-Biermuseum zeigt auf die vielen Fotos an der Wand, alles Kader der Kommunistischen Partei. &bdquo;Das sind die Direktoren der Tsingtao-Brauerei von 1949 bis 1993. Nach 1993 wurde es dann eine Aktiengesellschaft. Heute haben wir einen Vorstandsvorsitzenden.&ldquo;
 
@@ -172,7 +172,7 @@ function setCurTime7() {
 } 
 </script>
 
-<input id="Absatz8" name="Absatz8" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz8" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Obwohl die Chinesen die deutsche Kolonialherren damals ablehnten, wurde das Bier schon relativ bald beliebt. Unter der Planwirtschaft von Staatsgründer Mao Zedong gab es Bier aber Jahrzehnte lang nur mit speziellen Lebensmittelmarken. Heute gibt es 70 Tsingtao-Brauereien in ganz China -- und das Bier wird in über 100 Länder exportiert. 1993 war die Tsingtao-Brauerei das erste festlandchinesische Unternehmen an der Börse in Hongkong. Auf dem Börsenparkett gab es damals Freibier -- wie heute in der Kneipe des Biermuseums. 
 
@@ -186,7 +186,7 @@ function setCurTime8() {
 } 
 </script>
 
-<input id="Absatz9" name="Absatz9" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz9" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Kang Lu aus der Provinz Shanxi ist mit seinen Freunden auf einem Kurztrip in Qingdao. Auf dem Tisch vor ihm stehen acht kleine Gläser mit verschiedenen Bieren. &bdquo;Natürlich gehört dieses Museum in der Tsingtao-Brauerei zum Pflichtprogramm. Die Brauerei gehört zu den bekanntesten Gebäuden in Qingdao. Und die Geschichte hier kennt jeder Chinese. Wir kommen aber nicht nur, um uns die Gebäude anzuschauen, sondern auch um die Biere zu probieren.&ldquo;
 
@@ -200,7 +200,7 @@ function setCurTime9() {
 } 
 </script>
 
-<input id="Absatz10" name="Absatz10" type="text" style="width:100%; text-align:center; font-weight:bold;">
+<input id="Absatz10" type="text" style="width:100%; text-align:center; font-weight:bold;">
 
 Qingdao ist heute eine der bekanntesten Küsten- und Hafenstädte in China, mit rund neun Millionen Einwohnern. Spuren der deutschen Kolonialgeschichte gibt es viele: das alte Gouverneurshaus, der Offiziersklub, die evangelische Christuskirche. Ganze Straßenzüge mit Architektur aus dem deutschen Kaiserreich. Dazu die alte Brauerei, die es zu Weltruhm gebracht hat. Deren Aktien steigen gerade wieder: Seit der Corona-Krise geht der Bierverkauf nach oben, auf dem heimischen Markt in China um 30 bis 40 Prozent.
 
