@@ -52,7 +52,7 @@
     .catch(function(error) {
       console.error("Ihre Antworten wurden nicht gesendet: ", error);
     });
-  }
+  };
 
   var submit_to_firebase = function(){
     var Postkarte = document.getElementById("Postkarte");
@@ -111,8 +111,8 @@
     "VergleichPodcastPostkarte": VergleichPodcastPostkarte.value,
     "Name": Name.value,
     "Matrikelnummer": Matrikelnummer.value
-    }
-    push_to_firebase(data)
+    };
+    push_to_firebase(data);
 
   };
 
