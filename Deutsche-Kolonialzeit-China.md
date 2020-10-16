@@ -1,6 +1,13 @@
 ---
 ---
 
+<head>
+<!-- scripts for firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+<script src="push-to-firebase.js"></script> 
+</head>
+
 [Andere Aktivitäten auf *Gut Deutsch online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 # Deutsche Kolonialzeit in China
@@ -239,9 +246,10 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 <select id="FrageZusammenleben">
   <option style="display:none;" value="">Wählen Sie richtig oder falsch aus.</option>
   <option value="harmonisch">Richtig</option>
-  <option value="nicht-harmonisch">Falsch, richtig ist...</option>
+  <option value="nicht-harmonisch">Falsch</option>
 </select>
 
+*Richtig ist...*
 <textarea id="FrageZusammenlebenText" rows="4" style="width:100%;"></textarea>
 
 *Nach Ausbruch des Ersten Weltkrieges war die Brauerei außer Betrieb.*
@@ -249,9 +257,10 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 <select id="FrageNachWW2">
   <option style="display:none;" value="">Wählen Sie richtig oder falsch aus.</option>
   <option value="außerBetrieb">Richtig</option>
-  <option value="nichtAußerBetrieb">Falsch, richtig ist...</option>
+  <option value="nichtAußerBetrieb">Falsch</option>
 </select>
 
+*Richtig ist...*
 <textarea id="FrageNachWW2Text" rows="4" style="width:100%;"></textarea>
 
 *Der Geschmack von Tsingtao-Bier hat sich verändert. Wie und wieso? Notieren Sie.* 
@@ -312,9 +321,3 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Denken Sie jetzt noch einmal über das Gelernte nach. Was war für Sie neu und überraschend? Was hat gefehlt? Schicken Sie eine Nachricht in unserer Wechat-Gruppe.*
 
-
-
-<!-- scripts for firebase -->
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
-<script src="push-to-firebase.js"></script> 
