@@ -318,7 +318,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 *Geben Sie Ihre Matrikelnummer ein.*  
 <input id="Matrikelnummer" type="text" style="width:100%">
 
-<button id="submit_button" type="button">**Antworten einreichen**</button>
+<button id="submit_button" type="button">**Antworten einreichen**</button> (In China nur eingeschränkt nutzbar.)
 
 ***Reflexion** Denken Sie jetzt noch einmal über das Gelernte nach. Was war für Sie neu und überraschend? Was hat gefehlt? Schicken Sie eine Nachricht in unserer Wechat-Gruppe.*
 
