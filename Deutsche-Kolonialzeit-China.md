@@ -268,7 +268,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 *Der Geschmack von Tsingtao-Bier hat sich verändert. Wie und wieso? Notieren Sie.* 
 
-<textarea id="Geschmack" placeholder="Notieren Sie hier Ihre" rows="4" style="width:100%;"></textarea>
+<textarea id="Geschmack" placeholder="Notieren Sie hier Ihre Antwort." rows="4" style="width:100%;"></textarea>
 
 *Welche &bdquo;Spuren der deutschen Kolonialgeschichte&ldquo; werden im Texte erwähnt? Notieren Sie.*  
 
