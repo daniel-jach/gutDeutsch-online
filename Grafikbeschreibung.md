@@ -51,7 +51,7 @@ lesen Sie im Transkript nach.*
 
 <details>
 
-<summary>Transkript</summary> **Erderwärmung**
+<summary>Transkript</summary> <b>Erderwärmung</b>
 
 Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige
 Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre.
@@ -120,7 +120,7 @@ Grafiken.*
 
 <details>
 
-<summary>Transkript</summary> **Erderwärmung**
+<summary>Transkript</summary> <b>Erderwärmung</b>
 
 Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige
 Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre.
