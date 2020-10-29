@@ -16,15 +16,15 @@ Grafikbeschreibung
 </tr>
 <tr class="odd">
 <td><strong>Fähigkeiten</strong></td>
-<td>Hören, Lesen</td>
+<td>Hören, Schreiben</td>
 </tr>
 <tr class="even">
 <td><strong>Sprachhandlung</strong></td>
-<td>Über Vergangenheit erzählen, beschreiben</td>
+<td>Grafik beschreiben</td>
 </tr>
 <tr class="odd">
 <td><strong>Textsorte</strong></td>
-<td>Radio-Feature</td>
+<td>Grafikbeschreibung</td>
 </tr>
 </tbody>
 </table>
@@ -47,13 +47,11 @@ lesen Sie im Transkript nach.*
 <audio controls id="meinAudio" src="./audios/Grafik-CO2-Emissionen-Audio.mp3" preload="auto">
 </audio>
 
-<details>
-<summary>Grafik</summary>
-![](Grafikbeschreibung_files/figure-markdown_strict/Grafik-Emissionen-1.png)
-</details>
+<a href="./images/Grafik-Emissionen.png">Grafik</a>
+
 <details>
 
-<summary>Grafikbeschreibung Transkript</summary> **Erderwärmung**
+<summary>Transkript</summary> **Erderwärmung**
 
 Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige
 Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre.
@@ -88,7 +86,7 @@ Dagegen produzieren Länder mit relativ kleinen Bevölkerungen und
 Spanien vergleichsweise wenig CO2.
 </details>
 
-***Aufgabe 3** Hören und lesen Sie die Beschreibung noch einmal und
+<br> ***Aufgabe 3** Hören und lesen Sie die Beschreibung noch einmal und
 beschriften Sie die Bestandteile Ihrer Grafik.*
 
 ***Aufgabe 4** Hören und lesen Sie die Beschreibung ein letztes Mal und
@@ -96,17 +94,12 @@ notieren Ausdrücke, die einen Vergleich ausdrücken.*
 
 ------------------------------------------------------------------------
 
-***Aufgabe 5** Wählen Sie eine der folgenden Grafiken und formulieren
-Sie eine Beschreibung in der Gruppe.*
+***Aufgabe 5** Wählen Sie **eine** der folgenden Grafiken aus (Grafik A
+oder B) und formulieren Sie eine Beschreibung in der Gruppe.*
 
-<details>
-<summary>Grafik A</summary>
-![](Grafikbeschreibung_files/figure-markdown_strict/Grafik-Emissionen-A-1.png)
-</details>
-<details>
-<summary>Grafik B</summary>
-![](Grafikbeschreibung_files/figure-markdown_strict/Grafik-Emissionen-B-1.png)
-</details>
+<a href="./images/Grafik-Emissionen-A.png">Grafik A</a>
+
+<a href="./images/Grafik-Emissionen-B.png">Grafik B</a>
 
 ***Aufgabe 6** Schicken Sie ein Mitglied Ihrer Gruppe in eine andere
 Gruppe. Das Mitglied liest die Beschreibung der anderen Gruppe vor, Sie
@@ -117,19 +110,17 @@ Gruppe.*
 
 ------------------------------------------------------------------------
 
-***Aufgabe** Wiederholen Sie die Aufgaben 1 bis 6 mit folgenden
+***Aufgabe 7** Wiederholen Sie die Aufgaben 1 bis 6 mit folgenden
 Grafiken.*
 
 <audio controls id="meinAudio" src="./audios/Grafik-CO2-Emissionen-Entwicklung-Audio.mp3" preload="auto">
 </audio>
 
-<details>
-<summary>Grafik</summary>
-![](Grafikbeschreibung_files/figure-markdown_strict/Grafik-Emissionen-Entwicklung-1.png)
-</details>
+<a href="./images/Grafik-Emissionen-Entwicklung.png">Grafik</a>
+
 <details>
 
-<summary>Grafikbeschreibung Transkript</summary> **Erderwärmung**
+<summary>Transkript</summary> **Erderwärmung**
 
 Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige
 Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre.
@@ -170,3 +161,9 @@ können den Anstieg in China und Indien und den unverändert hohen
 US-amerikanischen CO2-Ausstoß aber nicht ausgleichen. Wenn sich diese
 Entwicklung fortsetzt, wird sich die Erde weiter erwärmen.
 </details>
+
+<br>
+
+<a href="./images/Grafik-Emissionen-Entwicklung-C.png">Grafik</a>
+
+<a href="./images/Grafik-Emissionen-Entwicklung-B.png">Grafik</a>
