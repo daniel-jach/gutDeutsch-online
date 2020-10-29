@@ -47,7 +47,7 @@ lesen Sie im Transkript nach.*
 <audio controls id="meinAudio" src="./audios/Grafik-CO2-Emissionen-Audio.mp3" preload="auto">
 </audio>
 
-<a href="./images/Grafik-Emissionen.png">Grafik</a>
+<a href="./images/Grafik-Emissionen-A.png">Grafik A</a>
 
 <details>
 
@@ -97,9 +97,9 @@ notieren Ausdrücke, die einen Vergleich ausdrücken.*
 ***Aufgabe 5** Wählen Sie **eine** der folgenden Grafiken aus (Grafik A
 oder B) und formulieren Sie eine Beschreibung in der Gruppe.*
 
-<a href="./images/Grafik-Emissionen-A.png">Grafik A</a>
-
 <a href="./images/Grafik-Emissionen-B.png">Grafik B</a>
+
+<a href="./images/Grafik-Emissionen-C.png">Grafik C</a>
 
 ***Aufgabe 6** Schicken Sie ein Mitglied Ihrer Gruppe in eine andere
 Gruppe. Das Mitglied liest die Beschreibung der anderen Gruppe vor, Sie
@@ -116,7 +116,7 @@ Grafiken.*
 <audio controls id="meinAudio" src="./audios/Grafik-CO2-Emissionen-Entwicklung-Audio.mp3" preload="auto">
 </audio>
 
-<a href="./images/Grafik-Emissionen-Entwicklung.png">Grafik</a>
+<a href="./images/Grafik-Emissionen-Entwicklung-A.png">Grafik A</a>
 
 <details>
 
@@ -164,6 +164,6 @@ Entwicklung fortsetzt, wird sich die Erde weiter erwärmen.
 
 <br>
 
-<a href="./images/Grafik-Emissionen-Entwicklung-C.png">Grafik</a>
+<a href="./images/Grafik-Emissionen-Entwicklung-B.png">Grafik B</a>
 
-<a href="./images/Grafik-Emissionen-Entwicklung-B.png">Grafik</a>
+<a href="./images/Grafik-Emissionen-Entwicklung-C.png">Grafik C</a>
