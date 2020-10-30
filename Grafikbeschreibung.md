@@ -51,10 +51,8 @@ beschriebene Grafik.*
 Gruppenmitglieder. Bei Uneinigkeit lesen Sie im Transkript nach.*
 
 <details>
-<summary>Transkript</summary>
-<p>
 
-**Erderwärmung**
+<summary>Transkript</summary> Erderwärmung
 
 Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige
 Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre.
@@ -87,7 +85,6 @@ Bevölkerung und der relativ späten Industrialisierung verursacht.
 Dagegen produzieren Länder mit relativ kleinen Bevölkerungen und
 überwiegend postindustrieller Wirtschaft wie Deutschland, Frankreich und
 Spanien vergleichsweise wenig CO2.
-</p>
 </details>
 
 ***c** Vergleichen Sie jetzt Ihre Grafiken mit der Grafik. Bei
