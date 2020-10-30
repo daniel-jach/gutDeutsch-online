@@ -51,7 +51,9 @@ Gruppenmitglieder. Bei Uneinigkeit lesen Sie im Transkript nach.*
 
 <details>
 
-<summary>Transkript</summary> <b>Erderwärmung</b>
+<summary>Transkript</summary>
+
+<b>Erderwärmung</b>
 
 Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige
 Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre.
@@ -91,7 +93,7 @@ Unterschieden lesen Sie die schwierigen Stellen im Transkript noch
 einmal und verbessern Ihre Grafik.*
 
 <details>
-<summary>Grafik</summary> ![](./images/Grafik-Emissionen.png)
+<summary>Grafik</summary> <a href="./images/Grafik-Emissionen.png">
 </details>
 
 ***d** Hören und lesen Sie die Beschreibung noch einmal und beschriften
@@ -107,10 +109,10 @@ Wählen Sie **eine** der folgenden Grafiken aus (Grafik A oder B) und
 formulieren Sie eine Beschreibung in der Gruppe.*
 
 <details>
-<summary>Grafik A</summary> ![](./images/Grafik-Emissionen-A.png)
+<summary>Grafik A</summary> <a href="./images/Grafik-Emissionen-A.png">
 </details>
 <details>
-<summary>Grafik B</summary> ![](./images/Grafik-Emissionen-B.png)
+<summary>Grafik B</summary> <a href="./images/Grafik-Emissionen-B.png">
 </details>
 
 ------------------------------------------------------------------------
@@ -178,9 +180,6 @@ Entwicklung fortsetzt, wird sich die Erde weiter erwärmen.
 <summary>Grafik</summary>
 ![](./images/Grafik-Emissionen-Entwicklung.png)
 </details>
-
-<br>
-
 <details>
 <summary>Grafik A</summary>
 ![](./images/Grafik-Emissionen-Entwicklung-A.png)
