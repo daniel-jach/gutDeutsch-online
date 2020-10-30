@@ -1,3 +1,16 @@
+<head>
+<style>
+details > summary {
+  cursor: pointer;
+}
+
+details > div {
+  border: 1px solid lightblue;
+  padding: 4px;
+}
+</style>
+</head>
+
 [Andere Aktivitäten auf *Gut Deutsch
 online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
@@ -51,7 +64,6 @@ beschriebene Grafik.*
 Gruppenmitglieder. Bei Uneinigkeit lesen Sie im Transkript nach.*
 
 <details>
-
 <summary>Transkript</summary>
 
 **Erderwärmung**
@@ -87,6 +99,7 @@ Bevölkerung und der relativ späten Industrialisierung verursacht.
 Dagegen produzieren Länder mit relativ kleinen Bevölkerungen und
 überwiegend postindustrieller Wirtschaft wie Deutschland, Frankreich und
 Spanien vergleichsweise wenig CO2.
+
 </details>
 
 ***c** Vergleichen Sie jetzt Ihre Grafiken mit der Grafik. Bei
@@ -94,7 +107,10 @@ Unterschieden lesen Sie die schwierigen Stellen im Transkript noch
 einmal und verbessern Ihre Grafik.*
 
 <details>
-<summary>Grafik</summary> <img src="./images/Grafik-Emissionen.png">
+<summary>Grafik</summary>
+
+<img src="./images/Grafik-Emissionen.png">
+
 </details>
 
 ***d** Hören und lesen Sie die Beschreibung noch einmal und beschriften
@@ -110,13 +126,15 @@ Wählen Sie **eine** der folgenden Grafiken aus (Grafik A oder B) und
 formulieren Sie eine Beschreibung in der Gruppe.*
 
 <details>
+<summary>Grafik A</summary>
 
-<summary>Grafik A</summary> <img src="./images/Grafik-Emissionen-A.png">
+<img src="./images/Grafik-Emissionen-A.png">
 
 </details>
 <details>
+<summary>Grafik B</summary>
 
-<summary>Grafik B</summary> <img src="./images/Grafik-Emissionen-B.png">
+<img src="./images/Grafik-Emissionen-B.png">
 
 </details>
 
@@ -139,7 +157,6 @@ ausdrücken.*
 </audio>
 
 <details>
-
 <summary>Transkript</summary>
 
 **Erderwärmung**
@@ -182,18 +199,25 @@ kleineren europäischen Länder haben ihren CO2-Ausstoß zwar gesenkt,
 können den Anstieg in China und Indien und den unverändert hohen
 US-amerikanischen CO2-Ausstoß aber nicht ausgleichen. Wenn sich diese
 Entwicklung fortsetzt, wird sich die Erde weiter erwärmen.
+
 </details>
 <details>
 <summary>Grafik</summary>
+
 <img src="./images/Grafik-Emissionen-Entwicklung.png">
+
 </details>
 <details>
 <summary>Grafik A</summary>
+
 <img src="./images/Grafik-Emissionen-Entwicklung-A.png">
+
 </details>
 <details>
 <summary>Grafik B</summary>
+
 <img src="./images/Grafik-Emissionen-Entwicklung-B.png">
+
 </details>
 
 ------------------------------------------------------------------------
@@ -207,5 +231,7 @@ KoText-Funktion auf der DUO-Lernplattform.*
 
 <details>
 <summary>Grafik</summary>
+
 <img src="./images/Grafik-Alter-Entwicklung.png">
+
 </details>
