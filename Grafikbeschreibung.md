@@ -142,8 +142,7 @@ ausdrücken.*
 
 <summary>Transkript</summary>
 
-Erderwärmung
-------------
+**Erderwärmung**
 
 Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige
 Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre.
