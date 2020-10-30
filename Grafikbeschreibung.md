@@ -93,7 +93,7 @@ Unterschieden lesen Sie die schwierigen Stellen im Transkript noch
 einmal und verbessern Ihre Grafik.*
 
 <details>
-<summary>Grafik</summary> <a href="./images/Grafik-Emissionen.png">
+<summary>Grafik</summary> <img src="./images/Grafik-Emissionen.png">
 </details>
 
 ***d** Hören und lesen Sie die Beschreibung noch einmal und beschriften
@@ -109,10 +109,14 @@ Wählen Sie **eine** der folgenden Grafiken aus (Grafik A oder B) und
 formulieren Sie eine Beschreibung in der Gruppe.*
 
 <details>
-<summary>Grafik A</summary> <a href="./images/Grafik-Emissionen-A.png">
+
+<summary>Grafik A</summary> <img src="./images/Grafik-Emissionen-A.png">
+
 </details>
 <details>
-<summary>Grafik B</summary> <a href="./images/Grafik-Emissionen-B.png">
+
+<summary>Grafik B</summary> <img src="./images/Grafik-Emissionen-B.png">
+
 </details>
 
 ------------------------------------------------------------------------
@@ -178,13 +182,13 @@ Entwicklung fortsetzt, wird sich die Erde weiter erwärmen.
 </details>
 <details>
 <summary>Grafik</summary>
-![](./images/Grafik-Emissionen-Entwicklung.png)
+<img src="./images/Grafik-Emissionen-Entwicklung.png">
 </details>
 <details>
 <summary>Grafik A</summary>
-![](./images/Grafik-Emissionen-Entwicklung-A.png)
+<img src="./images/Grafik-Emissionen-Entwicklung-A.png">
 </details>
 <details>
 <summary>Grafik B</summary>
-![](./images/Grafik-Emissionen-Entwicklung-B.png)
+<img src="./images/Grafik-Emissionen-Entwicklung-B.png">
 </details>
