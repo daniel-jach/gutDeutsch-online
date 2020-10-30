@@ -31,23 +31,23 @@ Grafikbeschreibung
 
 ------------------------------------------------------------------------
 
-***Aufgabe 1** Bilden Sie kleine Gruppen und lesen und korrigieren Sie
-die Hausaufgaben-Texte der anderen Gruppenmitglieder. Achten Sie dabei
-besonders darauf, dass alle wichtigen Bestandteile der Grafik benannt
-sind (Titel, Quelle, Zeitraum, Parameter) und markieren Sie
-Überleitungen.*
+***Aufgabe 1***  
+*Bilden Sie kleine Gruppen. Lesen und korrigieren Sie Ihre
+Hausaufgaben-Texte in der Gruppe. Achten Sie dabei besonders darauf,
+dass alle wichtigen Bestandteile der Grafik benannt sind (Titel, Quelle,
+Zeitraum, Parameter), und markieren Sie Überleitungen.*
 
 ------------------------------------------------------------------------
 
-***Aufgabe 2** Hören Sie die folgende Grafikbeschreibung an und zeichnen
-Sie die beschriebene Grafik. Vergleichen Sie dann Ihre Zeichnung mit der
-Zeichnung Ihrer Gruppenmitglieder und mit der Grafik. Bei Uneinigkeit
-lesen Sie im Transkript nach.*
+***Aufgabe 2***  
+***a** Hören Sie die folgende Grafikbeschreibung an und zeichnen Sie die
+beschriebene Grafik.*
 
 <audio controls id="meinAudio" src="./audios/Grafik-CO2-Emissionen-Audio.mp3" preload="auto">
 </audio>
 
-<a href="./images/Grafik-Emissionen-A.png">Grafik A</a>
+***b** Vergleichen Sie dann Ihre Zeichnung mit den Zeichnungen Ihrer
+Gruppenmitglieder. Bei Uneinigkeit lesen Sie im Transkript nach.*
 
 <details>
 
@@ -86,37 +86,50 @@ Dagegen produzieren Länder mit relativ kleinen Bevölkerungen und
 Spanien vergleichsweise wenig CO2.
 </details>
 
-<br> ***Aufgabe 3** Hören und lesen Sie die Beschreibung noch einmal und
-beschriften Sie die Bestandteile Ihrer Grafik.*
+***c** Vergleichen Sie jetzt Ihre Grafiken mit der Grafik. Bei
+Unterschieden lesen Sie die schwierigen Stellen im Transkript noch
+einmal und verbessern Ihre Grafik.*
 
-***Aufgabe 4** Hören und lesen Sie die Beschreibung ein letztes Mal und
-notieren Ausdrücke, die einen Vergleich ausdrücken.*
+<details>
+<summary>Grafik</summary> ![](./images/Grafik-Emissionen.png)
+</details>
 
-------------------------------------------------------------------------
+***d** Hören und lesen Sie die Beschreibung noch einmal und beschriften
+Sie die Bestandteile Ihrer Grafik.*
 
-***Aufgabe 5** Wählen Sie **eine** der folgenden Grafiken aus (Grafik A
-oder B) und formulieren Sie eine Beschreibung in der Gruppe.*
-
-<a href="./images/Grafik-Emissionen-B.png">Grafik B</a>
-
-<a href="./images/Grafik-Emissionen-C.png">Grafik C</a>
-
-***Aufgabe 6** Schicken Sie ein Mitglied Ihrer Gruppe in eine andere
-Gruppe. Das Mitglied liest die Beschreibung der anderen Gruppe vor, Sie
-hören und zeichnen die beschriebene Grafik. Vergleichen Sie dann Ihre
-Zeichnungen mit den Grafiken. Diskutieren und verbessern Sie die
-Grafikbeschreibung. Teilen Sie die Verbesserungsvorschläge mit Ihrer
-Gruppe.*
+***e** Hören und lesen Sie die Beschreibung ein letztes Mal und notieren
+Sie Ausdrücke, die einen Vergleich ausdrücken.*
 
 ------------------------------------------------------------------------
 
-***Aufgabe 7** Wiederholen Sie die Aufgaben 1 bis 6 mit folgenden
-Grafiken.*
+***Aufgabe 3**  
+Wählen Sie **eine** der folgenden Grafiken aus (Grafik A oder B) und
+formulieren Sie eine Beschreibung in der Gruppe.*
+
+<details>
+<summary>Grafik A</summary> ![](./images/Grafik-Emissionen-A.png)
+</details>
+<details>
+<summary>Grafik B</summary> ![](./images/Grafik-Emissionen-B.png)
+</details>
+
+------------------------------------------------------------------------
+
+***Aufgabe 4**  
+Schicken Sie ein Mitglied Ihrer Gruppe mit der Beschreibung in eine
+andere Gruppe. Lesen Sie die Beschreibung Ihrer Gruppe vor bzw. hören
+Sie die Beschreibung der anderen Gruppe und zeichnen Sie die andere
+Grafik. Diskutieren und verbessern Sie die Grafikbeschreibung. Teilen
+Sie die Verbesserungsvorschläge mit Ihrer Gruppe.*
+
+------------------------------------------------------------------------
+
+***Aufgabe 5** Wiederholen Sie die Aufgaben 1 bis 4 mit folgenden
+Grafiken. In Aufgabe 2 e notieren Sie Ausdrücke, die eine Entwicklung
+ausdrücken.*
 
 <audio controls id="meinAudio" src="./audios/Grafik-CO2-Emissionen-Entwicklung-Audio.mp3" preload="auto">
 </audio>
-
-<a href="./images/Grafik-Emissionen-Entwicklung-A.png">Grafik A</a>
 
 <details>
 
@@ -161,9 +174,18 @@ können den Anstieg in China und Indien und den unverändert hohen
 US-amerikanischen CO2-Ausstoß aber nicht ausgleichen. Wenn sich diese
 Entwicklung fortsetzt, wird sich die Erde weiter erwärmen.
 </details>
+<details>
+<summary>Grafik</summary>
+![](./images/Grafik-Emissionen-Entwicklung.png)
+</details>
 
 <br>
 
-<a href="./images/Grafik-Emissionen-Entwicklung-B.png">Grafik B</a>
-
-<a href="./images/Grafik-Emissionen-Entwicklung-C.png">Grafik C</a>
+<details>
+<summary>Grafik A</summary>
+![](./images/Grafik-Emissionen-Entwicklung-A.png)
+</details>
+<details>
+<summary>Grafik B</summary>
+![](./images/Grafik-Emissionen-Entwicklung-B.png)
+</details>
