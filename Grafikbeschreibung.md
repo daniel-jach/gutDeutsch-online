@@ -54,7 +54,7 @@ Gruppenmitglieder. Bei Uneinigkeit lesen Sie im Transkript nach.*
 
 <summary>Transkript</summary>
 
-<b>Erderwärmung</b>
+**Erderwärmung**
 
 Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige
 Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre.
@@ -93,8 +93,8 @@ Spanien vergleichsweise wenig CO2.
 Unterschieden lesen Sie die schwierigen Stellen im Transkript noch
 einmal und verbessern Ihre Grafik.*
 
-<details>
-<summary>Grafik</summary> <img src="./images/Grafik-Emissionen.png">
+<details markdown="1"<summary>Grafik</summary>
+<img src="./images/Grafik-Emissionen.png">
 </details>
 
 ***d** Hören und lesen Sie die Beschreibung noch einmal und beschriften
@@ -109,14 +109,12 @@ Sie Ausdrücke, die einen Vergleich ausdrücken.*
 Wählen Sie **eine** der folgenden Grafiken aus (Grafik A oder B) und
 formulieren Sie eine Beschreibung in der Gruppe.*
 
-<details>
-
-<summary>Grafik A</summary> <img src="./images/Grafik-Emissionen-A.png">
+<details markdown="1"<summary>Grafik A</summary>
+<img src="./images/Grafik-Emissionen-A.png">
 
 </details>
-<details>
-
-<summary>Grafik B</summary> <img src="./images/Grafik-Emissionen-B.png">
+<details markdown="1"<summary>Grafik B</summary>
+<img src="./images/Grafik-Emissionen-B.png">
 
 </details>
 
@@ -138,59 +136,27 @@ ausdrücken.*
 <audio controls id="meinAudio" src="./audios/Grafik-CO2-Emissionen-Entwicklung-Audio.mp3" preload="auto">
 </audio>
 
-<details>
+<details markdown="1"
+<summary>Transkript</summary>
+**Erderwärmung**
 
-<summary>Transkript</summary> <b>Erderwärmung</b>
+Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre. Der CO2-Ausstoß entwickelt sich in unterschiedlichen Volkswirtschaften verschieden. Die Grafik liefert genaue Informationen über die Entwicklung der CO2-Emissionen seit dem Jahr 1975 in verschiedenen Ländern. 
 
-Die Erde wird sich in den nächsten Jahren stark erwärmen. Eine wichtige
-Ursache für diese Entwicklung ist der Anstieg von CO2 in der Atmosphäre.
-Der CO2-Ausstoß entwickelt sich in unterschiedlichen Volkswirtschaften
-verschieden. Die Grafik liefert genaue Informationen über die
-Entwicklung der CO2-Emissionen seit dem Jahr 1975 in verschiedenen
-Ländern.
+Auf der horizontalen Achse sind die Jahreszahlen seit 1975 eingetragen, auf der vertikalen Achse der CO2-Ausstoß in Millionen Tonnen. Verschiedenfarbige Punkte und Linien zeigen den jährlichen CO2-Ausstoß verschiedener Länder und seine Entwicklung über die Zeit an. Dargestellt sind die Länder China, USA, Deutschland, Spanien, Frankreich und Indien. Die Daten kommen von der OECD.
 
-Auf der horizontalen Achse sind die Jahreszahlen seit 1975 eingetragen,
-auf der vertikalen Achse der CO2-Ausstoß in Millionen Tonnen.
-Verschiedenfarbige Punkte und Linien zeigen den jährlichen CO2-Ausstoß
-verschiedener Länder und seine Entwicklung über die Zeit an. Dargestellt
-sind die Länder China, USA, Deutschland, Spanien, Frankreich und Indien.
-Die Daten kommen von der OECD.
+Eine wesentliche Entwicklung zeigt sich bei nur einem Land: China. Von 1975 bis in die Gegenwart steigt sein CO2-Ausstoß von unter 2000 Millionen Tonnen auf über 8000 Millionen Tonnen an. Vor allem ab dem Jahr 2000 zeigt sich ein rasanter Anstieg, der erst nach 2010 auf hohem Niveau wieder abflacht. Seit Mitte der 2000er Jahre produziert China mehr CO2 als die USA. Die USA liegen über den gesamten Zeitraum hinweg durchgehend bei über 4000 Millionen Tonnen CO2-Ausstoß, eine wesentliche Veränderung zeigt sich nicht. 
 
-Eine wesentliche Entwicklung zeigt sich bei nur einem Land: China. Von
-1975 bis in die Gegenwart steigt sein CO2-Ausstoß von unter 2000
-Millionen Tonnen auf über 8000 Millionen Tonnen an. Vor allem ab dem
-Jahr 2000 zeigt sich ein rasanter Anstieg, der erst nach 2010 auf hohem
-Niveau wieder abflacht. Seit Mitte der 2000er Jahre produziert China
-mehr CO2 als die USA. Die USA liegen über den gesamten Zeitraum hinweg
-durchgehend bei über 4000 Millionen Tonnen CO2-Ausstoß, eine wesentliche
-Veränderung zeigt sich nicht.
+Der CO2-Ausstoß dieser beiden Länder liegt durchschnittlich deutlich höher als der von Deutschland, Frankreich, Spanien und Indien. Der CO2-Ausstoß der europäischen Länder liegt durchgehend bei unter 2000 Millionen Tonnen und sinkt langsam, aber kontinuierlich ab. In Indien steigt der CO2-Ausstoß dagegen seit Ende der 2000er Jahre an und liegt im Moment bei etwa 2000 Millionen Tonnen.  
 
-Der CO2-Ausstoß dieser beiden Länder liegt durchschnittlich deutlich
-höher als der von Deutschland, Frankreich, Spanien und Indien. Der
-CO2-Ausstoß der europäischen Länder liegt durchgehend bei unter 2000
-Millionen Tonnen und sinkt langsam, aber kontinuierlich ab. In Indien
-steigt der CO2-Ausstoß dagegen seit Ende der 2000er Jahre an und liegt
-im Moment bei etwa 2000 Millionen Tonnen.
-
-Besonders bemerkenswert ist die Entwicklung in China. Der rasante
-Anstieg wird vermutlich von der neueren industriellen Entwicklung und
-einer wachsenden Bevölkerung verursacht. Auch der Anstieg in Indien wird
-vermutlich von Wirtschafts- und Bevölkerungswachstum bedingt. Die
-kleineren europäischen Länder haben ihren CO2-Ausstoß zwar gesenkt,
-können den Anstieg in China und Indien und den unverändert hohen
-US-amerikanischen CO2-Ausstoß aber nicht ausgleichen. Wenn sich diese
-Entwicklung fortsetzt, wird sich die Erde weiter erwärmen.
+Besonders bemerkenswert ist die Entwicklung in China. Der rasante Anstieg wird vermutlich von der neueren industriellen Entwicklung und einer wachsenden Bevölkerung verursacht. Auch der Anstieg in Indien wird vermutlich von Wirtschafts- und Bevölkerungswachstum bedingt. Die kleineren europäischen Länder haben ihren CO2-Ausstoß zwar gesenkt, können den Anstieg in China und Indien und den unverändert hohen US-amerikanischen CO2-Ausstoß aber nicht ausgleichen. Wenn sich diese Entwicklung fortsetzt, wird sich die Erde weiter erwärmen. 
 </details>
-<details>
-<summary>Grafik</summary>
+<details markdown="1"<summary>Grafik</summary>
 <img src="./images/Grafik-Emissionen-Entwicklung.png">
 </details>
-<details>
-<summary>Grafik A</summary>
+<details markdown="1"<summary>Grafik A</summary>
 <img src="./images/Grafik-Emissionen-Entwicklung-A.png">
 </details>
-<details>
-<summary>Grafik B</summary>
+<details markdown="1"<summary>Grafik B</summary>
 <img src="./images/Grafik-Emissionen-Entwicklung-B.png">
 </details>
 
@@ -203,7 +169,6 @@ sozialstaatlichen Institutionen dieser Gesellschaften. Beschreiben Sie
 die folgende Grafik in Ihrer Gruppe. Nutzen Sie hierfür die
 KoText-Funktion auf der DUO-Lernplattform.*
 
-<details>
-<summary>Grafik</summary>
+<details markdown="1"<summary>Grafik</summary>
 <img src="./images/Grafik-Alter-Entwicklung.png">
 </details>
