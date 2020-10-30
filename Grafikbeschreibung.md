@@ -33,9 +33,10 @@ Grafikbeschreibung
 
 ***Aufgabe 1***  
 *Bilden Sie kleine Gruppen. Lesen und korrigieren Sie Ihre
-Hausaufgaben-Texte in der Gruppe. Achten Sie dabei besonders darauf,
-dass alle wichtigen Bestandteile der Grafik benannt sind (Titel, Quelle,
-Zeitraum, Parameter), und markieren Sie Überleitungen.*
+Hausaufgaben-Texte von der DUO-Lernplattform in der Gruppe. Achten Sie
+dabei besonders darauf, dass alle wichtigen Bestandteile der Grafik
+benannt sind (Titel, Quelle, Zeitraum, Parameter), und markieren Sie
+Überleitungen.*
 
 ------------------------------------------------------------------------
 
@@ -191,4 +192,18 @@ Entwicklung fortsetzt, wird sich die Erde weiter erwärmen.
 <details>
 <summary>Grafik B</summary>
 <img src="./images/Grafik-Emissionen-Entwicklung-B.png">
+</details>
+
+------------------------------------------------------------------------
+
+***Hausaufgaben***  
+*In allen Industriegesellschaften wird die Bevölkerung immer älter. Das
+hat schwerwiegende Folgen für die Wirtschaftskraft und die
+sozialstaatlichen Institutionen dieser Gesellschaften. Beschreiben Sie
+die folgende Grafik in Ihrer Gruppe. Nutzen Sie hierfür die
+KoText-Funktion auf der DUO-Lernplattform.*
+
+<details>
+<summary>Grafik</summary>
+<img src="./images/Grafik-Alter-Entwicklung.png">
 </details>
