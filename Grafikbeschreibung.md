@@ -25,7 +25,7 @@ Grafikbeschreibung
 </tr>
 <tr class="even">
 <td><strong>Dauer</strong></td>
-<td>45 Minuten</td>
+<td>90 Minuten</td>
 </tr>
 <tr class="odd">
 <td><strong>Fähigkeiten</strong></td>
