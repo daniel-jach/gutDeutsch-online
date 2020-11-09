@@ -119,6 +119,9 @@ Sie die Bestandteile Ihrer Grafik.*
 ***e** Hören und lesen Sie die Beschreibung ein letztes Mal und notieren
 Sie Ausdrücke, die einen Vergleich ausdrücken.*
 
+***f** Die Beschreibung ist zu lang. Kürzen Sie die Beschreibung, indem
+Sie sich auf die wichtigsten Daten und Vergleiche beschränken.*
+
 ------------------------------------------------------------------------
 
 ***Aufgabe 3**  
@@ -151,7 +154,8 @@ Sie die Verbesserungsvorschläge mit Ihrer Gruppe.*
 
 ***Aufgabe 5** Wiederholen Sie die Aufgaben 1 bis 4 mit folgenden
 Grafiken. In Aufgabe 2 e notieren Sie Ausdrücke, die eine Entwicklung
-ausdrücken.*
+ausdrücken. In Aufgabe 2 f beschränken Sie sich auf die wichtigsten
+Daten und Entwicklungen.*
 
 <audio controls id="meinAudio" src="./audios/Grafik-CO2-Emissionen-Entwicklung-Audio.mp3" preload="auto">
 </audio>
