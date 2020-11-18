@@ -8,19 +8,19 @@
 <table>
 <tbody>
 <tr>
-<td>**Niveau** </td><td>B1-B2</td>
+<td><b>Niveau</b> </td><td>B1-B2</td>
 </tr>
 <tr>
-<td>**Dauer** </td><td>45 Minuten</td>
+<td><b>Dauer</b> </td><td>45 Minuten</td>
 </tr>
 <tr>
-<td>**Fähigkeiten** </td><td>Hören, Lesen</td>
+<td><b>Fähigkeiten<b/> </td><td>Hören, Lesen</td>
 </tr>
 <tr>
-<td>**Sprachhandlung** </td><td>Über Vergangenheit erzählen, beschreiben</td>
+<td><b>Sprachhandlung</b> </td><td>Über Vergangenheit erzählen, beschreiben</td>
 </tr>
 <tr>
-<td>**Textsorte** </td><td>Radio-Feature</td>
+<td><b>Textsorte</b> </td><td>Radio-Feature</td>
 </tr>
 </tbody>
 </table>
