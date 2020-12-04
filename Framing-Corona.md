@@ -274,58 +274,27 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 
 ---
 
-## Mehr Bilder, mehr Framing -- Beschreiben Sie.
+## Mehr Bilder, mehr Framing -- Beschreiben Sie!
 
 ***Beschreiben Sie die folgenden Bilder von [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) und ihr Framing.***
 
-<div>
-<row>
-<column>
-<img src="./images/framing-corona-6.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<textarea id="" rows="7" style="width:100%;"></textarea>
-</column>
-</row>
-</div>
 
-<div>
-<row>
-<column>
-<img src="./images/framing-corona-7.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<textarea id="" rows="7" style="width:100%;"></textarea>
-</column>
-</row>
-</div>
+<img src="./images/framing-corona-6.jpg" width="33%"> 
 
-<row>
-<column>
-<img src="./images/framing-corona-8.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<textarea id="" rows="7" style="width:100%;"></textarea>
-</column>
-</row>
-</div>
+<textarea id="" rows="7" style="width:33%;"></textarea>
 
-<row>
-<column>
-<img src="./images/framing-corona-9.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<textarea id="" rows="7" style="width:100%;"></textarea>
-</column>
-</row>
-</div>
+<img src="./images/framing-corona-7.jpg" width="33%"> 
 
-<row>
-<column>
-<img src="./images/framing-corona-10.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<textarea id="" rows="7" style="width:100%;"></textarea>
-</column>
-</row>
-</div>
+<textarea id="" rows="7" style="width:33%;"></textarea>
+
+<img src="./images/framing-corona-8.jpg" width="33%"> 
+
+<textarea id="" rows="7" style="width:33%;"></textarea>
+
+<img src="./images/framing-corona-9.jpg" width="33%"> 
+
+<textarea id="" rows="7" style="width:33%;"></textarea>
+
+<img src="./images/framing-corona-10.jpg" width="33%"> 
+
+<textarea id="" rows="7" style="width:33%;"></textarea>
