@@ -53,7 +53,7 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 ***Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.***
 
 <div>
-<video width="320" height="240" controls>
+<video width="66%" controls>
 <source src="./videos/Video-Framing.webm" type="video/webm">
 Das Video funktioniert in Ihrem Browser nicht.
 </video> 
