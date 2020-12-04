@@ -298,5 +298,3 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 <textarea id="" rows="15" style="width:100%; float:right;"></textarea>
 </p>
 </div>
-
-<button onclick="answers()">Click Me</button>
