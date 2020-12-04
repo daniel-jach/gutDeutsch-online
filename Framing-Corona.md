@@ -5,10 +5,6 @@ lang: de
 <head>
 <style>
 
-q {
-  quotes: '„' '“';
-}
-
 details > summary {
   cursor: pointer;
 }
@@ -58,13 +54,13 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 <textarea id="" rows="5" style="width:66%;"></textarea>
 
-***Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt <q>Framing</q>.***
+***Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt "Framing".***
 
 ---
 
 ## Was bedeutet Framing?
 
-***Dieses Video erklärt den Begriff* Framing *. Bevor Sie das Video ansehen, sehen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutung der Wörtern <q>Flüchtling</q>, <q>Welle</q>, <q>Naturkatastrophe</q>, <q>Gefahr</q>, <q>Asyl</q> und <q>Tourismus</q> nach.***
+***Dieses Video erklärt den Begriff* Framing *. Bevor Sie das Video ansehen, sehen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutung der Wörtern "Flüchtling", "Welle", "Naturkatastrophe", "Gefahr", "Asyl" und "Tourismus" nach.***
 
 ***Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.***
 
@@ -76,7 +72,7 @@ Das Video funktioniert in Ihrem Browser nicht.
 </div>
 
 <div style="padding-top:5px;">
-*Frame* bedeutet...
+"Frame" bedeutet...
 <select id="frame">
   <option style="display:none;" value=""></option>
   <option value="richtig">Rahmen</option>
@@ -132,13 +128,13 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 
 ## Chinesen im Corona-Rahmen
 
-***In der Corona-Zeit im Jahr 2020 haben Medien und Politik die Chinesen und China oft in einem Corona-Rahmen beschrieben. Zum Beispiel hat der US-amerikanische Präsident Donald Trump gesagt, dass das Corona-Virus das <q>China-Virus</q> ist. Die Internetseite [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) hat von Januar bis Mai 2020 deutschsprachige Zeitungen und Internetseiten durchsucht, Bilder gesammelt und Notizen gemacht.***
+***In der Corona-Zeit im Jahr 2020 haben Medien und Politik die Chinesen und China oft in einem Corona-Rahmen beschrieben. Zum Beispiel hat der US-amerikanische Präsident Donald Trump gesagt, dass das Corona-Virus das "China-Virus" ist. Die Internetseite [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) hat von Januar bis Mai 2020 deutschsprachige Zeitungen und Internetseiten durchsucht, Bilder gesammelt und Notizen gemacht.***
 
 <b>Asiatische Frau mit großem Mundschutz</b><br>
 <img src="./images/framing-corona-1.jpg" width="66%"> 
 
 <p style="width:66%;padding:10px;">
-28.01.2020 Abendzeitung München, Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau mit Mundschutz. Kleine Überschrift <q>Gefährliche Lungenseuche</q>, große Überschrift <q>Angst vor Corona</q>
+28.01.2020 Abendzeitung München, Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau mit Mundschutz. Kleine Überschrift "Gefährliche Lungenseuche", große Überschrift "Angst vor Corona"
 <br>
 <br>
 Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für andere Menschen sind. 
@@ -168,7 +164,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 <img src="./images/framing-corona-4.jpg" width="66%"> 
 
 <p style="width:66%;padding:10px;">
-01.02.2020 Spiegel, Heft über neue Corona-Epidemie und mögliche Folgen für weltweite Wirtschaft mit <q>Made in China</q> in gelber Schrift und kleiner Untertitel <q>tödliche Gefahr</q>, grauer Hintergrund steht für dichten Smog
+01.02.2020 Spiegel, Heft über neue Corona-Epidemie und mögliche Folgen für weltweite Wirtschaft mit "Made in China" in gelber Schrift und kleiner Untertitel "tödliche Gefahr", grauer Hintergrund steht für dichten Smog
 <br>
 <br>
 Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
@@ -178,7 +174,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 <img src="./images/framing-corona-5.jpg" width="66%"> 
 
 <p style="width:66%;padding:10px;">
-02.02.2020 Sonntag Express, Bericht über Corona zeigt chinesischen Mann und großen schwarzen Text <q>Angst vor Kölns Chinesen</q>, buntes Virus im Hintergrund
+02.02.2020 Sonntag Express, Bericht über Corona zeigt chinesischen Mann und großen schwarzen Text "Angst vor Kölns Chinesen", buntes Virus im Hintergrund
 <br>
 <br>
 Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
