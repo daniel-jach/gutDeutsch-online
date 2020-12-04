@@ -120,7 +120,7 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 
 <img src="./images/framing-corona-1.jpg"> 
 
-<p style="padding:10px;">
+<p style="border: 1px solid lightblue;  background: lightblue;  padding: 10px;"">
 <b>Asiatische Frau mit großem Mundschutz</b><br>
 28.01.2020 Abendzeitung München, Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau mit Mundschutz. Kleine Überschrift "Gefährliche Lungenseuche", große Überschrift "Angst vor Corona"
 <br>
@@ -130,7 +130,7 @@ Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für an
 
 <img src="./images/framing-corona-2.jpg"> 
 
-<p style="padding:10px;">
+<p style="border: 1px solid lightblue;  background: lightblue;  padding: 10px;"">
 <b>Asiatische Menschen bei gemeinsamem Essen</b><br>
 30.01.2020 Bild-Zeitung, Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Menschen beim Feuertopf-Essen in traditionellem Restaurant
 <br>
@@ -140,7 +140,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 
 <img src="./images/framing-corona-3.jpg"> 
 
-<p style="padding:10px;">
+<p style="border: 1px solid lightblue;  background: lightblue;  padding: 10px;"">
 <b>Chinesische Glückskekse</b><br>
 30.01.2020 Bild-Zeitung, Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Glückskeksen
 <br>
@@ -150,7 +150,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 
 <img src="./images/framing-corona-4.jpg"> 
 
-<p style="padding:10px;">
+<p style="border: 1px solid lightblue;  background: lightblue;  padding: 10px;"">
 <b>Asiatische Person mit rotem Umhang, Kopfhörern, Handy und großer Schutzbrille und Gasmaske</b><br>
 01.02.2020 Spiegel, Heft über neue Corona-Epidemie und mögliche Folgen für weltweite Wirtschaft mit "Made in China" in gelber Schrift und kleiner Untertitel "tödliche Gefahr", grauer Hintergrund steht für dichten Smog
 <br>
@@ -160,7 +160,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 
 <img src="./images/framing-corona-5.jpg"> 
 
-<p style="padding:10px;">
+<p style="border: 1px solid lightblue;  background: lightblue;  padding: 10px;"">
 <b>Asiatischer Mann mit riesigem Virus</b><br>
 02.02.2020 Sonntag Express, Bericht über Corona zeigt chinesischen Mann und großen schwarzen Text "Angst vor Kölns Chinesen", buntes Virus im Hintergrund
 <br>
