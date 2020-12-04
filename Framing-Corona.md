@@ -15,18 +15,6 @@ details > div {
   padding: 4px;
 }
 
-column {
-  float: left;
-  width: 66%;
-  padding: 10px;
-}
-
-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 td {
   padding-left: 5px;
   vertical-align: top;
