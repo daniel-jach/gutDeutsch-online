@@ -134,70 +134,55 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 
 ***In der Corona-Zeit im Jahr 2020 haben Medien und Politik die Chinesen und China oft in einem Corona-Rahmen beschrieben. Zum Beispiel hat der US-amerikanische Präsident Donald Trump gesagt, dass das Corona-Virus das <q>China-Virus</q> ist. Die Internetseite [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) hat von Januar bis Mai 2020 deutschsprachige Zeitungen und Internetseiten durchsucht, Bilder gesammelt und Notizen gemacht.***
 
+<b>Asiatische Frau mit großem Mundschutz</b><br>
+<img src="./images/framing-corona-1.jpg" width="33%"> 
 
-<div>
-
-<row>
-<column>
-<img src="./images/framing-corona-1.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<b>Asiatische Frau mit großem Mundschutz</b><br>28.01.2020 Abendzeitung München, Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau mit Mundschutz. Kleine Überschrift <q>Gefährliche Lungenseuche</q>, große Überschrift <q>Angst vor Corona</q>
+<p style="width:33%;padding:10px;">
+28.01.2020 Abendzeitung München, Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau mit Mundschutz. Kleine Überschrift <q>Gefährliche Lungenseuche</q>, große Überschrift <q>Angst vor Corona</q>
 <br>
 <br>
 Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für andere Menschen sind. 
-</column>
-</row>
+</p>
 
-<row>
-<column>
-<img src="./images/framing-corona-2.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<b>Asiatische Menschen bei gemeinsamem Essen</b><br>30.01.2020 Bild-Zeitung, Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Menschen beim Feuertopf-Essen in traditionellem Restaurant
-<br>
-<br>
-Was denkt der Leser? Ergänzen Sie. <input type="text" placeholder="Der Leser denkt, dass..." style="width:100%;">
-</column>
-</row>
+<b>Asiatische Menschen bei gemeinsamem Essen</b><br>
+<img src="./images/framing-corona-2.jpg" width="33%"> 
 
-<row>
-<column>
-<img src="./images/framing-corona-3.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<b>Chinesische Glückskekse</b><br>30.01.2020 Bild-Zeitung, Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Glückskeksen
+<p style="width:33%;padding:10px;">
+30.01.2020 Bild-Zeitung, Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Menschen beim Feuertopf-Essen in traditionellem Restaurant
 <br>
 <br>
-Was denkt der Leser? Ergänzen Sie. <input type="text" placeholder="Der Leser denkt, dass..." style="width:100%;">
-</column>
-</row>
+Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;">Der Leser denkt, dass </textarea>
+</p>
 
-<row>
-<column>
-<img src="./images/framing-corona-4.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<b>Asiatische Person mit rotem Umhang, Kopfhörern, Handy und großer Schutzbrille und Gasmaske</b><br>01.02.2020 Spiegel, Heft über neue Corona-Epidemie und mögliche Folgen für weltweite Wirtschaft mit <q>Made in China</q> in gelber Schrift und kleiner Untertitel <q>tödliche Gefahr</q>, grauer Hintergrund steht für dichten Smog
-<br>
-<br>
-Was denkt der Leser? Ergänzen Sie. <input type="text" placeholder="Der Leser denkt, dass..." style="width:100%;">
-</column>
-</row>
+<b>Chinesische Glückskekse</b><br>
+<img src="./images/framing-corona-3.jpg" width="33%"> 
 
-<row>
-<column>
-<img src="./images/framing-corona-5.jpg" height="200px"> 
-</column>
-<column style="width:66%;">
-<b>Asiatischer Mann mit riesigem Virus</b><br>02.02.2020 Sonntag Express, Bericht über Corona zeigt chinesischen Mann und großen schwarzen Text <q>Angst vor Kölns Chinesen</q>, buntes Virus im Hintergrund
+<p style="width:33%;padding:10px;">
+30.01.2020 Bild-Zeitung, Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Glückskeksen
 <br>
 <br>
-Was denkt der Leser? Ergänzen Sie. <input type="text" placeholder="Der Leser denkt, dass..." style="width:100%;">
-</column>
-</row>
+Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
+</p>
 
-</div>
+<b>Asiatische Person mit rotem Umhang, Kopfhörern, Handy und großer Schutzbrille und Gasmaske</b><br>
+<img src="./images/framing-corona-4.jpg" width="33%"> 
+
+<p style="width:33%;padding:10px;">
+01.02.2020 Spiegel, Heft über neue Corona-Epidemie und mögliche Folgen für weltweite Wirtschaft mit <q>Made in China</q> in gelber Schrift und kleiner Untertitel <q>tödliche Gefahr</q>, grauer Hintergrund steht für dichten Smog
+<br>
+<br>
+Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
+</p>
+
+<b>Asiatischer Mann mit riesigem Virus</b><br>
+<img src="./images/framing-corona-5.jpg" width="33%"> 
+
+<p style="width:33%;padding:10px;">
+02.02.2020 Sonntag Express, Bericht über Corona zeigt chinesischen Mann und großen schwarzen Text <q>Angst vor Kölns Chinesen</q>, buntes Virus im Hintergrund
+<br>
+<br>
+Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
+</p>
 
 ---
 
