@@ -266,7 +266,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 
 
 <img src="./images/framing-corona-6.jpg" width="66%">  
-02.04.2020, Spiegel 
+24.04.2020, Frankfurter Allgemeine Zeitung  
 
 <textarea id="" rows="7" style="width:66%;"></textarea>
 
