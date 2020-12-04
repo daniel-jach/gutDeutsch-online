@@ -128,7 +128,7 @@ Asiatische Menschen bei gemeinsamem Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Menschen beim Feuertopf-Essen in traditionellem Restaurant, runder Tisch mit chinesischen Speisen
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:90%;">Der Leser denkt, dass </textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;">Der Leser denkt, dass </textarea>
 </div>
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
@@ -139,7 +139,7 @@ Chinesische Glückskekse<br>
 Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Glückskeksen
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:90%;"></textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
 </div>
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
@@ -150,7 +150,7 @@ Asiatische Person mit rotem Umhang, Kopfhörern, Handy und großer Schutzbrille 
 Heft über neue Corona-Epidemie und mögliche Folgen für weltweite Wirtschaft mit "Made in China" in gelber Schrift und kleiner Untertitel "tödliche Gefahr", grauer Hintergrund steht für dichten Smog
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:90%;"></textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
 </div>
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
@@ -161,7 +161,7 @@ Asiatischer Mann mit riesigem Virus<br>
 Bericht über Corona zeigt chinesischen Mann und großen schwarzen Text "Angst vor Kölns Chinesen", buntes Virus im Hintergrund
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:90%;"></textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
 </div>
 
 ---
