@@ -50,24 +50,13 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 ***Sehen Sie die zwei Bilder an. Was fällt Ihnen ein? Ergänzen Sie in den Kästen.***
 
-<div>
-<row>
-<column>
-<img src="./images/piano-play.jpeg" height="200px"> 
-</column>
-<column>
-<textarea id="" rows="5" style="height:200px;"></textarea>
-</column>
-</row>
-<row>
-<column>
-<img src="./images/piano-move.jpeg" height="200px"> 
-</column>
-<column>
-<textarea id="" rows="5" style="height:200px;"></textarea>
-</column>
-</row>
-</div>
+<img src="./images/piano-play.jpeg" width="33%"> 
+
+<textarea id="" rows="5" style="width:33%;"></textarea>
+
+<img src="./images/piano-move.jpeg"  width="33%"> 
+
+<textarea id="" rows="5" style="width:33%;"></textarea>
 
 ***Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt <q>Framing</q>.***
 
