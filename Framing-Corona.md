@@ -130,50 +130,52 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 
 ***In der Corona-Zeit im Jahr 2020 haben Medien und Politik die Chinesen und China oft in einem Corona-Rahmen beschrieben. Zum Beispiel hat der US-amerikanische Präsident Donald Trump gesagt, dass das Corona-Virus das "China-Virus" ist. Die Internetseite [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) hat von Januar bis Mai 2020 deutschsprachige Zeitungen und Internetseiten durchsucht, Bilder gesammelt und Notizen gemacht.***
 
-<b>Asiatische Frau mit großem Mundschutz</b><br>
+***Sehen Sie die Bilder an und lesen Sie die Bildbeschreibungen. Ergänzen Sie das Framing.***
+
 <img src="./images/framing-corona-1.jpg" width="66%"> 
 
 <p style="width:66%;padding:10px;">
+<b>Asiatische Frau mit großem Mundschutz</b><br>
 28.01.2020 Abendzeitung München, Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau mit Mundschutz. Kleine Überschrift "Gefährliche Lungenseuche", große Überschrift "Angst vor Corona"
 <br>
 <br>
 Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für andere Menschen sind. 
 </p>
 
-<b>Asiatische Menschen bei gemeinsamem Essen</b><br>
 <img src="./images/framing-corona-2.jpg" width="66%"> 
 
 <p style="width:66%;padding:10px;">
+<b>Asiatische Menschen bei gemeinsamem Essen</b><br>
 30.01.2020 Bild-Zeitung, Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Menschen beim Feuertopf-Essen in traditionellem Restaurant
 <br>
 <br>
 Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;">Der Leser denkt, dass </textarea>
 </p>
 
-<b>Chinesische Glückskekse</b><br>
 <img src="./images/framing-corona-3.jpg" width="66%"> 
 
 <p style="width:66%;padding:10px;">
+<b>Chinesische Glückskekse</b><br>
 30.01.2020 Bild-Zeitung, Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Glückskeksen
 <br>
 <br>
 Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
 </p>
 
-<b>Asiatische Person mit rotem Umhang, Kopfhörern, Handy und großer Schutzbrille und Gasmaske</b><br>
 <img src="./images/framing-corona-4.jpg" width="66%"> 
 
 <p style="width:66%;padding:10px;">
+<b>Asiatische Person mit rotem Umhang, Kopfhörern, Handy und großer Schutzbrille und Gasmaske</b><br>
 01.02.2020 Spiegel, Heft über neue Corona-Epidemie und mögliche Folgen für weltweite Wirtschaft mit "Made in China" in gelber Schrift und kleiner Untertitel "tödliche Gefahr", grauer Hintergrund steht für dichten Smog
 <br>
 <br>
 Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
 </p>
 
-<b>Asiatischer Mann mit riesigem Virus</b><br>
 <img src="./images/framing-corona-5.jpg" width="66%"> 
 
 <p style="width:66%;padding:10px;">
+<b>Asiatischer Mann mit riesigem Virus</b><br>
 02.02.2020 Sonntag Express, Bericht über Corona zeigt chinesischen Mann und großen schwarzen Text "Angst vor Kölns Chinesen", buntes Virus im Hintergrund
 <br>
 <br>
@@ -188,36 +190,36 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 
 <table>
   <tbody>
-  <tr><td><b>Singular</b></td><td>(<i>der</i>)</td><td>(<i>die</i>)</td><td>(<i>das</i>)</td></tr>
+  <tr><td><b>Singular</td><td>(der)</td><td>(die)</td><td>(das)</td></tr>
   <tr>
-    <td><b>Nominativ</b></td>
+    <td><b>Nominativ</td>
       <td><textarea id="" rows="5" style="width:100%;">asiatischer Mann</textarea></td>
       <td><textarea id="" rows="5" style="width:100%;">asiatische Frau</textarea></td>
       <td><textarea id="" rows="5" style="width:100%;"></textarea></td>
     </tr>
     <tr>
-    <td><b>Akkusativ</b></td>
+    <td><b>Akkusativ</td>
       <td><textarea id="" rows="5" style="width:100%;"></textarea></td>
       <td><textarea id="" rows="5" style="width:100%;"></textarea></td>
       <td><textarea id="" rows="5" style="width:100%;"></textarea></td>
     </tr>  
     <tr>
-    <td><b>Dativ</b></td>
+    <td><b>Dativ</td>
       <td><textarea id="" rows="5" style="width:100%;">großem Mundschutz</textarea></td>
       <td><textarea id="" rows="5" style="width:100%;"></textarea></td>
       <td><textarea id="" rows="5" style="width:100%;"></textarea></td>
     </tr>  
     <tr>
-    <td><b>Plural</b></td><td>(<i>die</i>)</td><td></td><td></td>
+    <td><b>Plural</td><td>(die)</td><td></td><td></td>
     </tr>
     <tr>
-    <td><b>Nominativ/Akkusativ</b></td>
+    <td><b>Nominativ/Akkusativ</td>
       <td><textarea id="" rows="5" style="width:100%;"></textarea></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-    <td><b>Dativ</b></td>
+    <td><b>Dativ</td>
       <td><textarea id="" rows="5" style="width:100%;"></textarea></td>
       <td></td>
       <td></td>
@@ -230,36 +232,36 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 
 <table>
   <tbody>
-  <tr><td><b>Singular</b></td><td>(<i>der</i>)</td><td>(<i>die</i>)</td><td>(<i>das</i>)</td></tr>
+  <tr><td>Singular</b></td><td>(der)</td><td>(die)</td><td>(das)</td></tr>
   <tr>
-    <td><b>Nominativ</b></td>
+    <td>Nominativ</b></td>
       <td><textarea id="" rows="1" style="width:100%;">-er</textarea></td>
       <td><textarea id="" rows="1" style="width:100%;">-e</textarea></td>
       <td><textarea id="" rows="1" style="width:100%;"></textarea></td>
     </tr>
     <tr>
-    <td><b>Akkusativ</b></td>
+    <td>Akkusativ</b></td>
       <td><textarea id="" rows="1" style="width:100%;"></textarea></td>
       <td><textarea id="" rows="1" style="width:100%;"></textarea></td>
       <td><textarea id="" rows="1" style="width:100%;"></textarea></td>
     </tr>  
     <tr>
-    <td><b>Dativ</b></td>
+    <td>Dativ</b></td>
       <td><textarea id="" rows="1" style="width:100%;">-em</textarea></td>
       <td><textarea id="" rows="1" style="width:100%;"></textarea></td>
       <td><textarea id="" rows="1" style="width:100%;"></textarea></td>
     </tr>  
     <tr>
-    <td><b>Plural</b></td><td>(<i>die</i>)</td><td></td><td></td>
+    <td>Plural</b></td><td>(die)</td><td></td><td></td>
     </tr>
     <tr>
-    <td><b>Nominativ/Akkusativ</b></td>
+    <td>Nominativ/Akkusativ</b></td>
       <td><textarea id="" rows="1" style="width:100%;"></textarea></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-    <td><b>Dativ</b></td>
+    <td>Dativ</b></td>
       <td><textarea id="" rows="1" style="width:100%;"></textarea></td>
       <td></td>
       <td></td>
@@ -272,7 +274,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 
 ## Mehr Bilder, mehr Framing -- Beschreiben Sie!
 
-***Beschreiben Sie die folgenden Bilder von [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) und ihr Framing.***
+***Beschreiben Sie die folgenden Bilder und Texte von [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) und ihr Framing.***
 
 
 <img src="./images/framing-corona-6.jpg" width="66%"> 
