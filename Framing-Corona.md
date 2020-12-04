@@ -9,12 +9,6 @@ details > summary {
   cursor: pointer;
 }
 
-details > div {
-  border: 1px solid lightblue;
-  background: lightblue;
-  padding: 4px;
-}
-
 td {
   padding-left: 5px;
   vertical-align: top;
@@ -34,17 +28,17 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 ***Sehen Sie die zwei Bilder an. Was fällt Ihnen ein? Ordnen Sie zu und ergänzen Sie in den Kästen.***
 
-<p style="border: 1px solid lightblue;  background: lightblue;  padding: 4px; width:66%;">
+<p style="border: 1px solid lightblue;  background: lightblue;  padding: 4px;">
 zusammen -- leise -- groß -- laut -- Musik -- schwer -- gefährlich -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 </p>
 
-<img src="./images/piano-play.jpeg" width="66%"> 
+<img src="./images/piano-play.jpeg"> 
 
-<textarea id="" rows="5" style="width:66%;"></textarea>
+<textarea id="" rows="5"></textarea>
 
-<img src="./images/piano-move.jpeg"  width="66%"> 
+<img src="./images/piano-move.jpeg" > 
 
-<textarea id="" rows="5" style="width:66%;"></textarea>
+<textarea id="" rows="5"></textarea>
 
 ***Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt "Framing".***
 
@@ -57,7 +51,7 @@ zusammen -- leise -- groß -- laut -- Musik -- schwer -- gefährlich -- Instrume
 ***Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.***
 
 <div>
-<video width="66%" controls>
+<video controls>
 <source src="./videos/Video-Framing.webm" type="video/webm">
 Das Video funktioniert in Ihrem Browser nicht.
 </video> 
@@ -99,7 +93,7 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 
 
 <details>
-<summary>Video-Text</summary><div>
+<summary>Video-Text</summary><div style="border: 1px solid lightblue; background: lightblue; padding: 4px;">
 
 **Framing**
       
@@ -124,9 +118,9 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 
 ***Sehen Sie die Bilder an und lesen Sie die Bildbeschreibungen. Ergänzen Sie das Framing.***
 
-<img src="./images/framing-corona-1.jpg" width="66%"> 
+<img src="./images/framing-corona-1.jpg"> 
 
-<p style="width:66%;padding:10px;">
+<p style="padding:10px;">
 <b>Asiatische Frau mit großem Mundschutz</b><br>
 28.01.2020 Abendzeitung München, Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau mit Mundschutz. Kleine Überschrift "Gefährliche Lungenseuche", große Überschrift "Angst vor Corona"
 <br>
@@ -134,9 +128,9 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für andere Menschen sind. 
 </p>
 
-<img src="./images/framing-corona-2.jpg" width="66%"> 
+<img src="./images/framing-corona-2.jpg"> 
 
-<p style="width:66%;padding:10px;">
+<p style="padding:10px;">
 <b>Asiatische Menschen bei gemeinsamem Essen</b><br>
 30.01.2020 Bild-Zeitung, Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Menschen beim Feuertopf-Essen in traditionellem Restaurant
 <br>
@@ -144,9 +138,9 @@ Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für an
 Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;">Der Leser denkt, dass </textarea>
 </p>
 
-<img src="./images/framing-corona-3.jpg" width="66%"> 
+<img src="./images/framing-corona-3.jpg"> 
 
-<p style="width:66%;padding:10px;">
+<p style="padding:10px;">
 <b>Chinesische Glückskekse</b><br>
 30.01.2020 Bild-Zeitung, Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Glückskeksen
 <br>
@@ -154,9 +148,9 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
 </p>
 
-<img src="./images/framing-corona-4.jpg" width="66%"> 
+<img src="./images/framing-corona-4.jpg"> 
 
-<p style="width:66%;padding:10px;">
+<p style="padding:10px;">
 <b>Asiatische Person mit rotem Umhang, Kopfhörern, Handy und großer Schutzbrille und Gasmaske</b><br>
 01.02.2020 Spiegel, Heft über neue Corona-Epidemie und mögliche Folgen für weltweite Wirtschaft mit "Made in China" in gelber Schrift und kleiner Untertitel "tödliche Gefahr", grauer Hintergrund steht für dichten Smog
 <br>
@@ -164,9 +158,9 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
 </p>
 
-<img src="./images/framing-corona-5.jpg" width="66%"> 
+<img src="./images/framing-corona-5.jpg"> 
 
-<p style="width:66%;padding:10px;">
+<p style="padding:10px;">
 <b>Asiatischer Mann mit riesigem Virus</b><br>
 02.02.2020 Sonntag Express, Bericht über Corona zeigt chinesischen Mann und großen schwarzen Text "Angst vor Kölns Chinesen", buntes Virus im Hintergrund
 <br>
@@ -269,27 +263,27 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 ***Beschreiben Sie die folgenden Bilder und Texte von [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) und ihr Framing.***
 
 
-<img src="./images/framing-corona-6.jpg" width="66%">  
+<img src="./images/framing-corona-6.jpg">  
 24.04.2020, Frankfurter Allgemeine Zeitung  
 
-<textarea id="" rows="7" style="width:66%;"></textarea>
+<textarea id="" rows="7"></textarea>
 
-<img src="./images/framing-corona-7.jpg" width="66%">  
+<img src="./images/framing-corona-7.jpg">  
 06.04.2020, Bild
 
-<textarea id="" rows="7" style="width:66%;"></textarea>
+<textarea id="" rows="7"></textarea>
 
-<img src="./images/framing-corona-8.jpg" width="66%">  
+<img src="./images/framing-corona-8.jpg">  
 17.04.2020, Tweet Frankfurter Allgemeine Zeitung
 
-<textarea id="" rows="7" style="width:66%;"></textarea>
+<textarea id="" rows="7"></textarea>
 
-<img src="./images/framing-corona-9.jpg" width="66%">  
+<img src="./images/framing-corona-9.jpg">  
 29.04.2020, Cicero
 
-<textarea id="" rows="7" style="width:66%;"></textarea>
+<textarea id="" rows="7"></textarea>
 
-<img src="./images/framing-corona-10.jpg" width="66%">  
+<img src="./images/framing-corona-10.jpg">  
 06.05.2020, Spiegel
 
-<textarea id="" rows="7" style="width:66%;"></textarea>
+<textarea id="" rows="7"></textarea>
