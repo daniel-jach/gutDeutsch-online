@@ -265,22 +265,27 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 ***Beschreiben Sie die folgenden Bilder und Texte von [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) und ihr Framing.***
 
 
-<img src="./images/framing-corona-6.jpg" width="66%"> 
+<img src="./images/framing-corona-6.jpg" width="66%">  
+02.04.2020, Spiegel 
 
 <textarea id="" rows="7" style="width:66%;"></textarea>
 
-<img src="./images/framing-corona-7.jpg" width="66%"> 
+<img src="./images/framing-corona-7.jpg" width="66%">  
+06.04.2020, Bild
 
 <textarea id="" rows="7" style="width:66%;"></textarea>
 
-<img src="./images/framing-corona-8.jpg" width="66%"> 
+<img src="./images/framing-corona-8.jpg" width="66%">  
+17.04.2020, Tweet Frankfurter Allgemeine Zeitung
 
 <textarea id="" rows="7" style="width:66%;"></textarea>
 
-<img src="./images/framing-corona-9.jpg" width="66%"> 
+<img src="./images/framing-corona-9.jpg" width="66%">  
+29.04.2020, Cicero
 
 <textarea id="" rows="7" style="width:66%;"></textarea>
 
-<img src="./images/framing-corona-10.jpg" width="66%"> 
+<img src="./images/framing-corona-10.jpg" width="66%">  
+06.05.2020, Spiegel
 
 <textarea id="" rows="7" style="width:66%;"></textarea>
