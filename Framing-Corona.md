@@ -32,7 +32,11 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 ## Bilder und Wörter
 
-***Sehen Sie die zwei Bilder an. Was fällt Ihnen ein? Ergänzen Sie in den Kästen.***
+***Sehen Sie die zwei Bilder an. Was fällt Ihnen ein? Ordnen Sie zu und ergänzen Sie in den Kästen.***
+
+<p style="border: 1px solid lightblue;  background: lightblue;  padding: 4px; width:66%;">
+zusammen -- leise -- groß -- laut -- Musik -- schwer -- gefährlich -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
+</p>
 
 <img src="./images/piano-play.jpeg" width="66%"> 
 
