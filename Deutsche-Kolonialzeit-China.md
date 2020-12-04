@@ -5,13 +5,25 @@
 
 # Deutsche Kolonialzeit in China
 
-|  |  |
-|------|------|
-|**Niveau**|B1-B2|
-|**Dauer**|45 Minuten| 
-|**Fähigkeiten**|Hören, Lesen|
-|**Sprachhandlung**|Über Vergangenheit erzählen, beschreiben|
-|**Textsorte**|Radio-Feature|
+<table>
+<tbody>
+<tr>
+<td><b>Niveau</b> </td><td>B1-B2</td>
+</tr>
+<tr>
+<td><b>Dauer</b> </td><td>45 Minuten</td>
+</tr>
+<tr>
+<td><b>Fähigkeiten<b/> </td><td>Hören, Lesen</td>
+</tr>
+<tr>
+<td><b>Sprachhandlung</b> </td><td>Über Vergangenheit erzählen, beschreiben</td>
+</tr>
+<tr>
+<td><b>Textsorte</b> </td><td>Radio-Feature</td>
+</tr>
+</tbody>
+</table>
 
 <img src="./images/Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
 
