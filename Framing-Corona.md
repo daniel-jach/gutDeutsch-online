@@ -64,7 +64,7 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 <td><b>Sprachhandlung</b> </td><td>beschreiben, Aussagen machen</td>
 </tr>
 <tr>
-<td><b>Grammatik</b> </td><td>Adjektive ohne Artikelwörter, *dass*-Sätze</td>
+<td><b>Grammatik</b> </td><td>Adjektive ohne Artikelwörter, <i>dass<i>-Sätze</td>
 </tr>
 </tbody>
 </table>
