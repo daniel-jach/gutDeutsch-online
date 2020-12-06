@@ -137,7 +137,7 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
   <option value="falsch">Bild</option>
 </select>.
 
-<answer class="answersB">Rahmen.</answer>
+<answer class="answersB">Rahmen</answer>
 
 
 Mit *Framing* ist gemeint, dass...
@@ -148,7 +148,7 @@ Mit *Framing* ist gemeint, dass...
   <option value="richtig">Wörter das Denken beeinflussen</option>
 </select>.
 
-<answer class="answersB">Wörter das Denken beeinflussen.</answer>
+<answer class="answersB">Wörter das Denken beeinflussen</answer>
 
 Das Wort *Flüchtlingswelle* beschreibt Flüchtlinge als...
 <select id="welle">
@@ -158,7 +158,7 @@ Das Wort *Flüchtlingswelle* beschreibt Flüchtlinge als...
   <option value="falsch">gute und schnelle Schwimmer</option>
 </select>.
 
-<answer class="answersB">bedrohliche Naturkatastrophe.</answer>
+<answer class="answersB">bedrohliche Naturkatastrophe</answer>
 
 Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 <select id="tourismus">
@@ -168,7 +168,7 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
   <option value="falsch">anstrengender und schwieriger Reise</option>
 </select>.
 
-<answer class="answersB">angenehmem und relaxtem Camping-Urlaub.</answer>
+<answer class="answersB">angenehmem und relaxtem Camping-Urlaub</answer>
 
 <button onclick="showAnswersB()">Antworten anzeigen</button>
 
