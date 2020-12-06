@@ -2,10 +2,50 @@
 lang: de
 ---
 
+<head>
+
+<style>
+
+answer {
+  display: none;
+  color: green;
+}
+
+</style>
+</head>
+
+<script>
+function showAnswersA() {
+  var answers = document.querySelectorAll('.answersA');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+
+function showAnswersB() {
+  var answers = document.querySelectorAll('.answersB');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+
+function showAnswersC() {
+  var answers = document.querySelectorAll('.answersC');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+
+function showAnswersD() {
+  var answers = document.querySelectorAll('.answersD');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+</script>
+
 [Andere Aktivitäten auf *Gut Deutsch
 online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
-
-
 
 # Framing und Corona
 
@@ -16,20 +56,23 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 ***Sehen Sie die zwei Bilder an. Was fällt Ihnen ein? Ordnen Sie zu und ergänzen Sie in den Kästen.***
 
 <p style="border: 1px solid lightblue;  background: lightblue;  padding: 4px; width:100%;">
-zusammen -- leise -- groß -- laut -- Musik -- schwer -- gefährlich -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
+zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 </p>
 
 <img src="./images/piano-play.jpeg" width="48%" float="left"> <img src="./images/piano-move.jpeg"  width="48%" float="right"> 
 
-<textarea id="" rows="5" style="width:48%;" float="left"></textarea> <textarea id="" rows="5" style="width:48%;" float="right"></textarea>
+<textarea rows="5" style="width:48%;" float="left"></textarea> <textarea rows="5" style="width:48%;" float="right"></textarea>
 
-<div class="answers" style="display: none; color: green; width: 48%; float: left;">
-leise laut Musik Instrument schön allein
-</div>
+<answer class="answersA" style="width:50%; float:left;">
+leise -- laut -- Musik -- Instrument -- schön -- allein ... Mozart -- Lied -- Konzert -- lernen -- Noten ...
+</answer>
 
-<div class="answers" style="display: none; color: green; width: 48%; float: right;">
-zusammen groß schwer gefährlich eckig Möbelstück allein
-</div>
+<answer class="answersA" style="width:50%; float:right;">
+zusammen -- groß -- schwer -- eckig -- Möbelstück -- zusammen -- ... Holz -- anstrengend ...
+</answer>
+
+<button onclick="showAnswersA()">Antworten anzeigen</button>
+
 
 ***Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt "Framing".***
 
@@ -37,7 +80,7 @@ zusammen groß schwer gefährlich eckig Möbelstück allein
 
 ## Was bedeutet Framing?
 
-***Dieses Video erklärt den Begriff* Framing *. Bevor Sie das Video ansehen, lesen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutung der Wörtern "Flüchtling", "Welle", "Naturkatastrophe", "Gefahr", "Asyl" und "Tourismus" nach.***
+***Dieses Video erklärt den Begriff* Framing *. Bevor Sie das Video ansehen, lesen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutung der Wörtern Flüchtling, Welle, Naturkatastrophe, Gefahr, Asyl und Tourismus nach.***
 
 ***Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.***
 
@@ -47,41 +90,6 @@ zusammen groß schwer gefährlich eckig Möbelstück allein
 Das Video funktioniert in Ihrem Browser nicht.
 </video> 
 </div>
-
-<div style="padding-top:5px;">
-"Frame" bedeutet...
-<select id="frame">
-  <option style="display:none;" value=""></option>
-  <option value="richtig">Rahmen</option>
-  <option value="falsch">Fenster</option>
-  <option value="falsch">Bild</option>
-</select>
-
-Mit *Framing* ist gemeint, dass...
-<select id="framing">
-  <option style="display:none;" value=""></option>
-  <option value="falsch">Politiker eine besondere Sprache sprechen</option>
-  <option value="falsch">Wörter genau die Wirklichkeit beschreiben</option>
-  <option value="richtig">Wörter das Denken beeinflussen</option>
-</select>
-
-Das Wort *Flüchtlingswelle* beschreibt Flüchtlinge als...
-<select id="welle">
-  <option style="display:none;" value=""></option>
-  <option value="falsch">fremde, aber freundliche Menschen</option>
-  <option value="richtig">bedrohliche Naturkatastrophe</option>
-  <option value="falsch">gute und schnelle Schwimmer</option>
-</select>
-
-Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
-<select id="tourismus">
-  <option style="display:none;" value=""></option>
-  <option value="richtig">angenehmem und relaxtem Camping-Urlaub</option>
-  <option value="falsch">wichtigem Schutz für verfolgte Menschen</option>
-  <option value="falsch">anstrengender und schwieriger Reise</option>
-</select>
-</div>
-
 
 <details>
 <summary style="cursor: pointer;">Video-Text</summary><div style="border: 1px solid lightblue; background: lightblue; padding: 4px;">
@@ -101,6 +109,49 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 </div>
 </details>
 
+Frame bedeutet... 
+<select id="frame">
+  <option style="display:none;" value=""></option>
+  <option value="richtig">Rahmen</option>
+  <option value="falsch">Fenster</option>
+  <option value="falsch">Bild</option>
+</select>.
+
+<answer class="answersB">Rahmen.</answer>
+
+
+Mit Framing ist gemeint, dass...
+<select id="framing">
+  <option style="display:none;" value=""></option>
+  <option value="falsch">Politiker eine besondere Sprache sprechen</option>
+  <option value="falsch">Wörter genau die Wirklichkeit beschreiben</option>
+  <option value="richtig">Wörter das Denken beeinflussen</option>
+</select>.
+
+<answer class="answersB">Wörter das Denken beeinflussen.</answer>
+
+Das Wort Flüchtlingswelle beschreibt Flüchtlinge als...
+<select id="welle">
+  <option style="display:none;" value=""></option>
+  <option value="falsch">fremde, aber freundliche Menschen</option>
+  <option value="richtig">bedrohliche Naturkatastrophe</option>
+  <option value="falsch">gute und schnelle Schwimmer</option>
+</select>.
+
+<answer class="answersB">bedrohliche Naturkatastrophe.</answer>
+
+Das Wort Asyltourismus erzeugt das Bild von Asyl als...
+<select id="tourismus">
+  <option style="display:none;" value=""></option>
+  <option value="richtig">angenehmem und relaxtem Camping-Urlaub</option>
+  <option value="falsch">wichtigem Schutz für verfolgte Menschen</option>
+  <option value="falsch">anstrengender und schwieriger Reise</option>
+</select>.
+
+<answer class="answersB">angenehmem und relaxtem Camping-Urlaub.</answer>
+
+<button onclick="showAnswersB()">Antworten anzeigen</button>
+
 ---
 
 ## Chinesen im Corona-Rahmen
@@ -114,7 +165,7 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 <p style="width:45%; float:right;">
 28.01.2020 Abendzeitung München<br>
 Asiatische Frau mit großem Mundschutz<br>
-Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau mit Mundschutz, kleine Überschrift "Gefährliche Lungenseuche", große Überschrift "Angst vor Corona"
+Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift "Gefährliche Lungenseuche" und große Überschrift "Angst vor Corona" oben
 </p>
 <br>
 Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für andere Menschen sind. 
@@ -124,11 +175,14 @@ Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für an
 <img src="./images/framing-corona-2.jpg" width="45%" float="left">
 <p style="width:45%; padding:10px; float:right;">
 30.01.2020 Bild-Zeitung<br>
-Asiatische Menschen bei gemeinsamem Essen<br>
-Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Menschen beim Feuertopf-Essen in traditionellem Restaurant, runder Tisch mit chinesischen Speisen
+Asiatische Menschen bei Feuertopf-Essen<br>
+Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;">Der Leser denkt, dass </textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;">Der Leser denkt, dass </textarea>
+
+<answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass sich die ersten Chinesen beim Essen mit dem Corona-Virus angesteckt haben und dass in China das Essen nicht sauber ist.</answer>
+
 </div>
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
@@ -136,121 +190,124 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 <p style="width:45%; padding:10px; float:right;">
 30.01.2020 Bild-Zeitung<br>
 Chinesische Glückskekse<br>
-Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Glückskeksen
+Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Süßigkeiten
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></textarea>
+
+<answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass chinesisches Essen und andere Produkte das Corona-Virus übertragen.</answer>
+
 </div>
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
 <img src="./images/framing-corona-4.jpg" width="45%" float="left">
 <p style="width:45%; padding:10px; float:right;">
 01.02.2020 Spiegel<br>
-Asiatische Person mit rotem Umhang, Kopfhörern, Handy und großer Schutzbrille und Gasmaske<br>
-Heft über neue Corona-Epidemie und mögliche Folgen für weltweite Wirtschaft mit "Made in China" in gelber Schrift und kleiner Untertitel "tödliche Gefahr", grauer Hintergrund steht für dichten Smog
+Asiatische Person in rotem Umhang und mit großer Schutzbrille und Gasmaske<br>
+Rotes Heft über weltweite Corona-Epidemie und mögliche Folgen für globale Wirtschaft mit "Made in China" in gelber Schrift und kleinem Untertitel "Wenn die Globalisierung zur tödlichen Gefahr wird", grauer Hintergrund steht für dichten Smog
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></textarea>
+
+<answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass Corona ein Problem im Sozialismus ist (rote Farbe), und vielleicht, dass die Chinesen dumm sind, weil sie immer auf's Handy schauen.</answer>
 </div>
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
 <img src="./images/framing-corona-5.jpg" width="45%" float="left">
 <p style="width:45%; padding:10px; float:right;">
 02.02.2020 Sonntag Express<br>
-Asiatischer Mann mit riesigem Virus<br>
-Bericht über Corona zeigt chinesischen Mann und großen schwarzen Text "Angst vor Kölns Chinesen", buntes Virus im Hintergrund
+Asiatischer Mann neben riesigem Virus<br>
+Bericht über neuartiges Virus zeigt chinesischen Mann und großen Text "Angst vor Kölns Chinesen", daneben im Hintergrund buntes Virus
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"></textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></textarea>
+
+<answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass Chinesen in Köln und in Deutschland das Corona-Virus haben.</answer>
+
 </div>
+
+<button onclick="showAnswersC()">Antworten anzeigen</button>
 
 ---
 
 ## Adjektive ohne Artikelwörter
 
-***Lesen Sie die Bildbeschreibungen noch einmal. Suchen Sie alle Adjektive ohne Artikelwort und schreiben Sie Adjektive und Nomen an der richtigen Stelle in die Tabelle.***
+***Lesen Sie die Bildbeschreibungen noch einmal. Suchen Sie alle Adjektive ohne Artikelwort und ergänzen Sie die Tabelle.***
 
 <table>
   <tbody>
   <tr><td style="vertical-align:top;">Singular</td><td style="vertical-align:top;">(der)</td><td style="vertical-align:top;">(die)</td><td style="vertical-align:top;">(das)</td></tr>
   <tr>
     <td style="vertical-align:top;">Nominativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;">asiatischer Mann</textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;">asiatische Frau</textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;"></textarea></td>
+      <td style="vertical-align:top;">
+        asiatisch-<textarea rows="1" style="width:20%;"></textarea> Mann<br>
+        <answer class="answersD">-er</answer>
+      </td>
+      <td>
+        asiatisch-<textarea rows="1" style="width:20%;"></textarea> Frau<br>
+        <answer class="answersD">-e</answer>
+      </td>
+      <td>
+        bunt-<textarea rows="1" style="width:20%;"></textarea> Virus<br>
+        <answer class="answersD">-es</answer>
+      </td>
     </tr>
     <tr>
     <td style="vertical-align:top;">Akkusativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;"></textarea></td>
+    <td>
+      chinesisch-<textarea rows="1" style="width:20%;"></textarea> Mann<br>
+      <answer class="answersD">-en</answer>
+    </td>
+    <td>
+     asiatisch-<textarea rows="1" style="width:20%;"></textarea> Familie<br>
+     <answer class="answersD">-e</answer>
+    </td>
+    <td>
+      neuartig-<textarea rows="1" style="width:20%;"></textarea> Virus<br>
+      <answer class="answersD">-es</answer>
+    </td>
     </tr>  
     <tr>
     <td style="vertical-align:top;">Dativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;">großem Mundschutz</textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;"></textarea></td>
-    </tr>  
-    <tr>
-    <td style="vertical-align:top;">Plural</td><td style="vertical-align:top;">(die)</td><td style="vertical-align:top;"></td><td style="vertical-align:top;"></td>
+    <td>
+      rund-<textarea rows="1" style="width:20%;"></textarea> Tisch<br>
+      <answer class="answersD">-em</answer>
+    </td>
+    <td>
+      gelb-<textarea rows="1" style="width:20%;"></textarea> Schrift<br>
+      <answer class="answersD">-er</answer>
+    </td>
+    <td>
+      groß-<textarea rows="1" style="width:20%;"></textarea> Bild<br>
+      <answer class="answersD">-em</answer>
+    </td>
     </tr>
-    <tr>
-    <td style="vertical-align:top;">Nominativ/<br>Akkusativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"></td>
-      <td style="vertical-align:top;"></td>
-    </tr>
-    <tr>
-    <td style="vertical-align:top;">Dativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="5" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"></td>
-      <td style="vertical-align:top;"></td>
-    </tr>  
-    </tr>  
   </tbody>
 </table>
-
-***Vergleichen Sie jetzt die Einträge in der Tabelle. Notieren Sie dann die Endungen der Adjektive hier.***
 
 <table>
   <tbody>
-  <tr><td style="vertical-align:top;">Singular</td><td style="vertical-align:top;">(der)</td><td style="vertical-align:top;">(die)</td><td style="vertical-align:top;">(das)</td></tr>
-  <tr>
-    <td style="vertical-align:top;">Nominativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;">-er</textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;">-e</textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;"></textarea></td>
+    <tr>
+      <td style="vertical-align:top;">Plural</td><td style="vertical-align:top;">(die)</td>
     </tr>
     <tr>
-    <td style="vertical-align:top;">Akkusativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;"></textarea></td>
-    </tr>  
-    <tr>
-    <td style="vertical-align:top;">Dativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;">-em</textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;"></textarea></td>
-    </tr>  
-    <tr>
-    <td style="vertical-align:top;">Plural</td><td style="vertical-align:top;">(die)</td><td style="vertical-align:top;"></td><td style="vertical-align:top;"></td>
-    </tr>
-    <tr>
-    <td style="vertical-align:top;">Nominativ/<br>Akkusativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"></td>
-      <td style="vertical-align:top;"></td>
+      <td style="vertical-align:top;">Nominativ/<br>Akkusativ</td>
+      <td>
+      chinesisch-<textarea rows="1" style="width:20%;"></textarea> Glückskekse<br>
+      <answer class="answersD">-e</answer>
+      </td>
     </tr>
     <tr>
     <td style="vertical-align:top;">Dativ</td>
-      <td style="vertical-align:top;"><textarea id="" rows="1" style="width:100%;"></textarea></td>
-      <td style="vertical-align:top;"></td>
-      <td style="vertical-align:top;"></td>
-    </tr>  
+      <td>
+      chinesisch-<textarea rows="1" style="width:20%;"></textarea> Süßigkeiten<br>
+      <answer class="answersD">-en</answer>
+      </td>
     </tr>  
   </tbody>
 </table>
+
+<button onclick="showAnswersD()">Antworten anzeigen</button>
 
 ---
 
@@ -264,7 +321,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 <img src="./images/framing-corona-6.jpg" width="45%" float="left">
 <p style="width:45%; padding:10px; float:right;">
 24.04.2020, Frankfurter Allgemeine Zeitung<br>
-<textarea id="" rows="15" style="width:100%; float:right;"></textarea>
+<textarea rows="15" style="width:100%; float:right;"></textarea>
 </p>
 </div>
 
@@ -272,7 +329,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 <img src="./images/framing-corona-7.jpg" width="45%" float="left">
 <p style="width:45%; padding:10px; float:right;">
 06.04.2020, Bild<br>
-<textarea id="" rows="15" style="width:100%; float:right;"></textarea>
+<textarea rows="15" style="width:100%; float:right;"></textarea>
 </p>
 </div>
 
@@ -280,7 +337,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 <img src="./images/framing-corona-8.jpg" width="45%" float="left">
 <p style="width:45%; padding:10px; float:right;">
 17.04.2020, Tweet Frankfurter Allgemeine Zeitung<br>
-<textarea id="" rows="15" style="width:100%; float:right;"></textarea>
+<textarea rows="15" style="width:100%; float:right;"></textarea>
 </p>
 </div>
 
@@ -288,13 +345,13 @@ Was denkt der Leser? Ergänzen Sie. <textarea id="" rows="2" style="width:100%;"
 <img src="./images/framing-corona-9.jpg" width="45%" float="left">
 <p style="width:45%; padding:10px; float:right;">
 29.04.2020, Cicero<br>
-<textarea id="" rows="15" style="width:100%; float:right;"></textarea>
+<textarea rows="15" style="width:100%; float:right;"></textarea>
 </p>
 </div>
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
 <img src="./images/framing-corona-10.jpg" width="45%" float="left">
 <p style="width:45%; padding:10px; float:right;">
 06.05.2020, Spiegel<br>
-<textarea id="" rows="15" style="width:100%; float:right;"></textarea>
+<textarea rows="15" style="width:100%; float:right;"></textarea>
 </p>
 </div>
