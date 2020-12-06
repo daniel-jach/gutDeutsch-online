@@ -49,6 +49,26 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 # Framing und Corona
 
+<table markdown="1">
+<tbody>
+<tr>
+<td><b>Niveau</b> </td><td>A2</td>
+</tr>
+<tr>
+<td><b>Dauer</b> </td><td>90 Minuten</td>
+</tr>
+<tr>
+<td><b>Fähigkeiten<b/> </td><td>Lesen, Schreiben</td>
+</tr>
+<tr>
+<td><b>Sprachhandlung</b> </td><td>beschreiben, Aussagen machen</td>
+</tr>
+<tr>
+<td><b>Grammatik</b> </td><td>Adjektive ohne Artikelwörter, *dass*-Sätze</td>
+</tr>
+</tbody>
+</table>
+
 ---
 
 ## Bilder und Wörter
@@ -74,13 +94,13 @@ zusammen -- groß -- schwer -- eckig -- Möbelstück -- zusammen -- ... Holz -- 
 <button onclick="showAnswersA()">Antworten anzeigen</button>
 
 
-***Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt "Framing".***
+***Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt* Framing*.***
 
 ---
 
 ## Was bedeutet Framing?
 
-***Dieses Video erklärt den Begriff* Framing *. Bevor Sie das Video ansehen, lesen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutung der Wörtern Flüchtling, Welle, Naturkatastrophe, Gefahr, Asyl und Tourismus nach.***
+***Dieses Video erklärt den Begriff* Framing *. Bevor Sie das Video ansehen, lesen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutung der Wörtern* Flüchtling, Welle, Naturkatastrophe, Gefahr, Asyl *und* Tourismus *nach.***
 
 ***Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.***
 
@@ -109,7 +129,7 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 </div>
 </details>
 
-Frame bedeutet... 
+*Frame* bedeutet... 
 <select id="frame">
   <option style="display:none;" value=""></option>
   <option value="richtig">Rahmen</option>
@@ -120,7 +140,7 @@ Frame bedeutet...
 <answer class="answersB">Rahmen.</answer>
 
 
-Mit Framing ist gemeint, dass...
+Mit *Framing* ist gemeint, dass...
 <select id="framing">
   <option style="display:none;" value=""></option>
   <option value="falsch">Politiker eine besondere Sprache sprechen</option>
@@ -130,7 +150,7 @@ Mit Framing ist gemeint, dass...
 
 <answer class="answersB">Wörter das Denken beeinflussen.</answer>
 
-Das Wort Flüchtlingswelle beschreibt Flüchtlinge als...
+Das Wort *Flüchtlingswelle* beschreibt Flüchtlinge als...
 <select id="welle">
   <option style="display:none;" value=""></option>
   <option value="falsch">fremde, aber freundliche Menschen</option>
@@ -140,7 +160,7 @@ Das Wort Flüchtlingswelle beschreibt Flüchtlinge als...
 
 <answer class="answersB">bedrohliche Naturkatastrophe.</answer>
 
-Das Wort Asyltourismus erzeugt das Bild von Asyl als...
+Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 <select id="tourismus">
   <option style="display:none;" value=""></option>
   <option value="richtig">angenehmem und relaxtem Camping-Urlaub</option>
