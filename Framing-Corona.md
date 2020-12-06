@@ -79,15 +79,15 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 </p>
 
-<img src="./images/piano-play.jpeg" width="48%" float="left"> <img src="./images/piano-move.jpeg"  width="48%" float="right"> 
+<img src="./images/piano-play.jpeg" width="45%" float="left"> <img src="./images/piano-move.jpeg"  width="45%" float="right"> 
 
-<textarea rows="5" style="width:48%;" float="left"></textarea> <textarea rows="5" style="width:48%;" float="right"></textarea>
+<textarea rows="5" style="width:45%;" float="left"></textarea> <textarea rows="5" style="width:45%;" float="right"></textarea>
 
-<answer class="answersA" style="width:50%; float:left;">
+<answer class="answersA" style="width:45%; float:left;">
 leise -- laut -- Musik -- Instrument -- schön -- allein ... Mozart -- Lied -- Konzert -- lernen -- Noten ...
 </answer>
 
-<answer class="answersA" style="width:50%; float:right;">
+<answer class="answersA" style="width:45%; float:right;">
 zusammen -- groß -- schwer -- eckig -- Möbelstück -- zusammen -- ... Holz -- anstrengend ...
 </answer>
 
