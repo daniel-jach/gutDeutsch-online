@@ -49,7 +49,7 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 # Framing und Corona
 
-<table markdown="1">
+<table>
 <tbody>
 <tr>
 <td><b>Niveau</b> </td><td>A2</td>
@@ -94,15 +94,15 @@ zusammen -- groß -- schwer -- eckig -- Möbelstück -- zusammen -- ... Holz -- 
 <button onclick="showAnswersA()">Antworten anzeigen</button>
 
 
-***Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt* Framing*.***
+**Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt *Framing*.**
 
 ---
 
 ## Was bedeutet Framing?
 
-***Dieses Video erklärt den Begriff* Framing *. Bevor Sie das Video ansehen, lesen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutung der Wörtern* Flüchtling, Welle, Naturkatastrophe, Gefahr, Asyl *und* Tourismus *nach.***
+**Dieses Video erklärt den Begriff *Framing*. Bevor Sie das Video ansehen, lesen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutung der Wörtern *Flüchtling, Welle, Naturkatastrophe, Gefahr, Asyl* und *Tourismus* nach.**
 
-***Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.***
+**Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.**
 
 <div>
 <video width="66%" controls>
@@ -176,16 +176,16 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 
 ## Chinesen im Corona-Frame
 
-***In der Corona-Zeit im Jahr 2020 haben Medien und Politik die Chinesen und China oft in einem Corona-Rahmen beschrieben. Zum Beispiel hat der US-amerikanische Präsident Donald Trump gesagt, dass das Corona-Virus das "China-Virus" ist. Die Internetseite [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) hat von Januar bis Mai 2020 deutschsprachige Zeitungen und Internetseiten durchsucht, Bilder gesammelt und Notizen gemacht.***
+**In der Corona-Zeit im Jahr 2020 haben Medien und Politik die Chinesen und China oft in einem Corona-Rahmen beschrieben. Zum Beispiel hat der US-amerikanische Präsident Donald Trump gesagt, dass das Corona-Virus das "China-Virus" ist. Die Internetseite [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) hat von Januar bis Mai 2020 deutschsprachige Zeitungen und Internetseiten durchsucht, Bilder gesammelt und Notizen gemacht.**
 
-***Sehen Sie die Bilder an und lesen Sie die Bildbeschreibungen. Ergänzen Sie das Framing.***
+**Sehen Sie die Bilder an und lesen Sie die Bildbeschreibungen. Ergänzen Sie das beim Leser erzeugte Framing.**
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
 <img src="./images/framing-corona-1.jpg" width="45%" float="left"> 
 <p style="width:45%; float:right;">
 28.01.2020 Abendzeitung München<br>
 Asiatische Frau mit großem Mundschutz<br>
-Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift "Gefährliche Lungenseuche" und große Überschrift "Angst vor Corona" oben
+Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift &bdquo;Gefährliche Lungenseuche&ldquo; und große Überschrift &bdquo;Angst vor Corona&ldquo; oben
 </p>
 <br>
 Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für andere Menschen sind. 
@@ -199,7 +199,7 @@ Asiatische Menschen bei Feuertopf-Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%; padding:10px;">Der Leser denkt, dass </textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;">Der Leser denkt, dass </textarea>
 
 <answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass sich die ersten Chinesen beim Essen mit dem Corona-Virus angesteckt haben und dass in China das Essen nicht sauber ist.</answer>
 
@@ -213,7 +213,7 @@ Chinesische Glückskekse<br>
 Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Süßigkeiten
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%; padding:10px;"></textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></textarea>
 
 <answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass chinesisches Essen und andere Produkte das Corona-Virus übertragen.</answer>
 
@@ -224,10 +224,10 @@ Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%; paddin
 <p style="width:45%; padding:10px; float:right;">
 01.02.2020 Spiegel<br>
 Asiatische Person in rotem Umhang und mit großer Schutzbrille und Gasmaske<br>
-Rotes Heft über weltweite Corona-Epidemie und mögliche Folgen für globale Wirtschaft mit "Made in China" in gelber Schrift und kleinem Untertitel "Wenn die Globalisierung zur tödlichen Gefahr wird", grauer Hintergrund steht für dichten Smog
+Rotes Heft über weltweite Corona-Epidemie und mögliche Folgen für globale Wirtschaft mit &bdquo;Made in China&ldquo; in gelber Schrift und kleinem Untertitel &bdquo;Wenn die Globalisierung zur tödlichen Gefahr wird&ldquo;, grauer Hintergrund steht für dichten Smog
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%; padding:10px;"></textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></textarea>
 
 <answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass Corona ein Problem im Sozialismus ist (rote Farbe), und vielleicht, dass die Chinesen dumm sind, weil sie immer auf's Handy schauen.</answer>
 </div>
@@ -237,10 +237,10 @@ Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%; paddin
 <p style="width:45%; padding:10px; float:right;">
 02.02.2020 Sonntag Express<br>
 Asiatischer Mann neben riesigem Virus<br>
-Bericht über neuartiges Virus zeigt chinesischen Mann und großen Text "Angst vor Kölns Chinesen", daneben im Hintergrund buntes Virus
+Bericht über neuartiges Virus zeigt chinesischen Mann und großen Text &bdquo;Angst vor Kölns Chinesen&ldquo;, daneben im Hintergrund buntes Virus
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%; padding:10px;"></textarea>
+Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></textarea>
 
 <answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass Chinesen in Köln und in Deutschland das Corona-Virus haben.</answer>
 
