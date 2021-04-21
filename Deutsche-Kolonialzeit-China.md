@@ -50,9 +50,6 @@
 
 ***Aufgabe 4** Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende.*
 
-<details><summary>Transkript</summary>
-
-
 ### Es blieben Architektur und Bier
 
 [Quelle: Deutschlandfunk](https://www.deutschlandfunk.de/deutsche-kolonialzeit-in-china-es-blieben-architektur-und.769.de.html?dram:article_id=480264), 20.07.2020
@@ -60,6 +57,8 @@
 <div>
 <audio controls id="meinAudio" src="./audios/Audio-Deutsche-Kolonialzeit-China.mp3" preload="auto"></audio>
 </div>
+
+<details><summary>Transkript</summary>
 
 <button onclick="setCurTime0()">Von Anfang</button><button onclick="togglePlayPause()">Pause/Weiter</button><button onclick="rewind()">Zurückspulen</button>
 
@@ -301,7 +300,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 <table>
   <tbody>
     <tr>
-      <td>Aus dem Podcast</td>
+      <td><b>Aus dem Podcast</b></td>
       <td></td>
     </tr>
     <tr>
@@ -315,7 +314,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 <table>
   <tbody>
     <tr>
-      <td>Aus dem Korpus</td><td></td>
+      <td><b>Aus dem Korpus</b></td><td></td>
     </tr>
     <tr>
       <td>Als Kommunisten und Juden teilten die Alexans das </td><td><b>wechselvolle</b> Schicksal vieler Emigranten jener Jahre</td>
@@ -351,7 +350,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 <textarea id="BedeutungWechselvoll" placeholder="Notieren Sie hier Ihre Antwort." rows="8" style="width:100%;"></textarea>
 
-*Wie wird der Ausdruck* wechselvoll *normalerweise gebraucht? Vergleichen Sie noch einmal alle Beispiele und notieren Sie Gemeinsamkeiten im Gebrauch von* wechselvoll*.*
+<i>Wie wird der Ausdruck</i> wechselvoll <i>normalerweise gebraucht? Vergleichen Sie noch einmal alle Beispiele und notieren Sie Gemeinsamkeiten im Gebrauch von</i> wechselvoll<i>.</i>
 
 <textarea id="GebrauchWechselvoll" placeholder="Notieren Sie hier Ihre Antwort." rows="8" style="width:100%;"></textarea>
 
