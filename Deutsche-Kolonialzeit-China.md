@@ -327,7 +327,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
   <td>ehrt den Präsidenten, weil er in </td><td><b>wechselvollen</b> Zeiten Garant der amerikanisch-europäischen</td>
   </tr>
   <tr>
-  <td>Leid, das sich Christen und Muslime in ihrer </td><b>wechselvollen</b> Geschichte angetan haben - auch</td>
+  <td>Leid, das sich Christen und Muslime in ihrer </td><td><b>wechselvollen</b> Geschichte angetan haben - auch</td>
   </tr>
   <tr>
   <td>der uns in ganz besonderer Weise mit der <td><b>wechselvollen</b> Geschichte unserer Heimat</td>
