@@ -318,13 +318,13 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
       <td>Aus dem Korpus</td><td></td>
     </tr>
     <tr>
-      <td>Als Kommunisten und Juden teilten die Alexans das </td><b>wechselvolle</b> Schicksal vieler Emigranten jener Jahre</td>
+      <td>Als Kommunisten und Juden teilten die Alexans das </td><td><b>wechselvolle</b> Schicksal vieler Emigranten jener Jahre</td>
      </tr>
      <tr>
-      <td>Die lange, </td></td><b>wechselvolle</b> Geschichte der deutsch-polnischen Beziehungen fand im</td>
+      <td>Die lange, </td><td><b>wechselvolle</b> Geschichte der deutsch-polnischen Beziehungen fand im</td>
      </tr>
     <tr>
-  <td>ehrt den Präsidenten, weil er in </td><b>wechselvollen</b> Zeiten Garant der amerikanisch-europäischen</td>
+  <td>ehrt den Präsidenten, weil er in </td><td><b>wechselvollen</b> Zeiten Garant der amerikanisch-europäischen</td>
   </tr>
   <tr>
   <td>Leid, das sich Christen und Muslime in ihrer </td><b>wechselvollen</b> Geschichte angetan haben - auch</td>
