@@ -47,6 +47,8 @@
 
 ---
 
+<details><summary>Transkript</summary>
+
 ***Aufgabe 4** Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende.*
 
 ### Es blieben Architektur und Bier
@@ -220,6 +222,8 @@ function setCurTime9() {
 Qingdao ist heute eine der bekanntesten Küsten- und Hafenstädte in China, mit rund neun Millionen Einwohnern. Spuren der deutschen Kolonialgeschichte gibt es viele: das alte Gouverneurshaus, der Offiziersklub, die evangelische Christuskirche. Ganze Straßenzüge mit Architektur aus dem deutschen Kaiserreich. Dazu die alte Brauerei, die es zu Weltruhm gebracht hat. Deren Aktien steigen gerade wieder: Seit der Corona-Krise geht der Bierverkauf nach oben, auf dem heimischen Markt in China um 30 bis 40 Prozent.
 
 Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökonomische Spuren der deutschen Kolonialzeit. Auch als Podcast nachzuhören. 
+
+</details>
 
 ***Aufgabe 5** Hören und lesen Sie jetzt jeden Abschnitt noch einmal einzeln und formulieren Sie für jeden Abschnitt eine passende Zwischenüberschrift oder Frage. Wählen Sie hierfür eine Zeit aus und drücken Sie dann auf* Pause/Weiter*. Drücken Sie auf* Zurückspulen*, um die letzten fünf Sekunden noch einmal anzuhören. Notieren Sie Ihre Zwischenüberschriften in die freien Felder zwischen den Absätzen.*
 
