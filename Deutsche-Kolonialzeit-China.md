@@ -306,7 +306,7 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
     </tr>
     <tr>
       <td>Das Tsingtao-Bier ist eine der bekanntesten und ältesten Biermarken in China. Und die Brauerei hat eine</td>
-      <td><br>wechselvolle</br> Geschichte. Nach dem Ausbruch des Ersten Weltkrieges</td>
+      <td><b>wechselvolle</b> Geschichte. Nach dem Ausbruch des Ersten Weltkrieges</td>
     </tr>
   </tbody>
  </table>
