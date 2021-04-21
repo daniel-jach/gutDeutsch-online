@@ -311,17 +311,41 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
   </tbody>
  </table>
 
-|Aus dem Korpus|  |
-|---------------|----------------------|
-|Als Kommunisten und Juden teilten die Alexans das | **wechselvolle** Schicksal vieler Emigranten jener Jahre|
-|Die lange, | **wechselvolle** Geschichte der deutsch-polnischen Beziehungen fand im|
-|ehrt den Präsidenten, weil er in | **wechselvollen** Zeiten Garant der amerikanisch-europäischen|
-|Leid, das sich Christen und Muslime in ihrer | **wechselvollen** Geschichte angetan haben - auch|
-|der uns in ganz besonderer Weise mit der | **wechselvollen** Geschichte unserer Heimat|
-|Nach einer dramatisch | **wechselvollen**	Geschichte zwischen uns sind wir nun unterwegs in|
-|Vorstellung chaotisch, unvorhersehbar und | **wechselvoll** war.|
-|Oh, wie unvorhersehbar, chaotisch und | **wechselvoll** sie war!|
-|Es war ein | **wechselvoller** Tag.|
+
+<table>
+  <tbody>
+    <tr>
+      <td>Aus dem Korpus</td><td></td>
+    </tr>
+    <tr>
+      <td>Als Kommunisten und Juden teilten die Alexans das </td><b>wechselvolle</b> Schicksal vieler Emigranten jener Jahre</td>
+     </tr>
+     <tr>
+      <td>Die lange, </td></td><b>wechselvolle</b> Geschichte der deutsch-polnischen Beziehungen fand im</td>
+     </tr>
+    <tr>
+  <td>ehrt den Präsidenten, weil er in </td><b>wechselvollen</b> Zeiten Garant der amerikanisch-europäischen</td>
+  </tr>
+  <tr>
+  <td>Leid, das sich Christen und Muslime in ihrer </td><b>wechselvollen</b> Geschichte angetan haben - auch</td>
+  </tr>
+  <tr>
+  <td>der uns in ganz besonderer Weise mit der <td><b>wechselvollen</b> Geschichte unserer Heimat</td>
+  </tr>
+  <tr>
+  <td>Nach einer dramatisch </td><td><b>wechselvollen</b>	Geschichte zwischen uns sind wir nun unterwegs in</td>
+  </tr>
+  <tr>
+  <td>Vorstellung chaotisch, unvorhersehbar und </td><b>wechselvoll</b> war.</td>
+  </tr>
+  <tr>
+  <td>Oh, wie unvorhersehbar, chaotisch und </td><b>wechselvoll</b> sie war!</td>
+  </tr>
+  <tr>
+  <td>Es war ein </td><b>wechselvoller</b> Tag.</td>
+  </tr>
+  </tbody>
+  </table>
 
 *Was bedeutet der Ausdruck* wechselvoll *vermutlich? Notieren Sie.*
 
