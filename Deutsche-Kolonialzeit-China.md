@@ -45,26 +45,6 @@
 <audio controls id="meinAudio" src="./audios/Audio-Deutsche-Kolonialzeit-China.mp3" preload="auto"></audio>
 </div>
 
-<button onclick="setCurTime0()">Von Anfang</button><button onclick="togglePlayPause()">Pause/Weiter</button><button onclick="rewind()">5 Sekunden zurück</button>
-
-<script>
-var audio = document.getElementById("meinAudio");
-
-function togglePlayPause() { 
-  audio.paused? audio.play() : audio.pause();
-} 
-
-function rewind() {
-  audio.currentTime -=5;
-}
-
-function setCurTime0() { 
-  audio.currentTime=00;
-  audio.play();
-} 
-
-</script> 
-
 ---
 
 <img src="./images/Bild-Kolonialzeit-Brauerei-Qingdao.jpg" style="width:100%;">
