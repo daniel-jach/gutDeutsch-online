@@ -158,13 +158,11 @@ Axel Dorloff über die Tsingtao-Brauerei. Letzter Teil unserer Serie über ökon
 
 | Linker Kontext | wechselvoll | Rechter Kontext | 
 | -------------- | :---------: | --------------- |
-
 | Das Tsingtao-Bier ist eine der bekanntesten und ältesten Biermarken in China. Und die Brauerei hat eine | wechselvolle | Geschichte. Nach dem Ausbruch des Ersten Weltkrieges |
 
 Vergleichen Sie das Beispiel aus dem Podcast mit den folgenden Beispielen aus dem [DWDS-Korpus](https://www.dwds.de/r/?q=wechselvoll&corpus=korpus21&date-start=2000&date-end=2010&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=kwic&sort=date_asc&limit=10).
 
 | Linker Kontext | wechselvoll | Rechter Kontext | 
-
 | -------------- | :---------: | --------------- |
 | Als Kommunisten und Juden teilten die Alexans das | wechselvolle | Schicksal vieler Emigranten jener Jahre |
 | Die lange, | wechselvolle | Geschichte der deutsch-polnischen Beziehungen fand im |
