@@ -1,6 +1,16 @@
 ---
 ---
 
+<style>
+
+.textarea{
+  width:200px;
+  height:50px;
+  border:1px solid black;
+}
+
+</style>
+
 [Andere Aktivitäten auf *Gut Deutsch online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 # Deutsche Kolonialzeit in China
@@ -12,6 +22,11 @@
 | Fähigkeiten | Hören |
 | Sprachhandlung | Über Vergangenheit erzählen | 
 | Textsorte | Radio-Feature |
+
+<div class='textarea' contenteditable>
+
+</div>
+
 
 <img src="./images/Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
 
