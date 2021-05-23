@@ -14,7 +14,7 @@
 <td><b>Dauer</b> </td><td>45 Minuten</td>
 </tr>
 <tr>
-<td><b>Fähigkeiten<b/> </td><td>Hören, Lesen</td>
+<td><b>Fähigkeiten<b/> </td><td>Hören</td>
 </tr>
 <tr>
 <td><b>Sprachhandlung</b> </td><td>Über Vergangenheit erzählen, beschreiben</td>
@@ -29,17 +29,17 @@
 
 *Postkarte aus der chinesischen Provinz Kiao-Tschau, Deutsches Reich, 1900.* [Quelle: Lemo](https://www.dhm.de/lemo/bestand/objekt/gruss-aus-kiao-tschau-postkarte-zum-deutsch-chinesischen-konflikt-1900.html)
 
-***Aufgabe 1** Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau (膠州) &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist der Deutsche, wie sind die beiden Chinesen hier abgebildet? Wie ist ihre Beziehung dargestellt? Notieren Sie Ihre Antworten hier.*
+**Aufgabe 1** Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau (膠州) &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist der Deutsche, wie sind die beiden Chinesen hier abgebildet? Wie ist ihre Beziehung dargestellt? Notieren Sie Ihre Antworten hier.
 
 <textarea id="Postkarte" placeholder="Notieren Sie hier Ihre Antwort zu Aufgabe 1." rows="8" style="width:100%;"></textarea>
 
-***Aufgabe 2** Was wissen Sie schon über die deutsche Kolonialherrschaft in China? Notieren Sie Ihre Antwort hier.*
+**Aufgabe 2** Was wissen Sie schon über die deutsche Kolonialherrschaft in China? Notieren Sie Ihre Antwort hier.
 
 <textarea id="Vorwissen" placeholder="Notieren Sie hier Ihre Antwort zu Aufgabe 2." rows="8" style="width:100%;"></textarea>
 
 ---
 
-***Aufgabe 3** Im Folgenden hören und lesen Sie einen Podcast. Vorher sehen Sie sich die Wortwolke mit häufigen Wörtern aus dem Podcast an. Welche Wörter sind Ihnen unbekannt? Schauen Sie ihre Bedeutung im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> nach und notieren Sie hier.*
+**Aufgabe 3** Im Folgenden hören Sie einen Podcast. Vorher sehen Sie sich die Wortwolke mit häufigen Wörtern aus dem Podcast an. Welche Wörter sind Ihnen unbekannt? Schauen Sie ihre Bedeutung im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> nach und notieren Sie hier.
 
 <img src="./images/Audio-Deutsche-Kolonialzeit-China-Wortwolke.png" style="width:100%;">
 
@@ -47,7 +47,7 @@
 
 ---
 
-***Aufgabe 4** Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende.*
+**Aufgabe 4** Hören und lesen Sie jetzt den Podcast. Hören und lesen Sie den Podcast erst einmal von Anfang bis Ende.
 
 ### Es blieben Architektur und Bier
 
@@ -57,7 +57,7 @@
 <audio controls id="meinAudio" src="./audios/Audio-Deutsche-Kolonialzeit-China.mp3" preload="auto"></audio>
 </div>
 
-<button onclick="setCurTime0()">Von Anfang</button><button onclick="togglePlayPause()">Pause/Weiter</button><button onclick="rewind()">Zurückspulen</button>
+<button onclick="setCurTime0()">Von Anfang</button><button onclick="togglePlayPause()">Pause/Weiter</button><button onclick="rewind()">5 Sekunden zurück</button>
 
 <script>
 var audio = document.getElementById("meinAudio");
