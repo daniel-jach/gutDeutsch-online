@@ -1,4 +1,4 @@
 title: Gut Deutsch online
 description: Daniel Jach
 theme: jekyll-theme-slate
-markdown: GFM # for formatted collapsibles
+markdown: CommonMarkGhPages # for formatted collapsibles
