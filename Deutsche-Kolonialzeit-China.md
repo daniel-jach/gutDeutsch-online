@@ -5,17 +5,6 @@
 
 # Deutsche Kolonialzeit in China
 
-<form>
-    <input name="title" type="text" placeholder="Title?" />
-    <textarea name="content" data-provide="markdown" rows="10"></textarea>
-    <label class="checkbox">
-      <input name="publish" type="checkbox"> Publish
-    </label>
-    <hr/>
-    <button type="submit" class="btn">Submit</button>
-  </form> 
-  
-
 <table>
 <tbody>
 <tr>
@@ -42,13 +31,11 @@
 
 **Aufgabe 1** Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau (膠州) &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist der Deutsche, wie sind die beiden Chinesen hier abgebildet? Wie ist ihre Beziehung dargestellt? Notieren Sie Ihre Antworten hier.
 
-<div>
-<textarea id="Postkarte" placeholder="Notieren Sie hier Ihre Antwort zu Aufgabe 1." rows="8" style="width:100%;"></textarea>
-</div>
+&lt;textarea id="Postkarte" placeholder="Notieren Sie hier Ihre Antwort zu Aufgabe 1." rows="8" style="width:100%;"></textarea>
 
 **Aufgabe 2** Was wissen Sie schon über die deutsche Kolonialherrschaft in China? Notieren Sie Ihre Antwort hier.
 
-<textarea id="Vorwissen" placeholder="Notieren Sie hier Ihre Antwort zu Aufgabe 2." rows="8" style="width:100%;"></textarea>
+&lt;textarea id="Vorwissen" placeholder="Notieren Sie hier Ihre Antwort zu Aufgabe 2." rows="8" style="width:100%;"></textarea>
 
 ---
 
@@ -127,11 +114,11 @@ Nach Ausbruch des Ersten Weltkrieges war die Brauerei außer Betrieb.
 
 Der Geschmack von Tsingtao-Bier hat sich verändert. Wie und wieso? Notieren Sie.
 
-<textarea id="Geschmack" placeholder="Notieren Sie hier Ihre Antwort." rows="4" style="width:100%;"></textarea>
+&lt;textarea id="Geschmack" placeholder="Notieren Sie hier Ihre Antwort." rows="4" style="width:100%;"></textarea>
 
 Welche &bdquo;Spuren der deutschen Kolonialgeschichte&ldquo; werden im Podcast erwähnt? Notieren Sie. 
 
-<textarea id="Spuren" placeholder="Notieren Sie hier Ihre Antwort." rows="4" style="width:100%;"></textarea>
+&lt;textarea id="Spuren" placeholder="Notieren Sie hier Ihre Antwort." rows="4" style="width:100%;"></textarea>
 
 ---
 
@@ -189,17 +176,17 @@ Vergleichen Sie das Beispiel aus dem Podcast mit den folgenden Beispielen aus de
 
 Was bedeutet der Ausdruck *wechselvoll* vermutlich? Notieren Sie.
 
-<textarea id="BedeutungWechselvoll" placeholder="Notieren Sie hier Ihre Antwort." rows="8" style="width:100%;"></textarea>
+&lt;textarea id="BedeutungWechselvoll" placeholder="Notieren Sie hier Ihre Antwort." rows="8" style="width:100%;"></textarea>
 
 Wie wird der Ausdruck *wechselvoll* normalerweise gebraucht? Vergleichen Sie noch einmal alle Beispiele und notieren Sie Gemeinsamkeiten im Gebrauch.
 
-<textarea id="GebrauchWechselvoll" placeholder="Notieren Sie hier Ihre Antwort." rows="8" style="width:100%;"></textarea>
+&lt;textarea id="GebrauchWechselvoll" placeholder="Notieren Sie hier Ihre Antwort." rows="8" style="width:100%;"></textarea>
 
 ---
 
 **Aufgabe 8** Vergleichen Sie den Podcast mit der Postkarte vom Anfang. Die Beziehung zwischen Chinesen und Deutschen werden im Podcast und auf der Postkarte unterschiedlich dargestellt. Diskutieren Sie die Unterschiede.
 
-<textarea id="VergleichPodcastPostkarte" placeholder="Notieren Sie hier Ihre Antwort zu Aufgabe 8." rows="12" style="width:100%;"></textarea>
+&lt;textarea id="VergleichPodcastPostkarte" placeholder="Notieren Sie hier Ihre Antwort zu Aufgabe 8." rows="12" style="width:100%;"></textarea>
 
 --- 
 
