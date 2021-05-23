@@ -28,9 +28,14 @@
 
 ---
 
-**Aufgabe 3** Im Folgenden hören Sie einen Podcast. Vorher sehen Sie sich die Wortwolke mit häufigen Wörtern aus dem Podcast an. Welche Wörter sind Ihnen unbekannt? Schauen Sie ihre Bedeutung im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a>. Wovon handelt der Podcast? Vermuten Sie und notieren Sie Ihre Vermutungen. 
+**Aufgabe 3** Im Folgenden hören Sie einen Podcast. Vorher sehen Sie sich die Wortwolke mit häufigen Wörtern aus dem Podcast an. Welche Wörter sind Ihnen unbekannt? Schauen Sie ihre Bedeutung im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a>.
 
 <img src="./images/Audio-Deutsche-Kolonialzeit-China-Wortwolke.png" style="width:100%;">
+
+Wovon handelt der Podcast? Vermuten Sie und notieren Sie Ihre Vermutungen.
+
+<div contenteditable style="border:1px solid black;width:100%;min-height:100px;"></div>
+
 
 ---
 
