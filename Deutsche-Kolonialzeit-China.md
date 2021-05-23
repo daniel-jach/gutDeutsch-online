@@ -31,7 +31,9 @@
 
 **Aufgabe 1** Zwischen 1898 und 1919 hatte das Deutsche Reich die chinesische Provinz Kiao-Tschau (膠州) &bdquo;gemietet&ldquo;. Sehen Sie sich die deutsche Postkarte aus dem Jahr 1900 an. Wie ist der Deutsche, wie sind die beiden Chinesen hier abgebildet? Wie ist ihre Beziehung dargestellt? Notieren Sie Ihre Antworten hier.
 
+<div>
 <textarea id="Postkarte" placeholder="Notieren Sie hier Ihre Antwort zu Aufgabe 1." rows="8" style="width:100%;"></textarea>
+</div>
 
 **Aufgabe 2** Was wissen Sie schon über die deutsche Kolonialherrschaft in China? Notieren Sie Ihre Antwort hier.
 
