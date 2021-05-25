@@ -177,7 +177,7 @@ Was denkt der Leser? Ergänzen Sie.
 | Akkusativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
 | Dativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
 
-<answer class="answers">
+<answer class="answersTable">
 
 | Singular | (der) | (die) | (das) | 
 | -------- | ----- | ----- | ----- |
@@ -187,19 +187,21 @@ Was denkt der Leser? Ergänzen Sie.
 
 </answer>
 
-<button onclick="showAnswers()">Antworten anzeigen</button>
-
-
 | Plural | (die) | 
 | ------ | ----- | 
 | Nominativ / Akkusativ | <div contenteditable style="border:1px solid black;width:60%min-height:50px;"></div> |
 | Dativ | <div contenteditable style="border:1px solid black;width:60%min-height:50px;"></div> |
+
+<answer class="answersTable">
 
 | Plural | (die) | 
 | ------ | ----- | 
 | Nominativ / Akkusativ | chinesisch**e** Glückskekse |
 | Dativ | chinesisch**en** Süßigkeiten |
 
+</answer>
+
+<button onclick="showAnswersTable()">Antworten anzeigen</button>
 
 ---
 
