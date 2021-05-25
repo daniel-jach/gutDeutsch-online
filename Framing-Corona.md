@@ -116,10 +116,9 @@ Asiatische Frau mit großem Mundschutz<br>
 Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift &bdquo;Gefährliche Lungenseuche&ldquo; und große Überschrift &bdquo;Angst vor Corona&ldquo; oben<br>
 Was denkt der Leser? Ergänzen Sie.
 </p>
-
+<p style="clear: both;"></p>
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
-<p style="clear: both;"></p>
 
 <img src="./images/framing-corona-2.jpg" style="float: left;" width="48%">
 
@@ -129,10 +128,8 @@ Asiatische Menschen bei Feuertopf-Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant<br>
 Was denkt der Leser? Ergänzen Sie. 
 </p>
-
-<div contenteditable style="border:1px solid black;min-height:50px;"></div>
-
 <p style="clear: both;"></p>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 <img src="./images/framing-corona-3.jpg" style="float: left;" width="48%">
 
@@ -142,10 +139,9 @@ Chinesische Glückskekse<br>
 Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Süßigkeiten
 Was denkt der Leser? Ergänzen Sie.
 </p>
-
+<p style="clear: both;"></p>
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
-<p style="clear: both;"></p>
 
 <img src="./images/framing-corona-4.jpg" style="float: left;" width="48%">
 
@@ -155,10 +151,8 @@ Asiatische Person in rotem Umhang und mit großer Schutzbrille und Gasmaske<br>
 Rotes Heft über weltweite Corona-Epidemie und mögliche Folgen für globale Wirtschaft mit &bdquo;Made in China&ldquo; in gelber Schrift und kleinem Untertitel &bdquo;Wenn die Globalisierung zur tödlichen Gefahr wird&ldquo;, grauer Hintergrund steht für dichten Smog 
 Was denkt der Leser? 
 </p>
-
-<div contenteditable style="border:1px solid black;min-height:50px;"></div>
-
 <p style="clear: both;"></p>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 <img src="./images/framing-corona-5.jpg" style="float: left;" width="48%">
 
@@ -168,7 +162,7 @@ Asiatischer Mann neben riesigem Virus<br>
 Bericht über neuartiges Virus zeigt chinesischen Mann und großen Text &bdquo;Angst vor Kölns Chinesen&ldquo;, daneben im Hintergrund buntes Virus<br>
 Was denkt der Leser? Ergänzen Sie.
 </p>
-
+<p style="clear: both;"></p>
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 ---
