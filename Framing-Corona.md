@@ -26,20 +26,9 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-<answer class="answers" style="width:50%;">
-leise -- laut -- Musik -- Instrument -- schön -- allein ... Mozart -- Lied -- Konzert -- lernen -- Noten ...
-</answer>
-
 <img src="./images/piano-move.jpeg"  width="50%"> 
 
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
-
-<answer class="answers" style="width:50%;">
-zusammen -- groß -- schwer -- eckig -- Möbelstück -- zusammen -- ... Holz -- anstrengend ...
-</answer>
-
-<button onclick="showAnswers()">Antworten anzeigen</button>
-
 
 **Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt *Framing*.**
 
@@ -77,47 +66,39 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
 </details>
 
 *Frame* bedeutet... 
-<select id="frame">
-  <option style="display:none;" value=""></option>
-  <option value="richtig">Rahmen</option>
-  <option value="falsch">Fenster</option>
-  <option value="falsch">Bild</option>
-</select>.
 
-<answer class="answersB">Rahmen</answer>
+<input type="checkbox"><label> Rahmen</label><br>
+<input type="checkbox"><label> Fenster</label><br>
+<input type="checkbox"><label> Bild</label>
+
+<answer class="answers">Rahmen</answer>
 
 
 Mit *Framing* ist gemeint, dass...
-<select id="framing">
-  <option style="display:none;" value=""></option>
-  <option value="falsch">Politiker eine besondere Sprache sprechen</option>
-  <option value="falsch">Wörter genau die Wirklichkeit beschreiben</option>
-  <option value="richtig">Wörter das Denken beeinflussen</option>
-</select>.
 
-<answer class="answersB">Wörter das Denken beeinflussen</answer>
+<input type="checkbox"><label> Politiker eine besondere Sprache sprechen</label><br>
+<input type="checkbox"><label> Wörter genau die Wirklichkeit beschreiben</label><br>
+<input type="checkbox"><label> Wörter das Denken beeinflussen</label>
+
+<answer class="answers">Wörter das Denken beeinflussen</answer>
 
 Das Wort *Flüchtlingswelle* beschreibt Flüchtlinge als...
-<select id="welle">
-  <option style="display:none;" value=""></option>
-  <option value="falsch">fremde, aber freundliche Menschen</option>
-  <option value="richtig">bedrohliche Naturkatastrophe</option>
-  <option value="falsch">gute und schnelle Schwimmer</option>
-</select>.
 
-<answer class="answersB">bedrohliche Naturkatastrophe</answer>
+<input type="checkbox"><label> fremde, aber freundliche Menschen</label><br>
+<input type="checkbox"><label> bedrohliche Naturkatastrophe</label><br>
+<input type="checkbox"><label> gute und schnelle Schwimmer</label>
+
+<answer class="answers">bedrohliche Naturkatastrophe</answer>
 
 Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
-<select id="tourismus">
-  <option style="display:none;" value=""></option>
-  <option value="richtig">angenehmem und relaxtem Camping-Urlaub</option>
-  <option value="falsch">wichtigem Schutz für verfolgte Menschen</option>
-  <option value="falsch">anstrengender und schwieriger Reise</option>
-</select>.
 
-<answer class="answersB">angenehmem und relaxtem Camping-Urlaub</answer>
+<input type="checkbox"><label> angenehmem und relaxtem Camping-Urlaub</label>
+<input type="checkbox"><label> wichtigem Schutz für verfolgte Menschen</label>
+<input type="checkbox"><label> anstrengender und schwieriger Reise</label>
 
-<button onclick="showAnswersB()">Antworten anzeigen</button>
+<answer class="answers">angenehmem und relaxtem Camping-Urlaub</answer>
+
+<button onclick="showAnswers()">Antworten anzeigen</button>
 
 ---
 
