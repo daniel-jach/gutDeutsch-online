@@ -22,7 +22,7 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 > zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 
-<img src="./images/piano-play.jpeg" width:"50%" class="center"> 
+<img src="./images/piano-play.jpeg" class="centerImage">
 
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
