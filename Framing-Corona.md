@@ -2,47 +2,6 @@
 lang: de
 ---
 
-<head>
-
-<style>
-
-answer {
-  display: none;
-  color: green;
-}
-
-</style>
-</head>
-
-<script>
-function showAnswersA() {
-  var answers = document.querySelectorAll('.answersA');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersB() {
-  var answers = document.querySelectorAll('.answersB');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersC() {
-  var answers = document.querySelectorAll('.answersC');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersD() {
-  var answers = document.querySelectorAll('.answersD');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-</script>
 
 [Andere Aktivitäten auf *Gut Deutsch
 online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
@@ -375,3 +334,43 @@ Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></tex
 <textarea rows="15" style="width:100%; float:right;"></textarea>
 </p>
 </div>
+
+<style>
+
+answer {
+  display: none;
+  color: green;
+}
+
+</style>
+
+<script>
+function showAnswersA() {
+  var answers = document.querySelectorAll('.answersA');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+
+function showAnswersB() {
+  var answers = document.querySelectorAll('.answersB');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+
+function showAnswersC() {
+  var answers = document.querySelectorAll('.answersC');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+
+function showAnswersD() {
+  var answers = document.querySelectorAll('.answersD');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+</script>
+
