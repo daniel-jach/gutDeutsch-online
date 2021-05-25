@@ -338,9 +338,7 @@ Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></tex
 
 <div id="text"></div>
  
-<script>
-document.getElementById("text").innerHTML = "Text added by JavaScript code";
-</script>
+
 
 
 <style>
