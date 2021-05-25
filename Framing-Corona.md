@@ -37,7 +37,7 @@ zusammen -- groß -- schwer -- eckig -- Möbelstück -- zusammen -- ... Holz -- 
 
 
 
-<button onclick="showAnswersA()">Antworten anzeigen</button>
+<button onclick="showAnswers()">Antworten anzeigen</button>
 
 
 **Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt *Framing*.**
