@@ -169,7 +169,7 @@ Was denkt der Leser? Notieren Sie.
 
 ## Adjektive ohne Artikelwörter
 
-***Lesen Sie die Bildbeschreibungen noch einmal. Suchen Sie alle Adjektiv-Nomen-Kombinationen und ergänzen Sie die Tabelle.***
+**Lesen Sie die Bildbeschreibungen noch einmal. Suchen Sie alle Adjektiv-Nomen-Kombinationen und ergänzen Sie die Tabelle.**
 
 | Singular | (der) | (die) | (das) | 
 | -------- | ----- | ----- | ----- |
