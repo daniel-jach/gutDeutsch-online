@@ -114,69 +114,45 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 Asiatische Frau mit großem Mundschutz<br>
 Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift &bdquo;Gefährliche Lungenseuche&ldquo; und große Überschrift &bdquo;Angst vor Corona&ldquo; oben
 </p>
-<br>
-Was denkt der Leser? 
-
+Was denkt der Leser? Ergänzen Sie.
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-</div>
-
-<img src="./images/framing-corona-2.jpg" width="50%" float="left">
+<img src="./images/framing-corona-2.jpg" width="50%">
 <p style="width:50%; padding:10px;">
 30.01.2020 Bild-Zeitung<br>
 Asiatische Menschen bei Feuertopf-Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant
 </p>
-<br>
 Was denkt der Leser? Ergänzen Sie. 
-
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
-</div>
 
-
-
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-3.jpg" width="45%" float="left">
-<p style="width:45%; padding:10px; float:right;">
+<img src="./images/framing-corona-3.jpg" width="50%">
+<p style="width:45%; padding:10px;">
 30.01.2020 Bild-Zeitung<br>
 Chinesische Glückskekse<br>
 Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Süßigkeiten
 </p>
-<br>
-Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></textarea>
+Was denkt der Leser? Ergänzen Sie.
+<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-<answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass chinesisches Essen und andere Produkte das Corona-Virus übertragen.</answer>
-
-</div>
-
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-4.jpg" width="45%" float="left">
-<p style="width:45%; padding:10px; float:right;">
+<img src="./images/framing-corona-4.jpg" width="50%">
+<p style="width:45%; padding:10px;">
 01.02.2020 Spiegel<br>
 Asiatische Person in rotem Umhang und mit großer Schutzbrille und Gasmaske<br>
 Rotes Heft über weltweite Corona-Epidemie und mögliche Folgen für globale Wirtschaft mit &bdquo;Made in China&ldquo; in gelber Schrift und kleinem Untertitel &bdquo;Wenn die Globalisierung zur tödlichen Gefahr wird&ldquo;, grauer Hintergrund steht für dichten Smog
 </p>
-<br>
-Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></textarea>
+Was denkt der Leser? 
+<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-<answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass Corona ein Problem im Sozialismus ist (rote Farbe), und vielleicht, dass die Chinesen dumm sind, weil sie immer auf's Handy schauen.</answer>
-</div>
-
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-5.jpg" width="45%" float="left">
-<p style="width:45%; padding:10px; float:right;">
+<img src="./images/framing-corona-5.jpg" width="50%">
+<p style="width:45%; padding:10px;">
 02.02.2020 Sonntag Express<br>
 Asiatischer Mann neben riesigem Virus<br>
 Bericht über neuartiges Virus zeigt chinesischen Mann und großen Text &bdquo;Angst vor Kölns Chinesen&ldquo;, daneben im Hintergrund buntes Virus
 </p>
-<br>
-Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></textarea>
+Was denkt der Leser? Ergänzen Sie.
+<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-<answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass Chinesen in Köln und in Deutschland das Corona-Virus haben.</answer>
-
-</div>
-
-<button onclick="showAnswersC()">Antworten anzeigen</button>
 
 ---
 
