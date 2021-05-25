@@ -173,9 +173,9 @@ Was denkt der Leser? Ergänzen Sie.
 
 | Singular | (der) | (die) | (das) | 
 | -------- | ----- | ----- | ----- |
-| Nominativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
-| Akkusativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
-| Dativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
+| Nominativ | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | 
+| Akkusativ | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | 
+| Dativ | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | 
 
 <answer class="answersTable">
 
