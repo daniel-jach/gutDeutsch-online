@@ -14,7 +14,7 @@
 | Sprachhandlung | Über Vergangenheit erzählen | 
 | Textsorte | Radio-Feature |
 
-<img src="./images/Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:100%;">  
+<img src="./images/Bild-Kolonialzeit-Postkarte-Qingdao.jpg" style="width:98%;">  
 
 *Postkarte aus der chinesischen Provinz Kiao-Tschau, Deutsches Reich, 1900.* [Quelle: Lemo](https://www.dhm.de/lemo/bestand/objekt/gruss-aus-kiao-tschau-postkarte-zum-deutsch-chinesischen-konflikt-1900.html)
 
@@ -30,7 +30,7 @@
 
 **Aufgabe 3** Im Folgenden hören Sie einen Podcast. Vorher sehen Sie sich die Wortwolke mit häufigen Wörtern aus dem Podcast an. Welche Wörter sind Ihnen unbekannt? Schauen Sie ihre Bedeutung im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a>.
 
-<img src="./images/Audio-Deutsche-Kolonialzeit-China-Wortwolke.png" style="width:100%;">
+<img src="./images/Audio-Deutsche-Kolonialzeit-China-Wortwolke.png" style="width:98%;">
 
 Wovon handelt der Podcast? Vermuten Sie und notieren Sie Ihre Vermutungen.
 
@@ -51,7 +51,7 @@ Wovon handelt der Podcast? Vermuten Sie und notieren Sie Ihre Vermutungen.
 
 ---
 
-<img src="./images/Bild-Kolonialzeit-Brauerei-Qingdao.jpg" style="width:100%;">
+<img src="./images/Bild-Kolonialzeit-Brauerei-Qingdao.jpg" style="width:98%;">
 
 [Quelle: Bundesarchiv N224/90 (fol. 34)](https://www.bundesarchiv.de/DE/Content/Virtuelle-Ausstellungen/Deutschlands-Adler-Im-Reich-Des-Drachen-Deutschland-Und-China-Im-Zeitalter-Des-Kolonialismus-Teil-5-Gouvernement-Kiautschou/deutschlands-adler-im-reich-des-drachen-deutschland-und-china-im-zeitalter-des-kolonialismus-teil-5-gouvernement-kiautschou.html)
 
