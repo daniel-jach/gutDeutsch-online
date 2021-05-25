@@ -116,24 +116,24 @@ Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten
 </p>
 <br>
 Was denkt der Leser? 
-</div>
 
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
+</div>
 
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-2.jpg" width="45%" float="left">
-<p style="width:45%; padding:10px; float:right;">
+<img src="./images/framing-corona-2.jpg" width="50%" float="left">
+<p style="width:50%; padding:10px;">
 30.01.2020 Bild-Zeitung<br>
 Asiatische Menschen bei Feuertopf-Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant
 </p>
 <br>
-Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;">Der Leser denkt, dass </textarea>
+Was denkt der Leser? Ergänzen Sie. 
 
-<answer class="answersC">(Mögliche Antwort) Der Leser denkt, dass sich die ersten Chinesen beim Essen mit dem Corona-Virus angesteckt haben und dass in China das Essen nicht sauber ist.</answer>
-
+<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 </div>
+
+
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
 <img src="./images/framing-corona-3.jpg" width="45%" float="left">
