@@ -243,3 +243,5 @@ Was denkt der Leser? Notieren Sie.
 </p>
 <div contenteditable style="border:1px solid black;width:48%;min-height:100px;float:right;"></div>
 <p style="clear: both;"></p>
+
+Quelle: Bilder und Texte von [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/)
