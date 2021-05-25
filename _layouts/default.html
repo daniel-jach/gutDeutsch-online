@@ -72,8 +72,10 @@
 
 
 
-<style>
 
+<!-- reveal hidden answers: style and javascript -->
+
+<style>
 answer {
   display: none;
   color: green;
@@ -82,29 +84,8 @@ answer {
 </style>
 
 <script>
-function showAnswersA() {
-  var answers = document.querySelectorAll('.answersA');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersB() {
-  var answers = document.querySelectorAll('.answersB');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersC() {
-  var answers = document.querySelectorAll('.answersC');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersD() {
-  var answers = document.querySelectorAll('.answersD');
+function showAnswers() {
+  var answers = document.querySelectorAll('.answers');
     for (var i = 0; i < answers.length; i++) {
         answers[i].style.display = 'block';
     }
