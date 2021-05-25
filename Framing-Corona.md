@@ -177,11 +177,28 @@ Was denkt der Leser? Ergänzen Sie.
 | Akkusativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
 | Dativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
 
+<answer class="answers">
+
+| Singular | (der) | (die) | (das) | 
+| -------- | ----- | ----- | ----- |
+| Nominativ | asiatisch**er** Mann | asiatisch**e** Frau | bunt**es** Virus | 
+| Akkusativ | chinesisch**en** Mann | asiatisch**e** Familie | neuartig**es** Virus | 
+| Dativ | rund**em** Tisch | gelb**er** Schrift | groß**em** Bild | 
+
+</answer>
+
+<button onclick="showAnswers()">Antworten anzeigen</button>
+
+
 | Plural | (die) | 
 | ------ | ----- | 
 | Nominativ / Akkusativ | <div contenteditable style="border:1px solid black;width:60%min-height:50px;"></div> |
 | Dativ | <div contenteditable style="border:1px solid black;width:60%min-height:50px;"></div> |
 
+| Plural | (die) | 
+| ------ | ----- | 
+| Nominativ / Akkusativ | chinesisch**e** Glückskekse |
+| Dativ | chinesisch**en** Süßigkeiten |
 
 
 ---
