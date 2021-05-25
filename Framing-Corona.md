@@ -213,33 +213,33 @@ Was denkt der Leser? Ergänzen Sie.
 <p style="float: right; width:48%;">
 24.04.2020, Frankfurter Allgemeine Zeitung
 </p>
-<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:100px;float:right;"></div>
 <p style="clear: both;"></p>
 
 <img src="./images/framing-corona-7.jpg" style="float: left;" width="48%">
 <p style="float: right; width:48%;">
 06.04.2020, Bild
 </p>
-<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:100px;float:right;"></div>
 <p style="clear: both;"></p>
 
 <img src="./images/framing-corona-8.jpg" style="float: left;" width="48%">
 <p style="float: right; width:48%;">
 17.04.2020, Tweet Frankfurter Allgemeine Zeitung
 </p>
-<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:100px;float:right;"></div>
 <p style="clear: both;"></p>
 
 <img src="./images/framing-corona-9.jpg" style="float: left;" width="48%">
 <p style="float: right; width:48%;">
 29.04.2020, Cicero
 </p>
-<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:100px;float:right;"></div>
 <p style="clear: both;"></p>
 
 <img src="./images/framing-corona-10.jpg" style="float: left;" width="48%">
 <p style="float: right; width:48%;">
 06.05.2020, Spiegel
 </p>
-<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:100px;float:right;"></div>
 <p style="clear: both;"></p>
