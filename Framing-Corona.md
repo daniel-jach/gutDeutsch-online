@@ -92,8 +92,8 @@ Das Wort *Flüchtlingswelle* beschreibt Flüchtlinge als...
 
 Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 
-<input type="checkbox"><label> angenehmem und relaxtem Camping-Urlaub</label>
-<input type="checkbox"><label> wichtigem Schutz für verfolgte Menschen</label>
+<input type="checkbox"><label> angenehmem und relaxtem Camping-Urlaub</label><br>
+<input type="checkbox"><label> wichtigem Schutz für verfolgte Menschen</label><br>
 <input type="checkbox"><label> anstrengender und schwieriger Reise</label>
 
 <answer class="answers">angenehmem und relaxtem Camping-Urlaub</answer>
@@ -108,16 +108,18 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 
 **Sehen Sie die Bilder an und lesen Sie die Bildbeschreibungen. Ergänzen Sie das beim Leser erzeugte Framing.**
 
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-1.jpg" width="45%" float="left"> 
-<p style="width:45%; float:right;">
+<img src="./images/framing-corona-1.jpg" width="50%"> 
+<p style="width:50%;">
 28.01.2020 Abendzeitung München<br>
 Asiatische Frau mit großem Mundschutz<br>
 Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift &bdquo;Gefährliche Lungenseuche&ldquo; und große Überschrift &bdquo;Angst vor Corona&ldquo; oben
 </p>
 <br>
-Was denkt der Leser? Der Leser denkt, dass asiatische Frauen eine Gefahr für andere Menschen sind. 
+Was denkt der Leser? 
 </div>
+
+<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
+
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
 <img src="./images/framing-corona-2.jpg" width="45%" float="left">
