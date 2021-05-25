@@ -336,8 +336,9 @@ Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></tex
 </div>
 
 
-<div id="text"></div>
- 
+
+
+
 
 
 
@@ -351,33 +352,4 @@ answer {
 </style>
 
 
-<script>
-function showAnswersA() {
-  var answers = document.querySelectorAll('.answersA');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersB() {
-  var answers = document.querySelectorAll('.answersB');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersC() {
-  var answers = document.querySelectorAll('.answersC');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersD() {
-  var answers = document.querySelectorAll('.answersD');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-</script>
 

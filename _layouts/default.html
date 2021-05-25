@@ -69,9 +69,39 @@
     {% endif %}
   </body>
   
+
 <script>
-document.getElementById("text").innerHTML = "Text added by JavaScript code";
+function showAnswersA() {
+  var answers = document.querySelectorAll('.answersA');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+
+function showAnswersB() {
+  var answers = document.querySelectorAll('.answersB');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+
+function showAnswersC() {
+  var answers = document.querySelectorAll('.answersC');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
+
+function showAnswersD() {
+  var answers = document.querySelectorAll('.answersD');
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].style.display = 'block';
+    }
+}
 </script>
+
+
+
   
 </html>
 
