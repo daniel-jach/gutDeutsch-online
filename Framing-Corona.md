@@ -79,15 +79,15 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 </p>
 
-<img src="./images/piano-play.jpeg" width="48%" float="left"> <img src="./images/piano-move.jpeg"  width="48%" float="right"> 
+<img src="./images/piano-play.jpeg" width="45%" float="left"> <img src="./images/piano-move.jpeg"  width="45%" float="right"> 
 
-<textarea rows="5" style="width:48%;" float="left"></textarea> <textarea rows="5" style="width:48%;" float="right"></textarea>
+<textarea rows="5" style="width:45%;" float="left"></textarea> <textarea rows="5" style="width:45%;" float="right"></textarea>
 
-<answer class="answersA" style="width:50%; float:left;">
+<answer class="answersA" style="width:45%; float:left;">
 leise -- laut -- Musik -- Instrument -- schön -- allein ... Mozart -- Lied -- Konzert -- lernen -- Noten ...
 </answer>
 
-<answer class="answersA" style="width:50%; float:right;">
+<answer class="answersA" style="width:45%; float:right;">
 zusammen -- groß -- schwer -- eckig -- Möbelstück -- zusammen -- ... Holz -- anstrengend ...
 </answer>
 
@@ -100,7 +100,7 @@ zusammen -- groß -- schwer -- eckig -- Möbelstück -- zusammen -- ... Holz -- 
 
 ## Was bedeutet Framing?
 
-**Dieses Video erklärt den Begriff *Framing*. Bevor Sie das Video ansehen, lesen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutung der Wörtern *Flüchtling, Welle, Naturkatastrophe, Gefahr, Asyl* und *Tourismus* nach.**
+**Dieses Video erklärt den Begriff *Framing*. Bevor Sie das Video ansehen, lesen Sie im <a href="https://www.dwds.de/" target="_blank">Digitalen Wörterbuch der deutschen Sprache</a> die Bedeutungen der Wörter *Flüchtling, Welle, Naturkatastrophe, Gefahr, Asyl* und *Tourismus* nach.**
 
 **Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.**
 
@@ -137,7 +137,7 @@ Politiker setzen Framing allerdings sehr gezielt ein, um die Meinung der Mensche
   <option value="falsch">Bild</option>
 </select>.
 
-<answer class="answersB">Rahmen.</answer>
+<answer class="answersB">Rahmen</answer>
 
 
 Mit *Framing* ist gemeint, dass...
@@ -148,7 +148,7 @@ Mit *Framing* ist gemeint, dass...
   <option value="richtig">Wörter das Denken beeinflussen</option>
 </select>.
 
-<answer class="answersB">Wörter das Denken beeinflussen.</answer>
+<answer class="answersB">Wörter das Denken beeinflussen</answer>
 
 Das Wort *Flüchtlingswelle* beschreibt Flüchtlinge als...
 <select id="welle">
@@ -158,7 +158,7 @@ Das Wort *Flüchtlingswelle* beschreibt Flüchtlinge als...
   <option value="falsch">gute und schnelle Schwimmer</option>
 </select>.
 
-<answer class="answersB">bedrohliche Naturkatastrophe.</answer>
+<answer class="answersB">bedrohliche Naturkatastrophe</answer>
 
 Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 <select id="tourismus">
@@ -168,7 +168,7 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
   <option value="falsch">anstrengender und schwieriger Reise</option>
 </select>.
 
-<answer class="answersB">angenehmem und relaxtem Camping-Urlaub.</answer>
+<answer class="answersB">angenehmem und relaxtem Camping-Urlaub</answer>
 
 <button onclick="showAnswersB()">Antworten anzeigen</button>
 
