@@ -22,11 +22,11 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 > zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 
-<img src="./images/piano-play.jpeg" width="50%"> 
+<img src="./images/piano-play.jpeg"> 
 
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-<img src="./images/piano-move.jpeg"  width="50%"> 
+<img src="./images/piano-move.jpeg"> 
 
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
@@ -41,7 +41,7 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 **Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.**
 
 <div>
-<video width="66%" controls>
+<video controls>
 <source src="./videos/Video-Framing.webm" type="video/webm">
 Das Video funktioniert in Ihrem Browser nicht.
 </video> 
@@ -108,51 +108,50 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 
 **Sehen Sie die Bilder an und lesen Sie die Bildbeschreibungen. Ergänzen Sie das beim Leser erzeugte Framing.**
 
-<img src="./images/framing-corona-1.jpg" width="50%"> 
-<p style="width:50%;">
+<img src="./images/framing-corona-1.jpg"> 
+
 28.01.2020 Abendzeitung München<br>
 Asiatische Frau mit großem Mundschutz<br>
 Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift &bdquo;Gefährliche Lungenseuche&ldquo; und große Überschrift &bdquo;Angst vor Corona&ldquo; oben
-</p>
+
 Was denkt der Leser? Ergänzen Sie.
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-<img src="./images/framing-corona-2.jpg" width="50%">
-<p style="width:50%; padding:10px;">
+<img src="./images/framing-corona-2.jpg">
+
 30.01.2020 Bild-Zeitung<br>
 Asiatische Menschen bei Feuertopf-Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant
-</p>
+
 Was denkt der Leser? Ergänzen Sie. 
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-<img src="./images/framing-corona-3.jpg" width="50%">
-<p style="width:45%; padding:10px;">
+<img src="./images/framing-corona-3.jpg">
+
 30.01.2020 Bild-Zeitung<br>
 Chinesische Glückskekse<br>
 Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Süßigkeiten
-</p>
+
 Was denkt der Leser? Ergänzen Sie.
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-<img src="./images/framing-corona-4.jpg" width="50%">
-<p style="width:45%; padding:10px;">
+<img src="./images/framing-corona-4.jpg">
+
 01.02.2020 Spiegel<br>
 Asiatische Person in rotem Umhang und mit großer Schutzbrille und Gasmaske<br>
 Rotes Heft über weltweite Corona-Epidemie und mögliche Folgen für globale Wirtschaft mit &bdquo;Made in China&ldquo; in gelber Schrift und kleinem Untertitel &bdquo;Wenn die Globalisierung zur tödlichen Gefahr wird&ldquo;, grauer Hintergrund steht für dichten Smog
-</p>
+
 Was denkt der Leser? 
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
 
-<img src="./images/framing-corona-5.jpg" width="50%">
-<p style="width:45%; padding:10px;">
+<img src="./images/framing-corona-5.jpg">
+
 02.02.2020 Sonntag Express<br>
 Asiatischer Mann neben riesigem Virus<br>
 Bericht über neuartiges Virus zeigt chinesischen Mann und großen Text &bdquo;Angst vor Kölns Chinesen&ldquo;, daneben im Hintergrund buntes Virus
-</p>
+
 Was denkt der Leser? Ergänzen Sie.
 <div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
-
 
 ---
 
@@ -244,7 +243,7 @@ Was denkt der Leser? Ergänzen Sie.
 
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-6.jpg" width="45%" float="left">
+<img src="./images/framing-corona-6.jpg" float="left">
 <p style="width:45%; padding:10px; float:right;">
 24.04.2020, Frankfurter Allgemeine Zeitung<br>
 <textarea rows="15" style="width:100%; float:right;"></textarea>
@@ -252,7 +251,7 @@ Was denkt der Leser? Ergänzen Sie.
 </div>
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-7.jpg" width="45%" float="left">
+<img src="./images/framing-corona-7.jpg" float="left">
 <p style="width:45%; padding:10px; float:right;">
 06.04.2020, Bild<br>
 <textarea rows="15" style="width:100%; float:right;"></textarea>
@@ -260,7 +259,7 @@ Was denkt der Leser? Ergänzen Sie.
 </div>
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-8.jpg" width="45%" float="left">
+<img src="./images/framing-corona-8.jpg" float="left">
 <p style="width:45%; padding:10px; float:right;">
 17.04.2020, Tweet Frankfurter Allgemeine Zeitung<br>
 <textarea rows="15" style="width:100%; float:right;"></textarea>
@@ -268,14 +267,14 @@ Was denkt der Leser? Ergänzen Sie.
 </div>
 
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-9.jpg" width="45%" float="left">
+<img src="./images/framing-corona-9.jpg" float="left">
 <p style="width:45%; padding:10px; float:right;">
 29.04.2020, Cicero<br>
 <textarea rows="15" style="width:100%; float:right;"></textarea>
 </p>
 </div>
 <div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-10.jpg" width="45%" float="left">
+<img src="./images/framing-corona-10.jpg" float="left">
 <p style="width:45%; padding:10px; float:right;">
 06.05.2020, Spiegel<br>
 <textarea rows="15" style="width:100%; float:right;"></textarea>
