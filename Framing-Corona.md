@@ -207,56 +207,39 @@ Was denkt der Leser? Ergänzen Sie.
 
 ## Mehr Bilder, mehr Framing -- Beschreiben Sie!
 
-***Beschreiben Sie die folgenden Bilder und Texte von [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) und ihr Framing.***
+**Beschreiben Sie die folgenden Bilder und Texte von [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) und ihr Framing.**
 
-
-
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-6.jpg" float="left">
-<p style="width:45%; padding:10px; float:right;">
-24.04.2020, Frankfurter Allgemeine Zeitung<br>
-<textarea rows="15" style="width:100%; float:right;"></textarea>
+<img src="./images/framing-corona-6.jpg" style="float: left;" width="48%">
+<p style="float: right; width:48%;">
+24.04.2020, Frankfurter Allgemeine Zeitung
 </p>
-</div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<p style="clear: both;"></p>
 
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-7.jpg" float="left">
-<p style="width:45%; padding:10px; float:right;">
-06.04.2020, Bild<br>
-<textarea rows="15" style="width:100%; float:right;"></textarea>
+<img src="./images/framing-corona-7.jpg" style="float: left;" width="48%">
+<p style="float: right; width:48%;">
+06.04.2020, Bild
 </p>
-</div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<p style="clear: both;"></p>
 
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-8.jpg" float="left">
-<p style="width:45%; padding:10px; float:right;">
-17.04.2020, Tweet Frankfurter Allgemeine Zeitung<br>
-<textarea rows="15" style="width:100%; float:right;"></textarea>
+<img src="./images/framing-corona-8.jpg" style="float: left;" width="48%">
+<p style="float: right; width:48%;">
+17.04.2020, Tweet Frankfurter Allgemeine Zeitung
 </p>
-</div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<p style="clear: both;"></p>
 
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-9.jpg" float="left">
-<p style="width:45%; padding:10px; float:right;">
-29.04.2020, Cicero<br>
-<textarea rows="15" style="width:100%; float:right;"></textarea>
+<img src="./images/framing-corona-9.jpg" style="float: left;" width="48%">
+<p style="float: right; width:48%;">
+29.04.2020, Cicero
 </p>
-</div>
-<div style="width: 100%; display: inline-block; border: 5px solid lightblue; padding-inline:10px; margin-bottom:10px;">
-<img src="./images/framing-corona-10.jpg" float="left">
-<p style="width:45%; padding:10px; float:right;">
-06.05.2020, Spiegel<br>
-<textarea rows="15" style="width:100%; float:right;"></textarea>
+<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<p style="clear: both;"></p>
+
+<img src="./images/framing-corona-10.jpg" style="float: left;" width="48%">
+<p style="float: right; width:48%;">
+06.05.2020, Spiegel
 </p>
-</div>
-
-
-
-
-
-
-
-
-
-
-
+<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
+<p style="clear: both;"></p>
