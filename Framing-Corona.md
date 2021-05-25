@@ -169,11 +169,11 @@ Was denkt der Leser? Ergänzen Sie.
 
 ## Adjektive ohne Artikelwörter
 
-***Lesen Sie die Bildbeschreibungen noch einmal. Suchen Sie alle Adjektive ohne Artikelwort und ergänzen Sie die Tabelle.***
+***Lesen Sie die Bildbeschreibungen noch einmal. Suchen Sie alle Adjektiv-Nomen-Kombinationen und ergänzen Sie die Tabelle.***
 
 | Singular | (der) | (die) | (das) | 
 | -------- | ----- | ----- | ----- |
-| Nominativ | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | 
+| Nominativ | *asiatischer Mann* | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | 
 | Akkusativ | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | 
 | Dativ | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:25%min-height:50px;"></div> | 
 
