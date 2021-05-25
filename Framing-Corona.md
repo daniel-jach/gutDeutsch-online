@@ -22,13 +22,13 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 > zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 
-<img style="float: right;" src="./images/piano-play.jpeg" width="45%">
-<img style="float: left;" src="./images/piano-move.jpeg" width="45%">
+<img style="float: right;" src="./images/piano-play.jpeg" width="48%">
+<img style="float: left;" src="./images/piano-move.jpeg" width="48%">
 
-<div contenteditable style="border:1px solid black;width:45%;min-height:50px;float:left;"></div>
-<div contenteditable style="border:1px solid black;width:45%;min-height:50px;float:right;"></div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:left;"></div>
+<div contenteditable style="border:1px solid black;width:48%;min-height:50px;float:right;"></div>
 
-<br>
+<p style="clear: both;"></p>
 
 **Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt *Framing*.**
 
@@ -41,7 +41,7 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 **Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.**
 
 <div>
-<video style="width:50%;" controls>
+<video style="width:98%;" controls>
 <source src="./videos/Video-Framing.webm" type="video/webm">
 Das Video funktioniert in Ihrem Browser nicht.
 </video> 
@@ -108,23 +108,31 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 
 **Sehen Sie die Bilder an und lesen Sie die Bildbeschreibungen. Ergänzen Sie das beim Leser erzeugte Framing.**
 
-<img src="./images/framing-corona-1.jpg"> 
+<img src="./images/framing-corona-1.jpg" style="float: left;" width="48%"> 
 
+<p style="float: right; width:48%;">
 28.01.2020 Abendzeitung München<br>
 Asiatische Frau mit großem Mundschutz<br>
 Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift &bdquo;Gefährliche Lungenseuche&ldquo; und große Überschrift &bdquo;Angst vor Corona&ldquo; oben
 
 Was denkt der Leser? Ergänzen Sie.
-<div contenteditable style="border:1px solid black;min-height:50px;"></div>
+</p>
 
-<img src="./images/framing-corona-2.jpg">
+<div contenteditable style="border:1px solid black;min-height:50px;width:48%;float:right;"></div>
 
+
+<p style="clear: both;"></p>
+
+<img src="./images/framing-corona-2.jpg" style="float: left;" width="48%">
+
+<p style="float: right; width:48%; clear:both;">
 30.01.2020 Bild-Zeitung<br>
 Asiatische Menschen bei Feuertopf-Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant
 
 Was denkt der Leser? Ergänzen Sie. 
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
+</p>
 
 <img src="./images/framing-corona-3.jpg">
 
