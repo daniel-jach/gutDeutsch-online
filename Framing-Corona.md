@@ -22,15 +22,13 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 > zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 
-<p align="center" width:"50%">
-<img src="./images/piano-play.jpeg">
+<img style="float: right;" src="./images/piano-play.jpeg" width="45%">
+<img style="float: left;" src="./images/piano-move.jpeg" width="45%">
 
-<div contenteditable style="border:1px solid black;min-height:50px;"></div>
+<div contenteditable style="border:1px solid black;width:45%;min-height:50px;float:left;"></div>
+<div contenteditable style="border:1px solid black;width:45%;min-height:50px;float:right;"></div>
 
-<img src="./images/piano-move.jpeg"> 
-
-<div contenteditable style="border:1px solid black;min-height:50px;"></div>
-</p>
+<br>
 
 **Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt *Framing*.**
 
