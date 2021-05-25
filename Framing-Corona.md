@@ -24,11 +24,11 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 <img src="./images/piano-play.jpeg"> 
 
-<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 <img src="./images/piano-move.jpeg"> 
 
-<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 **Sie können dieselbe Sache (z.B. ein Klavier) unterschiedlich beschreiben. Umgekehrt können unterschiedliche Beschreibungen bestimmte Bilder im Kopf erzeugen. Zum Beispiel: Ich sage, dass ein Klavier schwer ist. Jetzt denken Sie an das zweite Bild. Oder ich sage, dass ein Klavier ein schönes Instrument ist. Jetzt denken Sie an das erste Bild. Die Worte beeinflussen das Denken. Das heißt *Framing*.**
 
@@ -115,7 +115,7 @@ Asiatische Frau mit großem Mundschutz<br>
 Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift &bdquo;Gefährliche Lungenseuche&ldquo; und große Überschrift &bdquo;Angst vor Corona&ldquo; oben
 
 Was denkt der Leser? Ergänzen Sie.
-<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 <img src="./images/framing-corona-2.jpg">
 
@@ -124,7 +124,7 @@ Asiatische Menschen bei Feuertopf-Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant
 
 Was denkt der Leser? Ergänzen Sie. 
-<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 <img src="./images/framing-corona-3.jpg">
 
@@ -133,7 +133,7 @@ Chinesische Glückskekse<br>
 Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Süßigkeiten
 
 Was denkt der Leser? Ergänzen Sie.
-<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 <img src="./images/framing-corona-4.jpg">
 
@@ -142,7 +142,7 @@ Asiatische Person in rotem Umhang und mit großer Schutzbrille und Gasmaske<br>
 Rotes Heft über weltweite Corona-Epidemie und mögliche Folgen für globale Wirtschaft mit &bdquo;Made in China&ldquo; in gelber Schrift und kleinem Untertitel &bdquo;Wenn die Globalisierung zur tödlichen Gefahr wird&ldquo;, grauer Hintergrund steht für dichten Smog
 
 Was denkt der Leser? 
-<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 <img src="./images/framing-corona-5.jpg">
 
@@ -151,7 +151,7 @@ Asiatischer Mann neben riesigem Virus<br>
 Bericht über neuartiges Virus zeigt chinesischen Mann und großen Text &bdquo;Angst vor Kölns Chinesen&ldquo;, daneben im Hintergrund buntes Virus
 
 Was denkt der Leser? Ergänzen Sie.
-<div contenteditable style="border:1px solid black;width:50%;min-height:50px;"></div>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 ---
 
@@ -159,80 +159,18 @@ Was denkt der Leser? Ergänzen Sie.
 
 ***Lesen Sie die Bildbeschreibungen noch einmal. Suchen Sie alle Adjektive ohne Artikelwort und ergänzen Sie die Tabelle.***
 
-<table>
-  <tbody>
-  <tr><td style="vertical-align:top;">Singular</td><td style="vertical-align:top;">(der)</td><td style="vertical-align:top;">(die)</td><td style="vertical-align:top;">(das)</td></tr>
-  <tr>
-    <td style="vertical-align:top;">Nominativ</td>
-      <td style="vertical-align:top;">
-        asiatisch-<textarea rows="1" style="width:20%;"></textarea> Mann<br>
-        <answer class="answersD">-er</answer>
-      </td>
-      <td>
-        asiatisch-<textarea rows="1" style="width:20%;"></textarea> Frau<br>
-        <answer class="answersD">-e</answer>
-      </td>
-      <td>
-        bunt-<textarea rows="1" style="width:20%;"></textarea> Virus<br>
-        <answer class="answersD">-es</answer>
-      </td>
-    </tr>
-    <tr>
-    <td style="vertical-align:top;">Akkusativ</td>
-    <td>
-      chinesisch-<textarea rows="1" style="width:20%;"></textarea> Mann<br>
-      <answer class="answersD">-en</answer>
-    </td>
-    <td>
-     asiatisch-<textarea rows="1" style="width:20%;"></textarea> Familie<br>
-     <answer class="answersD">-e</answer>
-    </td>
-    <td>
-      neuartig-<textarea rows="1" style="width:20%;"></textarea> Virus<br>
-      <answer class="answersD">-es</answer>
-    </td>
-    </tr>  
-    <tr>
-    <td style="vertical-align:top;">Dativ</td>
-    <td>
-      rund-<textarea rows="1" style="width:20%;"></textarea> Tisch<br>
-      <answer class="answersD">-em</answer>
-    </td>
-    <td>
-      gelb-<textarea rows="1" style="width:20%;"></textarea> Schrift<br>
-      <answer class="answersD">-er</answer>
-    </td>
-    <td>
-      groß-<textarea rows="1" style="width:20%;"></textarea> Bild<br>
-      <answer class="answersD">-em</answer>
-    </td>
-    </tr>
-  </tbody>
-</table>
+| Singular | (der) | (die) | (das) | 
+| -------- | ----- | ----- | ----- |
+| Nominativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
+| Akkusativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
+| Dativ | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | <div contenteditable style="border:1px solid black;width:30%min-height:50px;"></div> | 
 
-<table>
-  <tbody>
-    <tr>
-      <td style="vertical-align:top;">Plural</td><td style="vertical-align:top;">(die)</td>
-    </tr>
-    <tr>
-      <td style="vertical-align:top;">Nominativ/<br>Akkusativ</td>
-      <td>
-      chinesisch-<textarea rows="1" style="width:20%;"></textarea> Glückskekse<br>
-      <answer class="answersD">-e</answer>
-      </td>
-    </tr>
-    <tr>
-    <td style="vertical-align:top;">Dativ</td>
-      <td>
-      chinesisch-<textarea rows="1" style="width:20%;"></textarea> Süßigkeiten<br>
-      <answer class="answersD">-en</answer>
-      </td>
-    </tr>  
-  </tbody>
-</table>
+| Plural | (die) | 
+| ------ | ----- | 
+| Nominativ / Akkusativ | <div contenteditable style="border:1px solid black;width:60%min-height:50px;"></div> |
+| Dativ | <div contenteditable style="border:1px solid black;width:60%min-height:50px;"></div> |
 
-<button onclick="showAnswersD()">Antworten anzeigen</button>
+
 
 ---
 
