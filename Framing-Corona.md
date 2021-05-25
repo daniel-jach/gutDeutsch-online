@@ -118,10 +118,10 @@ Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten
 Was denkt der Leser? Ergänzen Sie.
 </p>
 
-<div contenteditable style="border:1px solid black;min-height:50px;width:48%;float:right;"></div>
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 
-<p style="clear: both;"></p>
+
 
 <img src="./images/framing-corona-2.jpg" style="float: left;" width="48%">
 
