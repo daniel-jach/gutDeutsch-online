@@ -22,7 +22,7 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 > zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 
-<img src="./images/piano-play.jpeg"> 
+<img src="./images/piano-play.jpeg" width:"50%" class="center"> 
 
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
@@ -41,7 +41,7 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 **Sehen Sie jetzt das Video an und machen Sie danach die Aufgaben. Wenn Sie Schwierigkeiten haben, lesen Sie im Video-Text nach.**
 
 <div>
-<video controls>
+<video style="width:50%;" controls>
 <source src="./videos/Video-Framing.webm" type="video/webm">
 Das Video funktioniert in Ihrem Browser nicht.
 </video> 
