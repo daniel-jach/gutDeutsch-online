@@ -1,7 +1,5 @@
 ---
-lang: de
 ---
-
 
 [Andere Aktivitäten auf *Gut Deutsch
 online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
@@ -342,14 +340,6 @@ Was denkt der Leser? Ergänzen Sie. <textarea rows="2" style="width:100%;"></tex
 
 
 
-<style>
-
-answer {
-  display: none;
-  color: green;
-}
-
-</style>
 
 
 
