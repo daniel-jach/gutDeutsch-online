@@ -120,27 +120,29 @@ Was denkt der Leser? Ergänzen Sie.
 
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
-
-
-
 <img src="./images/framing-corona-2.jpg" style="float: left;" width="48%">
 
-<p style="float: right; width:48%; clear:both;">
+<p style="float: right; width:48%;">
 30.01.2020 Bild-Zeitung<br>
 Asiatische Menschen bei Feuertopf-Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant
 
 Was denkt der Leser? Ergänzen Sie. 
-<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 </p>
 
-<img src="./images/framing-corona-3.jpg">
+<div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
+
+<img src="./images/framing-corona-3.jpg" style="float: left;" width="48%">
+
+<p style="float: right; width:48%;">
 30.01.2020 Bild-Zeitung<br>
 Chinesische Glückskekse<br>
 Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Süßigkeiten
 
 Was denkt der Leser? Ergänzen Sie.
+</p>
+
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
 
 <img src="./images/framing-corona-4.jpg">
