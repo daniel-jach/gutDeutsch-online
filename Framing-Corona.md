@@ -106,7 +106,7 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 
 **In der Corona-Zeit im Jahr 2020 haben Medien und Politik die Chinesen und China oft in einem Corona-Rahmen beschrieben. Zum Beispiel hat der US-amerikanische Präsident Donald Trump gesagt, dass das Corona-Virus das "China-Virus" ist. Die Internetseite [www.korientation.de](https://www.korientation.de/corona-rassismus-medien/) hat von Januar bis Mai 2020 deutschsprachige Zeitungen und Internetseiten durchsucht, Bilder gesammelt und Notizen gemacht.**
 
-**Sehen Sie die Bilder an und lesen Sie die Bildbeschreibungen. Ergänzen Sie das beim Leser erzeugte Framing.**
+**Sehen Sie die Bilder an und lesen Sie die Bildbeschreibungen. Notieren Sie das beim Leser erzeugte Framing.**
 
 <img src="./images/framing-corona-1.jpg" style="float: left;" width="48%"> 
 
@@ -114,7 +114,7 @@ Das Wort *Asyltourismus* erzeugt das Bild von Asyl als...
 28.01.2020 Abendzeitung München<br>
 Asiatische Frau mit großem Mundschutz<br>
 Bericht über gefährliche Krankheit mit großem Bild von asiatischer Frau unten, kleine Überschrift &bdquo;Gefährliche Lungenseuche&ldquo; und große Überschrift &bdquo;Angst vor Corona&ldquo; oben<br>
-Was denkt der Leser? Ergänzen Sie.
+Was denkt der Leser? Notieren Sie.
 </p>
 <p style="clear: both;"></p>
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
@@ -126,7 +126,7 @@ Was denkt der Leser? Ergänzen Sie.
 30.01.2020 Bild-Zeitung<br>
 Asiatische Menschen bei Feuertopf-Essen<br>
 Bericht über schnelle Ausbreitung von Corona in Deutschland, Bild zeigt asiatische Familie bei gemeinsamem Essen an rundem Tisch in traditionellem Restaurant<br>
-Was denkt der Leser? Ergänzen Sie. 
+Was denkt der Leser? Notieren Sie.
 </p>
 <p style="clear: both;"></p>
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
@@ -137,7 +137,7 @@ Was denkt der Leser? Ergänzen Sie.
 30.01.2020 Bild-Zeitung<br>
 Chinesische Glückskekse<br>
 Bericht über neues Corona-Virus im Zusammenhang mit asiatischen Lebensmitteln, Bild von chinesischen Süßigkeiten
-Was denkt der Leser? Ergänzen Sie.
+Was denkt der Leser? Notieren Sie.
 </p>
 <p style="clear: both;"></p>
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
@@ -149,7 +149,7 @@ Was denkt der Leser? Ergänzen Sie.
 01.02.2020 Spiegel<br>
 Asiatische Person in rotem Umhang und mit großer Schutzbrille und Gasmaske<br>
 Rotes Heft über weltweite Corona-Epidemie und mögliche Folgen für globale Wirtschaft mit &bdquo;Made in China&ldquo; in gelber Schrift und kleinem Untertitel &bdquo;Wenn die Globalisierung zur tödlichen Gefahr wird&ldquo;, grauer Hintergrund steht für dichten Smog 
-Was denkt der Leser? 
+Was denkt der Leser?  Notieren Sie.
 </p>
 <p style="clear: both;"></p>
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
@@ -160,7 +160,7 @@ Was denkt der Leser?
 02.02.2020 Sonntag Express<br>
 Asiatischer Mann neben riesigem Virus<br>
 Bericht über neuartiges Virus zeigt chinesischen Mann und großen Text &bdquo;Angst vor Kölns Chinesen&ldquo;, daneben im Hintergrund buntes Virus<br>
-Was denkt der Leser? Ergänzen Sie.
+Was denkt der Leser? Notieren Sie.
 </p>
 <p style="clear: both;"></p>
 <div contenteditable style="border:1px solid black;min-height:50px;"></div>
