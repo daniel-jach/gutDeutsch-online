@@ -6,47 +6,36 @@ online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 # Framing und Corona
 
-<table>
-<tbody>
-<tr>
-<td><b>Niveau</b> </td><td>A2</td>
-</tr>
-<tr>
-<td><b>Dauer</b> </td><td>90 Minuten</td>
-</tr>
-<tr>
-<td><b>Fähigkeiten<b/> </td><td>Lesen, Schreiben</td>
-</tr>
-<tr>
-<td><b>Sprachhandlung</b> </td><td>beschreiben, Aussagen machen</td>
-</tr>
-<tr>
-<td><b>Grammatik</b> </td><td>Adjektive ohne Artikelwörter, <i>dass<i>-Sätze</td>
-</tr>
-</tbody>
-</table>
+|     |     |
+| --- | --- |
+| Niveau | B1 |
+| Dauer | 90 Minuten |
+| Fähigkeiten | Lesen, Schreiben |
+| Sprachhandlung | Beschreiben, Meinung äußern | 
+| Grammatik | Adjektive ohne Artikelwörter |
 
 ---
 
 ## Bilder und Wörter
 
-***Sehen Sie die zwei Bilder an. Was fällt Ihnen ein? Ordnen Sie zu und ergänzen Sie in den Kästen.***
+**Sehen Sie die zwei Bilder an. Was fällt Ihnen ein? Ordnen Sie zu und ergänzen Sie in den Kästen.**
 
-<p style="border: 1px solid lightblue;  background: lightblue;  padding: 4px; width:100%;">
-zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
-</p>
+> zusammen -- leise -- groß -- laut -- Musik -- schwer -- Instrument -- schön -- eckig -- Möbelstück -- allein -- ...
 
-<img src="./images/piano-play.jpeg" width="45%" float="left"> <img src="./images/piano-move.jpeg"  width="45%" float="right"> 
-
-<textarea rows="5" style="width:45%;" float="left"></textarea> <textarea rows="5" style="width:45%;" float="right"></textarea>
-
-<answer class="answersA" style="width:45%; float:left;">
+<img src="./images/piano-play.jpeg" width="50%"> 
+<div contenteditable style="border:1px solid black;width:50%;min-height:50px;" float="left"></div>
+<answer class="answers" style="width:45%; float:left;">
 leise -- laut -- Musik -- Instrument -- schön -- allein ... Mozart -- Lied -- Konzert -- lernen -- Noten ...
 </answer>
 
-<answer class="answersA" style="width:45%; float:right;">
+<img src="./images/piano-move.jpeg"  width="50%"> 
+<div contenteditable style="border:1px solid black;width:50%;min-height:50px;" float="right"></div>
+<answer class="answers" style="width:45%; float:right;">
 zusammen -- groß -- schwer -- eckig -- Möbelstück -- zusammen -- ... Holz -- anstrengend ...
 </answer>
+
+
+
 
 <button onclick="showAnswersA()">Antworten anzeigen</button>
 
