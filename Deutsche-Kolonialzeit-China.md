@@ -39,7 +39,6 @@ Wovon handelt der Podcast? Vermuten Sie und notieren Sie Ihre Vermutungen.
 
 ---
 
-
 **Aufgabe 4** Hören Sie jetzt den Podcast. Hören Sie den Podcast erst einmal von Anfang bis Ende. Waren Ihre Vermutungen richtig?
 
 ### Es blieben Architektur und Bier
