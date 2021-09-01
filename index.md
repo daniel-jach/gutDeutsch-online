@@ -9,3 +9,5 @@ Folgende Aktivitäten sind im Moment online:
 - [Deutsche Kolonialzeit in China](https://daniel-jach.github.io/gutDeutsch-online/Deutsche-Kolonialzeit-China.html)
 
 - [Chinesen im Corona-Frame](https://daniel-jach.github.io/gutDeutsch-online/Framing-Corona.html)
+
+- [Chinas Führer zu Besuc him Ausland](https://daniel-jach.github.io/gutDeutsch-online/infographic-china-foreign-visits.html)
