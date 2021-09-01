@@ -29,3 +29,9 @@ Die Infografik basiert auf frei verfügbaren Daten des Central European Institut
 
 
 *R. Turcsányi, M. Eckert, M. Šimalčík, N. Majsniarová (2021). 'WHO | WHERE | WHEN - International travel of the PRC leaders (1949-2020).' Dataset. Central European Institute of Asian Studies (CEIAS). [https://who-where-when.ceias.eu/](https://who-where-when.ceias.eu/)
+
+Erstellt mit *R* und dem *ggplot2*-Paket. 
+
+H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.
+
+R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. [https://www.R-project.org/](https://www.R-project.org/).
