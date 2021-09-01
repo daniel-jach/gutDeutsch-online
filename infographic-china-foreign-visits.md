@@ -25,6 +25,21 @@ Die Infografik *Chinas Führer zu Besuch im Ausland* ist gedacht als Materialgru
 
 ---
 
+Einzelne Grafiken zum Download
+
+|Grafik|Link|
+|------|----|
+|Liniengrafik|[Download](./infographic-china/p1.pdf)|
+|Tortengrafik 1944-1966|[Download](./infographic-china/pie1.pdf)|
+|Tortengrafik 1967-1989|[Download](./infographic-china/pie2.pdf)|
+|Tortengrafik 1990-2020|[Download](./infographic-china/pie3.pdf)|
+|Legende Kontinente|[Download](./infographic-china/pieLegend.pdf)|
+|Balkengrafik Kontinente|[Download](./infographic-china/bar.pdf)|
+|Balkengrafik Länder vor 1989|[Download](./infographic-china/rank1.pdf)|
+|Balkengrafik Länder nach 1989|[Download](./infographic-china/rank2.pdf)|
+
+---
+
 Die Infografik basiert auf frei verfügbaren Daten des Central European Institute of Asian Studies* und ist unter der Creative Commons-Lizenz für den Unterricht nutzbar.
 
 
