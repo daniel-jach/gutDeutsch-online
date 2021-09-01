@@ -10,4 +10,4 @@ Folgende Aktivitäten sind im Moment online:
 
 - [Chinesen im Corona-Frame](https://daniel-jach.github.io/gutDeutsch-online/Framing-Corona.html)
 
-- [Chinas Führer zu Besuc him Ausland](https://daniel-jach.github.io/gutDeutsch-online/infographic-china-foreign-visits.html)
+- [Chinas Führer zu Besuch im Ausland](https://daniel-jach.github.io/gutDeutsch-online/infographic-china-foreign-visits.html)
