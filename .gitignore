@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+.Gemfile
+.Gemfile.lock
+.Grafikbeschreibung.Rmd
+._site/
+.temporary_material.Rmd
