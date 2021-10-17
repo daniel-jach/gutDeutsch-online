@@ -1,7 +1,3 @@
----
----
-
-
 [Andere Aktivitäten auf *Gut Deutsch online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
 # Deutsche Kolonialzeit in China
