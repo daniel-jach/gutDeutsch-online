@@ -1,8 +1,6 @@
 ---
 ---
 
-<script src="{{ base.url | prepend: site.url }}/assets/js/showAnswers.js"></script>
-
 [Andere Aktivitäten auf *Gut Deutsch
 online*](https://daniel-jach.github.io/gutDeutsch-online/index.html)
 
