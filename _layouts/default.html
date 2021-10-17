@@ -71,35 +71,7 @@
   
 
 
-
-
-<style>
-
-answer {
-  display: none;
-  color: green;
-}
-
-</style>
-
-<script>
-function showAnswers() {
-  var answers = document.querySelectorAll('.answers');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-function showAnswersTable() {
-  var answers = document.querySelectorAll('.answersTable');
-    for (var i = 0; i < answers.length; i++) {
-        answers[i].style.display = 'block';
-    }
-}
-
-</script>
-
-
+...<script src="{{ base.url | prepend: site.url }}/assets/js/showAnswers.js"></script>...
 
   
 </html>
