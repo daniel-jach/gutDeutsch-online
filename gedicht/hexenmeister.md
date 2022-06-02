@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/gedicht.css">
+<link rel="stylesheet" type="text/css" href="./gedicht.css">
 </head>
 </html>
 
@@ -9,7 +9,7 @@
 ### Yangguang und Daniel (2022)
 
 <div>
-<audio controls id="meinAudio" src="./gedicht.mp3" preload="auto"></audio>
+<audio controls id="meinAudio" src="/gutDeutsch-online/gedicht.mp3" preload="auto"></audio>
 </div>
 
 **Die Zauberlehrlinge sind längst ausgezogen, und der alte Hexenmeister genießt seine Freiheit seit vielen, vielen Jahren. Nach einem langen und erfüllten Leben befragt er die Geister, was er als nächstes ausprobieren könnte.**
