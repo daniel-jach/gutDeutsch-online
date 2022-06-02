@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/gedicht/gedicht.css">
+<link rel="stylesheet" type="text/css" href="/gedicht.css">
 </head>
 </html>
 
