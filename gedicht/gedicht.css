@@ -1,0 +1,12 @@
+#header_wrap, #footer_wrap {
+  display: none;
+}
+
+#main_content_wrap {
+  background-color: black;
+  color: white;
+}
+
+h1, h3 {
+  color: white;
+}
