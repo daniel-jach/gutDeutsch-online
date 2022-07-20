@@ -1,0 +1,71 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+papersize: a4
+geometry: "left=5mm,right=5mm,top=5mm,bottom=2mm"
+header-includes: 
+  - \usepackage{pagecolor}
+  - \usepackage{xcolor}
+  - \usepackage{subcaption}
+  - \pagenumbering{gobble}
+  - \usepackage{tikz}
+  - \usepackage[T1]{fontenc}
+  - \usepackage{gentium}
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.align="center", fig.show="hold")
+```
+
+
+\definecolor{colDark}{HTML}{4C1C00}
+\definecolor{colBack}{HTML}{FFFEEB}
+\pagecolor{colBack}
+\color{colDark}
+
+\begin{tikzpicture}
+    \draw (0, 0) node[inner sep=0] {\includegraphics[width=\textwidth]{"./p1.pdf"}};
+    \draw[align=left] (6, 5) node {\textcolor{colDark}{Daten von Richard Turcsányi und anderen (2021)}\\\href{https://who-where-when.ceias.eu/}{(https://who-where-when.ceias.eu/)}};
+        \draw[align=left] (-7.5, 5) node {\textcolor{colDark}{Erstellt von Daniel Jach (2021)}\\\href{https://daniel-jach.github.io/}{\textcolor{colDark}{(https://daniel-jach.github.io/)}}};
+\end{tikzpicture}
+\vspace{-11mm}
+
+\begin{figure}[htbp]
+
+\begin{subfigure}{.48\textwidth}
+\begin{subfigure}{.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{"./pie1.pdf"}
+\end{subfigure}%
+\begin{subfigure}{.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{"./pie2.pdf"}
+\end{subfigure}
+
+\begin{subfigure}{.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{"./pie3.pdf"}
+\end{subfigure}%
+\begin{subfigure}{.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{"./pieLegend.pdf"}
+\end{subfigure}
+\end{subfigure}%
+\begin{subfigure}{.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{"./rank1.pdf"}
+\end{subfigure}
+
+\begin{subfigure}{.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{"./bar.pdf"}
+\end{subfigure}%
+\begin{subfigure}{.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{"./rank2.pdf"}
+\end{subfigure}
+\end{figure}
+

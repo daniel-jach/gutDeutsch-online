@@ -2,7 +2,12 @@
     <base target="_blank">
 </head>
 
+<a href="./../index.html" target="_self">Andere Aktivitäten auf *Gut Deutsch
+online*</a>
+
 # Einführung in die Sprachwissenschaft
+
+<img src="images/syntax_action.png" style="display: block; margin: auto; width: 50%;" />
 
 #### Beschreibung
 
@@ -42,3 +47,5 @@ Woche|Inhalt|Downloads
 15|Syntax: Attribute und Nebensätze|[Video](https://e1.pcloud.link/publink/show?code=XZoM1LZTgdo4vdbdjz9RIRcAINJgSMPwERk) - [Slides](https://e1.pcloud.link/publink/show?code=XZYT1LZGHo5OdLuof0VE9QSqXR1a897poOk) - [Aufgaben](https://e1.pcloud.link/publink/show?code=XZgT1LZqzsx1pLcLfHBgiUUx6M2o5dG7S4V)
 16|Sprachvariation und Sprachwandel|[Video](https://e1.pcloud.link/publink/show?code=XZyT1LZYQlqVHwTwz0bAbnQFkw4Gugw6JPy) - [Slides](https://e1.pcloud.link/publink/show?code=XZbT1LZQ5UIOVk6sd5IL8aTuUdAekYcIgCk) - [Aufgaben](https://e1.pcloud.link/publink/show?code=XZPT1LZEQDdwb2RVYLHmdlS9O4E7uSMaydy)
 17|Prüfung
+
+Hier können Sie den Syllabus [herunterladen](https://e1.pcloud.link/publink/show?code=XZIT1LZRlukpfHESV4Tt7NdDTVFU7ssO287).
