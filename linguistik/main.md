@@ -49,3 +49,19 @@ Woche|Inhalt|Downloads
 17|Prüfung
 
 Hier können Sie den Syllabus [herunterladen](https://e1.pcloud.link/publink/show?code=XZIT1LZRlukpfHESV4Tt7NdDTVFU7ssO287).
+
+**Quellen**
+
+Die verwendeten Quellen sind in den einzelnen Materialien nicht ordentlich und umfänglich angegeben. Die Materialien sind über mehrere Jahre hinweg Stück für Stück entstanden und waren ursprünglich nicht zur Veröffentlichung gedacht.
+
+Linke, Angelika, Markus Nussbaumer, und Paul R. Portmann. 1991. *Studienbuch Linguistik*. 5, erweiterte Auflage. Tübingen: Niemeyer, 2004.
+
+Graefen, Gabriele und Martina Liedke. 2008. *Germanistische Sprachwissenschaft Deutsch als Erst-, Zweit- oder Fremdsprache*. 3., überarbeitete und erweiterte Auflage. Tübingen: Francke, 2020.
+
+Busch, Albert und Oliver Stenschke. 2007. *Germanistische Linguistik. Eine Einführung*. 3., überarbeitete und erweiterte Auflage. Tübingen: Narr, 2014.
+
+Dudenverlag, Hrsg. (Datum unbekannt). *Duden. Die Grammatik. Unentbehrlich für richtiges Deutsch*. 8., überarbeitete Auflage. Mannheim: Dudenverlag, 2009.
+
+Heinemann, Margot und Wolfgang Heinemann. 2002. *Grundlagen der Textlinguistik. Interaktion - Text - Diskurs*. Tübingen: Niemeyer.
+
+Diverse online verfügbare Materialien für Einführungen in der Sprachwissenschaft verschiedener Universitäten.
