@@ -9,3 +9,12 @@ Folgende Aktivitäten sind im Moment online:
 - [Chinas Führer zu Besuch im Ausland](auslandsbesuche/main.html)
 
 - [Einführung in die Sprachwissenschaft](linguistik/main.html)
+
+
+## Useful Resources (by Others)
+
+Links to two reading lists of German literature catalogued and searchable by language proficiency and topic, some entries with summaries and discussion questions. 
+
+[https://www.leelu.eu/buecherkatalog/](https://www.leelu.eu/buecherkatalog/)
+
+[https://www.lezenvoordelijst.nl/duits](https://www.lezenvoordelijst.nl/duits)
