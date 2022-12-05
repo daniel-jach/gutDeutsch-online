@@ -1,9 +1,7 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.Gemfile
-.Gemfile.lock
-.Grafikbeschreibung.Rmd
-._site/
-.temporary_material.Rmd
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*/sprachspielereien/docs/
+
