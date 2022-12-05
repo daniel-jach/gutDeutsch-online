@@ -10,6 +10,8 @@ Folgende Aktivitäten sind im Moment online:
 
 - [Einführung in die Sprachwissenschaft](linguistik/main.html)
 
+- [Sprachspielereien](sprachspielereien/docs/index.html)
+
 
 ## Useful Resources (by Others)
 
