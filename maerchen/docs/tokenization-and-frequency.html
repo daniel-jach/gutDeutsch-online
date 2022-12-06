@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Daniel Jach">
+
+<title>maeRchen - MäRchen: Text Mining mit den sieben Zwergen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">maeRchen</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">Kursbeschreibung</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Einführung</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./intro-to-R.html">Erste Schritte in R</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./tokenization-and-frequency.html" aria-current="page">Tokenisierung und Häufigkeit</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sentiment-analysis.html">Sentiment Analysis</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cosine-similarity.html">Cosinus-Ähnlichkeit</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./topic-modeling.html">Topic Modeling</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./morphological-analysis.html">Morphologische Analyse nach Propp</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#pakete-installieren" id="toc-pakete-installieren" class="nav-link active" data-scroll-target="#pakete-installieren">Pakete installieren</a></li>
+  <li><a href="#märchen-laden" id="toc-märchen-laden" class="nav-link" data-scroll-target="#märchen-laden">Märchen laden</a></li>
+  <li><a href="#tokens-und-types-zählen" id="toc-tokens-und-types-zählen" class="nav-link" data-scroll-target="#tokens-und-types-zählen">Tokens und Types zählen</a></li>
+  <li><a href="#ergebnisse-veranschaulichen" id="toc-ergebnisse-veranschaulichen" class="nav-link" data-scroll-target="#ergebnisse-veranschaulichen">Ergebnisse veranschaulichen</a></li>
+  <li><a href="#korpora-vergleichen" id="toc-korpora-vergleichen" class="nav-link" data-scroll-target="#korpora-vergleichen">Korpora vergleichen</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mä<strong>R</strong>chen: Text Mining mit den sieben Zwergen</h1>
+<p class="subtitle lead">Tokenisierung und Häufigkeit</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Daniel Jach </p>
+          </div>
+  </div>
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Im Folgenden werden Sie <strong>(1)</strong> Ihr Märchen in R laden, <strong>(2)</strong> Wort-Tokens und Wort-Types zählen, <strong>(3)</strong> die Ergebnisse in einer Grafik visualisieren und vergleichen. Diese Abschnitte basieren auf <span class="citation" data-cites="Silge.2017">(<a href="#ref-Silge.2017" role="doc-biblioref"><strong>Silge.2017?</strong></a>)</span>. Anschließend <strong>(4)</strong> vergleichen Sie drei große Korpora deutscher, chinesischer und arabischer Volksmärchen.</p>
+<section id="pakete-installieren" class="level1">
+<h1>Pakete installieren</h1>
+<p>Bevor Sie beginnen, müssen Sie einige Pakete (packages) mit <code>install.packages("PAKETNAME")</code> installieren. Die Pakete enthalten verschiedene nötige Funktionen. Anschließend müssen Sie die installierten Pakete mit <code>library(PAKETNAME)</code> aktivieren. Einmal aktiviert, bleibt das Paket aktiv. Das werden Sie später tun.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"tidytext"</span>, <span class="st">"dplyr"</span>, <span class="st">"tm"</span>, <span class="st">"tools"</span>, <span class="st">"ggplot2"</span>, <span class="st">"gridExtra"</span>), <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="märchen-laden" class="level1">
+<h1>Märchen laden</h1>
+<p>Lesen Sie zuerst Ihr Märchen in R ein. Hierfür nutzen Sie <code>readLines()</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>fileConn<span class="ot">&lt;-</span><span class="fu">file</span>(<span class="st">"./data/sample/das_liebespaar_in_der_schule.txt"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>text<span class="ot">&lt;-</span><span class="fu">readLines</span>(fileConn)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">close</span>(fileConn)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>text</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Das Objekt <code>text</code> enthält Ihren Text. Welche Art von Objekt ist <code>text</code>?</p>
+<p>Als Nächstes wandeln Sie das Objekt <code>text</code> in einen data frame um. Diesmal benutzen Sie dafür die Funktion <code>tibble()</code>. Ein tibble ist eine besonders praktische Art von data frame. Aktivieren Sie das Paket <code>dplyr</code>. Dann benutzen Sie die Funktion <code>tibble()</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>text_df<span class="ot">&lt;-</span><span class="fu">tibble</span>(<span class="at">TEXT =</span> text)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>text_df</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(text_df)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="think">
+<p><strong>Kleine Aufgabe</strong><br>
+Wie ist Ihr Text jetzt gespeichert? Zeigen Sie die interne Struktur Ihres tibble an.</p>
+</div>
+</section>
+<section id="tokens-und-types-zählen" class="level1">
+<h1>Tokens und Types zählen</h1>
+<p>Um die Wörter in Ihrem Text zu zählen, müssen Sie <strong>den Text in einzelne Wörter aufteilen (tokenisieren)</strong>. Das macht die Funktion <code>unnest_tokens()</code>. Sie können alles in eine Zeile schreiben oder einen Pipe-Operator <code>%&gt;%</code> benutzen. <code>f(x)</code> ist identisch mit <code>x %&gt;% f</code>. Ein Pipe-Operator macht komplexe Befehl besser lesbar.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidytext)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Befehl ohne Pipe</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"Hello Chengdu!"</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Befehl mit Pipe</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="st">"Hello Chengdu!"</span> <span class="sc">%&gt;%</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>()</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Befehl ohne Pipe</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>tokens_df<span class="ot">&lt;-</span><span class="fu">unnest_tokens</span>(text_df, WORD, TEXT, <span class="at">to_lower =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Befehl mit Pipe</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>tokens_df<span class="ot">&lt;-</span>text_df <span class="sc">%&gt;%</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(WORD, TEXT, <span class="at">to_lower =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>tokens_df</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="think">
+<p><strong>Kleine Aufgabe</strong><br>
+Wie ist Ihr Text jetzt gespeichert? Zeigen Sie den tibble an. Wieviele Wörter (Tokens) enthält Ihr Text insgesamt?</p>
+</div>
+<p>Ihr Text enthält noch sogenannte <strong>Stopwörter</strong>. Solche Wörter werden normalerweise vor der Analyse entfernt. Das tm-Paket enthält Listen von Stopwörtern in verschiedenen Sprachen, die Sie mit der Funktion <code>stopwords()</code> aufrufen. Ich habe einen data frame für Sie vorbereitet (ohne ä, ü, ö usw.).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tm)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>stopwords<span class="ot">&lt;-</span><span class="fu">stopwords</span>(<span class="st">"de"</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>stopwords</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>stopwords_df<span class="ot">&lt;-</span><span class="fu">read.table</span>(<span class="st">"./data/stopwords.csv"</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>stopwords_df</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="think">
+<p><strong>Denkpause</strong><br>
+Was sind Stoppwörter für Wörter? Wieso werden sie normalerweise vor der Analyse entfernt?</p>
+</div>
+<p>Um die Stopwörter aus Ihrem Text zu entfernen, führen Sie folgenden Befehl aus.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>tokens_df<span class="ot">&lt;-</span>tokens_df <span class="sc">%&gt;%</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(stopwords_df, <span class="at">by =</span> <span class="st">"WORD"</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>tokens_df</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Die Funktion <code>count()</code> <strong>zählt Wörter</strong>. Führen Sie hierzu folgenden Befehl aus.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>freq_df<span class="ot">&lt;-</span>tokens_df <span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(WORD, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>freq_df</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="think">
+<p><strong>Kleine Aufgabe</strong><br>
+Zeigen Sie das Ergebnis in Form eines tibble an. Wieviele verschiedene Wörter (Types) sind in Ihrem Text enthalten? Wie häufig ist das häufigste Wort (Type)?</p>
+</div>
+</section>
+<section id="ergebnisse-veranschaulichen" class="level1">
+<h1>Ergebnisse veranschaulichen</h1>
+<p><strong>Visualisieren</strong> Sie die <strong>Häufigkeitsverteilung</strong> für die 30 häufigsten Wörter in Ihrem Text als <strong>Balkengrafik</strong>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>freq_df[<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>,] <span class="sc">%&gt;%</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">WORD=</span><span class="fu">factor</span>(WORD, <span class="at">levels =</span> <span class="fu">rev</span>(WORD))) <span class="sc">%&gt;%</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> n, <span class="at">y =</span> WORD)) <span class="sc">+</span> </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"steelblue"</span>) <span class="sc">+</span> </span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="cn">NULL</span>, <span class="at">x =</span> <span class="st">"Anzahl"</span>) <span class="sc">+</span> </span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">"Worthäufigkeit im Text"</span>) <span class="sc">+</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_light</span>()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="think">
+<p><strong>Kleine Aufgabe</strong><br>
+Vergleichen Sie Ihre Grafik mit denen Ihrer Mitstudierenden. Welche Unterschiede, welche Gemeinsamkeiten finden Sie?</p>
+</div>
+</section>
+<section id="korpora-vergleichen" class="level1">
+<h1>Korpora vergleichen</h1>
+<p>Einzelne Märchentexte zu analysieren macht Spaß und ist lehrreich, aber Text Mining nutzt normalerweise viele Texte und große Mengen von Daten. So werden Muster sichtbar, die an ein paar einzelnen Texten nicht erkennbar sind.</p>
+<p>Das Grimm-Korpus besteht aus 211 Märchen der Brüder Grimm. Das Wilhelm-Korpus besteht aus 100 chinesischen Volksmärchen, das Weil-Korpus aus 169 arabischen Märchen, die ins Deutsche übertragen sind.</p>
+<div class="think">
+<p><strong>Aufgabe</strong><br>
+Bilden Sie Gruppen und erarbeiten Sie die Häufigkeitsverteilung für eines der Korpora. Vergleichen Sie dann Ihre Ergebnisse mit den Ergebnissen der anderen Gruppen. Welche Gemeinsamkeiten, welche Unterschiede finden Sie? Wie interpretieren Sie die Ergebnisse? Diskutieren Sie und stellen Sie dann das Ergebnis Ihrer Diskussion im Plenum vor.</p>
+</div>
+<p>Als Erstes lesen Sie die zwei Korpora ein. Sie können den Code kopieren und ausführen.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>src<span class="ot">&lt;-</span><span class="fu">list.files</span>(<span class="st">"./data/corpus-wilhelm/"</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>df<span class="ot">&lt;-</span><span class="fu">data.frame</span>(<span class="fu">matrix</span>(<span class="at">nrow =</span> <span class="fu">length</span>(src), <span class="at">ncol =</span> <span class="dv">2</span>))</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(df)<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">"TEXT"</span>, <span class="st">"DATEI"</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(src)){</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">1</span>]<span class="ot">&lt;-</span><span class="fu">readLines</span>(<span class="fu">paste</span>(<span class="st">"./data/corpus-wilhelm/"</span>, src[i], <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">2</span>]<span class="ot">&lt;-</span>src[i]</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>wilhelm<span class="ot">&lt;-</span><span class="fu">as_tibble</span>(df)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>src<span class="ot">&lt;-</span><span class="fu">list.files</span>(<span class="st">"./data/corpus-grimm/"</span>)</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>df<span class="ot">&lt;-</span><span class="fu">data.frame</span>(<span class="fu">matrix</span>(<span class="at">nrow =</span> <span class="fu">length</span>(src), <span class="at">ncol =</span> <span class="dv">2</span>))</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(df)<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">"TEXT"</span>, <span class="st">"DATEI"</span>)</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(src)){</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">1</span>]<span class="ot">&lt;-</span><span class="fu">readLines</span>(<span class="fu">paste</span>(<span class="st">"./data/corpus-grimm/"</span>, src[i], <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">2</span>]<span class="ot">&lt;-</span>src[i]</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>grimm<span class="ot">&lt;-</span><span class="fu">as_tibble</span>(df)</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>src<span class="ot">&lt;-</span><span class="fu">list.files</span>(<span class="st">"./data/corpus-weil/"</span>)</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>df<span class="ot">&lt;-</span><span class="fu">data.frame</span>(<span class="fu">matrix</span>(<span class="at">nrow =</span> <span class="fu">length</span>(src), <span class="at">ncol =</span> <span class="dv">2</span>))</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(df)<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">"TEXT"</span>, <span class="st">"DATEI"</span>)</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(src)){</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">1</span>]<span class="ot">&lt;-</span><span class="fu">readLines</span>(<span class="fu">paste</span>(<span class="st">"./data/corpus-weil/"</span>, src[i], <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">2</span>]<span class="ot">&lt;-</span>src[i]</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>weil<span class="ot">&lt;-</span><span class="fu">as_tibble</span>(df)</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(df, i, src)</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>wilhelm</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Jetzt machen Sie ohne mich weiter. Versuchen Sie, die Schritte <strong>(2)</strong> und <strong>(3)</strong> selbstständig mit den Korpusdaten zu wiederholen. Wenn Sie Probleme haben, klicken Sie auf <em>Hilfe</em>.</p>
+<details>
+<summary>
+Hilfe
+</summary>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>wilhelm_tok<span class="ot">&lt;-</span>wilhelm <span class="sc">%&gt;%</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(WORD, TEXT, <span class="at">to_lower =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>grimm_tok<span class="ot">&lt;-</span>grimm <span class="sc">%&gt;%</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(WORD, TEXT, <span class="at">to_lower =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>weil_tok<span class="ot">&lt;-</span>weil <span class="sc">%&gt;%</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(WORD, TEXT, <span class="at">to_lower =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>stopwords_df<span class="ot">&lt;-</span><span class="fu">read.table</span>(<span class="st">"./data/stopwords.csv"</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>grimm_tok<span class="ot">&lt;-</span><span class="fu">anti_join</span>(grimm_tok, stopwords_df)</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>wilhelm_tok<span class="ot">&lt;-</span><span class="fu">anti_join</span>(wilhelm_tok, stopwords_df)</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>weil_tok<span class="ot">&lt;-</span><span class="fu">anti_join</span>(weil_tok, stopwords_df)</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>grimm_freq<span class="ot">&lt;-</span>grimm_tok <span class="sc">%&gt;%</span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(WORD, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>wilhelm_freq<span class="ot">&lt;-</span>wilhelm_tok <span class="sc">%&gt;%</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(WORD, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>weil_freq<span class="ot">&lt;-</span>weil_tok <span class="sc">%&gt;%</span></span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(WORD, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>grimm_plot<span class="ot">&lt;-</span>grimm_freq[<span class="dv">1</span><span class="sc">:</span><span class="dv">20</span>,] <span class="sc">%&gt;%</span></span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">WORD=</span><span class="fu">factor</span>(WORD, <span class="at">levels =</span> <span class="fu">rev</span>(WORD))) <span class="sc">%&gt;%</span></span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> n, <span class="at">y =</span> WORD)) <span class="sc">+</span> </span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"steelblue"</span>) <span class="sc">+</span> </span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="cn">NULL</span>, <span class="at">x =</span> <span class="st">"Anzahl"</span>) <span class="sc">+</span> </span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_light</span>() <span class="sc">+</span></span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">"Deutsch"</span>)</span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>wilhelm_plot<span class="ot">&lt;-</span>wilhelm_freq[<span class="dv">1</span><span class="sc">:</span><span class="dv">20</span>,] <span class="sc">%&gt;%</span></span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">WORD=</span><span class="fu">factor</span>(WORD, <span class="at">levels =</span> <span class="fu">rev</span>(WORD))) <span class="sc">%&gt;%</span></span>
+<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> n, <span class="at">y =</span> WORD)) <span class="sc">+</span> </span>
+<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"steelblue"</span>) <span class="sc">+</span> </span>
+<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="cn">NULL</span>, <span class="at">x =</span> <span class="st">"Anzahl"</span>) <span class="sc">+</span> </span>
+<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_light</span>() <span class="sc">+</span></span>
+<span id="cb10-37"><a href="#cb10-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">"Chinesisch"</span>)</span>
+<span id="cb10-38"><a href="#cb10-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-39"><a href="#cb10-39" aria-hidden="true" tabindex="-1"></a>weil_plot<span class="ot">&lt;-</span>weil_freq[<span class="dv">1</span><span class="sc">:</span><span class="dv">20</span>,] <span class="sc">%&gt;%</span></span>
+<span id="cb10-40"><a href="#cb10-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">WORD=</span><span class="fu">factor</span>(WORD, <span class="at">levels =</span> <span class="fu">rev</span>(WORD))) <span class="sc">%&gt;%</span></span>
+<span id="cb10-41"><a href="#cb10-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> n, <span class="at">y =</span> WORD)) <span class="sc">+</span> </span>
+<span id="cb10-42"><a href="#cb10-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"steelblue"</span>) <span class="sc">+</span> </span>
+<span id="cb10-43"><a href="#cb10-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="cn">NULL</span>, <span class="at">x =</span> <span class="st">"Anzahl"</span>) <span class="sc">+</span> </span>
+<span id="cb10-44"><a href="#cb10-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_light</span>() <span class="sc">+</span></span>
+<span id="cb10-45"><a href="#cb10-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">"Arabisch"</span>) <span class="sc">+</span></span>
+<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">20</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust=</span><span class="dv">1</span>))</span>
+<span id="cb10-47"><a href="#cb10-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-48"><a href="#cb10-48" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span>
+<span id="cb10-49"><a href="#cb10-49" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.arrange</span>(grimm_plot, wilhelm_plot, weil_plot, <span class="at">nrow =</span> <span class="dv">1</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</details>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
