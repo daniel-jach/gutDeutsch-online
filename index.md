@@ -2,15 +2,18 @@
 
 Folgende Aktivitäten sind im Moment online: 
 
+- [Einführung in die Sprachwissenschaft](linguistik/main.html)
+
+- [Sprachspielereien](sprachspielereien/docs/index.html)
+
+- [MäRchen: Text Mining mit den 7 Zwergen](maerchen/docs/about.html)
+
 - [Deutsche Kolonialzeit in China](qingdao/main.html)
 
 - [Chinesen im Corona-Frame](framing/main.html)
 
 - [Chinas Führer zu Besuch im Ausland](auslandsbesuche/main.html)
 
-- [Einführung in die Sprachwissenschaft](linguistik/main.html)
-
-- [Sprachspielereien](sprachspielereien/docs/index.html)
 
 
 ## Useful Resources (by Others)
