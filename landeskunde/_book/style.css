@@ -1,0 +1,70 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+time {
+  float: right;
+  clear: right;
+  font-size: 80%;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+task {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+q {
+  quotes: "„" "“";
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.avatar {
+  width:5%;
+  float:left;
+  padding-right: 10px;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+
+
+.book .book-summary {
+  width: 300px;
+  position:absolute;
+  top:0;
+  left:-300px;
+}
+
+.book.with-summary .book-header.fixed {
+    left: 300px;
+}
+
+.book.with-summary .book-body {
+    left: 300px;
+}
