@@ -68,3 +68,23 @@ video {
 .book.with-summary .book-body {
     left: 300px;
 }
+
+
+
+
+iframe{
+  width : 100%;
+  height : 100vh;
+}
+
+#parent > button {
+  opacity: 0.3;
+  position:relative;
+  float: right;
+  right:10px;
+  bottom:60px;
+  transition: 0.5s;
+}
+#parent > button {
+  opacity: 1;
+}
