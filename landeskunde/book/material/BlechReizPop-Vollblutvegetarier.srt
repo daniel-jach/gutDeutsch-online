@@ -1,0 +1,224 @@
+﻿1
+00:00:15,567 --> 00:00:17,633
+Ich weiß, man soll es nicht tun.
+
+2
+00:00:18,020 --> 00:00:20,107
+Aber manchmal esse ich Huhn.
+
+3
+00:00:20,387 --> 00:00:22,133
+Ich weiß, es sollte nicht sein
+
+4
+00:00:22,164 --> 00:00:24,797
+doch manchmal esse ich Rind und Schwein.
+
+5
+00:00:25,120 --> 00:00:27,340
+Naja, was soll ich machen?
+
+6
+00:00:27,380 --> 00:00:29,793
+Mir schmecken solche Sachen.
+
+7
+00:00:30,073 --> 00:00:31,853
+Fleisch macht Appetit!
+
+8
+00:00:32,253 --> 00:00:34,413
+Doch Wurst ist das Thema nicht!
+
+9
+00:00:34,820 --> 00:00:37,089
+Ich bin beim Kaufen ganz genau
+
+10
+00:00:37,126 --> 00:00:39,104
+und schaue, was ich da esse.
+
+11
+00:00:39,155 --> 00:00:41,786
+Der Konsument bestimmt.
+
+12
+00:00:41,821 --> 00:00:44,290
+Und eines, das ist gewiss:
+
+13
+00:00:44,333 --> 00:00:46,799
+Manchmal, ja, da war ich ein
+
+14
+00:00:46,824 --> 00:00:48,949
+echter Vegetarier.
+
+15
+00:00:48,974 --> 00:00:50,998
+Fleisch habe ich zwar gern,
+
+16
+00:00:51,023 --> 00:00:53,373
+aber nicht vom Großkonzern.
+
+17
+00:00:53,878 --> 00:00:56,269
+Machnmal, ja, da war ich ein
+
+18
+00:00:56,294 --> 00:00:58,368
+Vollblut-Vegetarier.
+
+19
+00:00:58,393 --> 00:01:00,411
+Doch bei mir daheim um die Ecke,
+
+20
+00:01:00,824 --> 00:01:02,611
+da gönne ich mir einen Speck.
+
+21
+00:01:15,029 --> 00:01:17,149
+Du denkst, ich habe einen Knacks.
+
+22
+00:01:17,456 --> 00:01:19,527
+Aber manchmal esse ich Lachs.
+
+23
+00:01:19,807 --> 00:01:21,607
+Du denkst, ich bin nicht fit,
+
+24
+00:01:21,632 --> 00:01:23,971
+doch ich esse Schnitzel mit Pommes Frites.
+
+25
+00:01:24,591 --> 00:01:26,953
+Naja, was soll ich machen?
+
+26
+00:01:26,978 --> 00:01:29,317
+Mir schmecken solche Sachen.
+
+27
+00:01:29,558 --> 00:01:31,313
+Das macht Appetit!
+
+28
+00:01:31,704 --> 00:01:33,918
+Doch Wurst ist das Thema nicht!
+
+29
+00:01:34,207 --> 00:01:36,504
+Ich bin beim Kaufen ganz genau
+
+30
+00:01:36,529 --> 00:01:38,549
+und schaue, was ich da esse.
+
+31
+00:01:38,574 --> 00:01:41,122
+Der Konsument bestimmt
+
+32
+00:01:41,147 --> 00:01:43,300
+und eines, das ist gewiss:
+
+33
+00:01:43,704 --> 00:01:46,184
+Machmal, ja, da war ich ein
+
+34
+00:01:46,209 --> 00:01:48,509
+echter Vegetarier
+
+35
+00:01:48,534 --> 00:01:50,384
+Fleisch habe ich zwar gern,
+
+36
+00:01:50,409 --> 00:01:52,811
+aber nicht vom Großkonzern.
+
+37
+00:01:53,096 --> 00:01:55,633
+Manchmal, ja, da war ich ein
+
+38
+00:01:55,658 --> 00:01:57,798
+Vollblut-Vegetarier.
+
+39
+00:01:57,823 --> 00:01:59,869
+Doch bei mir daheim um die Ecke,
+
+40
+00:02:00,161 --> 00:02:02,033
+da gönne ich mir einen Speck.
+
+41
+00:02:12,128 --> 00:02:14,350
+Die Massenproduktion,
+
+42
+00:02:14,375 --> 00:02:16,549
+die ...(?)... mich tierisch an.
+
+43
+00:02:16,803 --> 00:02:19,166
+Beim Essen geht es doch nicht
+
+44
+00:02:19,191 --> 00:02:21,405
+um Geld und um Profit.
+
+45
+00:02:21,430 --> 00:02:23,779
+Doch Fleisch aus der Region,
+
+46
+00:02:23,946 --> 00:02:26,213
+das esse ich manchmal schon.
+
+47
+00:02:26,274 --> 00:02:28,455
+Und hast du Appetit,
+
+48
+00:02:28,503 --> 00:02:30,980
+dann singe dich einfach mit!
+
+49
+00:02:31,646 --> 00:02:34,183
+Manchmal, ja, da war ich ein
+
+50
+00:02:34,208 --> 00:02:36,334
+echter Vegetarier.
+
+51
+00:02:36,359 --> 00:02:38,371
+Fleisch habe ich zwar gern,
+
+52
+00:02:38,691 --> 00:02:40,746
+aber nicht vom Großkonzern.
+
+53
+00:02:41,212 --> 00:02:43,607
+Machnmal, ja, da war ich ein
+
+54
+00:02:43,632 --> 00:02:45,750
+Vollblut-Vegetarier.
+
+55
+00:02:45,775 --> 00:02:47,817
+Doch bei mir daheim um die Ecke,
+
+56
+00:02:48,200 --> 00:02:50,012
+da gönne ich mir einen Speck.
+

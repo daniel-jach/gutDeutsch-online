@@ -1,7 +1,13 @@
-# Ignore everything
-*
+sprachspielereien/*
+!sprachspielereien/docs/
 
-# But not these files...
-!.gitignore
-!*/sprachspielereien/docs/
+maerchen/*
+!maerchen/docs/
 
+.gitignore
+.Rproj.user
+.Rhistory
+.RData
+Gemfile
+Gemfile.lock
+gutDeutsch-online.Rproj
