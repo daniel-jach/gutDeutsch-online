@@ -1,0 +1,199 @@
+---
+title: "Mä**R**chen: Text Mining mit den sieben Zwergen"
+subtitle: "R: Erste Schritte"
+author: "Dr. Daniel Jach"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+```
+
+# Was ist R? 
+
+R ist eine freie Programmiersprache für statistische Berechnungen und das Erstellen von Grafiken. Die folgende Einführung basiert auf @levshina2015.
+
+# Wieso R? 
+
+- R ist das Standard-Tool in Linguistik und anderen Fächern.
+- R hat vielfältige Funktionen und Pakete für statistische Analysen. 
+- R ist vielseitig einsetzbar. 
+- R ist freie Software. 
+
+# R installieren
+
+Besuchen Sie CRAN (Comprehensive R Archive Network) [hier](https://cran.r-project.org/) und laden Sie die für Sie richtige Version von R (Windows, Ubuntu, Mac) herunter und installieren Sie sie auf Ihrem Computer. Wenn Sie Ubuntu nutzen, können Sie auch folgenden Befehl im Terminal ausführen. 
+
+```{r}
+sudo apt-get install r-base
+```
+
+Sie müssen außerdem RStudio installieren. RStudio ist eine Umgebung und grafische Benutzeroberfläche für R und [hier](https://rstudio.com/products/rstudio/download/#download) downloadbar. Laden Sie die für Sie richtige Version von RStudio (Windows, Ubuntu, Mac) herunter und installieren Sie sie auf Ihrem Computer. Wenn Sie Ubuntu nutzen, können Sie auch folgende Befehle im Terminal ausführen.
+
+```{r}
+sudo apt-get install gdebi-core
+wget https://download2.rstudio.org/server/debian9/x86_64/rstudio-server-1.4.1103-amd64.deb
+sudo gdebi rstudio-server-1.4.1103-amd64.deb
+```
+
+Wenn alles geklappt hat, erstellen Sie einen Ordner mit dem Namen *maerchen*. Öffnen Sie dann RStudio und erstellen Sie ein neues Projekt namens *maerchen*. 
+
+# R Grundlagen
+
+Erstellen Sie ein neues Script, indem Sie *Strg + Shift + N* drücken oder links in der Kopfzeile auf *File* => *New File* => *R Script* klicken. Speichern Sie das Script, indem Sie *Strg + S* drücken oder links in der Kopfzeile auf *File* => *Save* klicken. 
+
+Probieren Sie jetzt die folgenden Befehle aus. Sie führen einen Befehl aus, indem Sie die Zeile anklicken und dann *Strg + Enter* drücken. Was machen diese Befehle? 
+
+```{r}
+2+2
+10-5
+5*5
+10/2
+3^2
+sqrt(16)
+log(10)
+log10(10)
+-10 + (56 + 76)/12 + 3^4 - sqrt(16) + 200*0.01
+```
+
+Ausdrücke wie `sqrt()` oder `log()` heißen *Funktionen*: Sie führen einen vor-definierten Befehl an einem Argument (hier einer Zahl) aus. Hilfe zu diesen Funktionen erhalten Sie so: 
+
+```{r eval = FALSE}
+?sqrt
+help(sqrt)
+```
+
+Sie können die Ergebnisse Ihrer Befehle als Objekte mit `<-` speichern. Sie können die Objekte dann weiter verwenden. 
+
+```{r}
+a<-3 
+a 
+b<-3+3 
+b 
+c<-a+b
+c
+c+5
+sqrt(c)
+```
+
+Mit den folgenden Befehlen können Sie alle erzeugten Objekte aufliste, ein bestimmtes Objekt löschen oder alle Objekte löschen. 
+
+```{r}
+ls() 
+rm(a) 
+rm(list = ls()) 
+```
+
+R nutzt verschiedene Arten von Objekten. Sogenannte **Vektoren** enthalten entweder Zahlen oder Buchstaben oder beides. Die Funktion `c()` erzeugt aus einzelnen Elementen einen Vektor. 
+
+```{r}
+vnum<-1:5
+vnum
+
+vnum<-c(1,2,3,4,5,10,15,25)
+vnum
+
+chengdu.vec<-c("Chengdu", "ist", "die", "schönste", "Stadt", "in", "China", "Chengdu", "ist", "die", "schönste", "Stadt", "in", "der", "Welt")
+chengdu.vec
+```
+
+Aus einem Vektor lässt sich ein **Faktor** erzeugen, mit dem Befehl `factor()`. 
+
+```{r}
+chengdu.fac<-factor(chengdu.vec)
+chengdu.fac
+```
+
+<div class='think'>
+**Denkpause**  
+Wie unterscheidet sich ein Faktor von einem Vektor?
+</div>
+
+Ein Faktor bildet die verschiedenen Elemente in einem Vektor als sogenannte **Level** ab, in alphabetischer Reihenfolge (*Chengdu China der die in ist schönste Stadt Welt*). Bei sprachlichen Daten werden diese Levels auch **Types** genannt. 
+
+Wie häufig ein bestimmter Level oder Type im Faktor vorkommt, zeigt die Funktion `table()`, die eine **Häufigkeitstabelle** erzeugt. Die einzelnen Vorkommen eines Types heißen **Token**.
+
+```{r}
+chengdu.tbl<-table(chengdu.fac)
+chengdu.tbl
+```
+
+Mehrere numerische Vektoren oder Faktoren (d.h. Vektoren/Faktoren aus Zahlen) können zu einer **Matrix** verbunden werden, mit `cbind()`. `cbind()`verbindet zwei oder mehr Objekte als Spalten. `rbind()` hingegen als Zeilen. 
+
+```{r}
+c(1:5)
+c(10:6)
+cbind(c(1:5), c(10:6))
+rbind(c(1:5), c(10:6))
+```
+
+In richtiger Forschung werden Daten meistens in einem **data frame** abgebildet. Ein data frame wird normalerweise als eine Tabelle mit Spalten und Zeilen gezeigt. Spalten stehen für Variablen, Zeilen für einzelne Fälle. Beispiel: In unserer Klasse sind 6 Studierende und ein Lehrer, 6 Frauen und ein Mann. Beim Sportunterricht wird unsere Zeit für 1 km Laufen gemessen. Die Funktion `dataframe()` kombiniert die fünf Vektoren in einem data frame.
+
+```{r}
+
+NUMBER<-c(1,2,3,4,5,6,7)
+NAME<-c("Gong Yue", "Wang Zixia", "Zhong Yating", "Liang Huimin", "Chen Yuqing", "Xu Yi", "Jach Daniel")
+ROLE<-c("student", "student", "student", "student", "student", "student", "teacher")
+SEX<-c("female", "female", "female", "female", "female", "female", "male")
+TIME<-c(8, 10, 7, 9, 9, 7, 15)
+
+df<-data.frame(NUMBER, NAME, ROLE, SEX, TIME)
+df
+
+str(df)
+nrow(df)
+ncol(df)
+
+df$SEX # Spalte SEX aufrufen
+df[3,] # Zeile 3 aufrufen
+df[,3] # Spalte 3 aufrufen
+df[3,3] # Zelle in Zeile 3, Spalte 3 aufrufen
+```
+Die Funktion `str()` zeigt die interne Struktur jedes Objekts an. Einzelne Bestandteiles eines data frames sind mit `$` oder mit `[Zeile,Spalte]` abrufbar.  
+
+<div class='think'>
+**Denkpause**  
+Nützlich sind auch die Funktionen `nrow()`und `ncol()`. Was zeigen sie an?
+</div>
+
+Sie können Ihre Ergebnisse abspeichern und wieder in R laden.
+
+```{r}
+write.table(df, file = "./data/example-data-frame.csv")
+rm(df)
+df
+
+df<-read.table("./data/example-data-frame.csv")
+df
+```
+
+R ist auch besonders gut geeignet zum Erstellen von Grafiken. 
+
+```{r}
+tbl<-table(df$SEX)
+barplot(tbl)
+
+chengdu.vec
+tbl<-table(chengdu.vec)
+barplot(tbl, las = 2)
+
+jpeg("./data/example-plot.jpeg")
+barplot(tbl, las = 2)
+dev.off()
+```
+Um Grafiken abzuspeichern, bestimmen Sie ein Format (z.B. `png()`, `jpeg()`) und einen Pfad, erzeugen die Grafik und führen dann `dev.off()` aus. Sie müssen diese Code-Zeilen zusammen ausführen: Markieren Sie den Code mit der Maus und drücken Sie dann *Strg + Enter*.
+
+## Hausaufgabe
+
+1. Erstellen Sie einen Vektor mit dem Alter aller Kursteilnehmerinnen in Jahren.
+2. Berechnen Sie den Altersdurchschnitt. 
+3. Wählen Sie zufällig zehn Wörter aus Ihrem Wörterbuch aus. Erstellen Sie einen data frame mit vier Spalten: Token, Wortart, Anzahl der Bedeutungen und ob das Wort einen Umlaut (ä, ü, ö) enthält. 
+4. Erstellen Sie eine Häufigkeitstabelle für die Wortarten aus Ihrem data frame.
+5. Erstellen Sie eine Grafik für Ihre Häufigkeiten. 
+
+6. Installieren Sie folgende Pakete. 
+
+```{r}
+install.packages(c("dplyr", "tm", "tidytext", "tools", "ggplot2"), dependencies = TRUE)
+```
+
+

@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "maeRchen"
+  navbar:
+    left:
+      - href: about.qmd
+        text: Kursbeschreibung
+      - href: index.qmd
+        text: Einführung
+      - href: intro-to-R.qmd
+        text: Erste Schritte in R
+      - href: tokenization-and-frequency.qmd
+        text: Tokenisierung und Häufigkeit
+      - href: sentiment-analysis.qmd
+        text: Sentiment Analysis
+      - href: cosine-similarity.qmd
+        text: Cosinus-Ähnlichkeit
+      - href: topic-modeling.qmd
+        text: Topic Modeling
+      - href: morphological-analysis.qmd
+        text: Morphologische Analyse nach Propp
+      
+lang: de-DE
+
+bibliography: [literatur.yaml]
+
+format:
+  html:
+    theme: lumen
+    css: styles.css
+    toc: true
+
+
+

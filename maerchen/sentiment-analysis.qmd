@@ -1,0 +1,200 @@
+---
+title: "Mä**R**chen: Text Mining mit den sieben Zwergen"
+subtitle: "Sentiment Analysis"
+author: "Dr. Daniel Jach"
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+library(dplyr)
+library(tidytext)
+library(tm)
+library(tools)
+library(wordcloud)
+library(reshape2)
+library(ggplot2)
+```
+
+Das englische Wort *sentiment* bedeutet auf Deutsch *Stimmung* oder *Meinung*, auf Chinesisch 情绪 oder 意见. Die sentiment analysis ist ein Teil von Text Mining und <q>bezeichnet die automatische Auswertung von Texten mit dem Ziel, eine [Äußerung] als positiv oder negativ zu erkennen</q> ([Wikipedia](https://de.wikipedia.org/wiki/Sentiment_Detection), 16.01.2021). Das ist sprachwissenschaftlich relevant, aber zum Beispiel auch für Händler oder in der Werbung wichtig. 
+
+Im Folgenden werden Sie **(1)** die Stimmung Ihres Märchens analysieren und visualisieren und die Ergebnisse vergleichen. **(2)** Die Stimmung deutscher, chinesischer und arabischer Märchen analysieren und vergleichen. 
+
+# Pakete installieren
+
+Bevor Sie beginnen, müssen Sie einige Pakete installieren und die nötigen Pakete aktivieren.
+
+```{r}
+library(dplyr)
+library(tidytext)
+library(tm)
+library(tools)
+library(wordcloud)
+library(reshape2)
+library(ggplot2)
+```
+
+# Stimmung analysieren
+
+Lesen Sie Ihren Märchentext ein. Zur Erinnerung: 
+
+```{r}
+fileConn<-file("./data/sample/das_liebespaar_in_der_schule.txt")
+text<-readLines(fileConn)
+close(fileConn)
+text
+
+text_df<-tibble(TEXT = text)
+```
+
+Für eine Stimmungsanalyse Ihres Märchens benötigen Sie ein Wörterbuch, in dem der emotionale Wert jedes Wortes eingetragen ist. In einem Stimmungswörterbuch ist zum Beispiel eingetragen, dass *freundlich* ein positives Wort, aber *gemein* ein negatives Wort ist. 
+
+<div class='think'>
+**Denkpause**  
+Wie könnten Sie ein solches Wörterbuch erstellen?
+</div>
+
+Die Universität Leipzig hat ein Stimmungswörterbuch für das Deutsche namens *SentimentWortschatz* oder *SentiWS* erstellt [@remus2010]. Ich habe das Wörterbuch für Sie vorbereitet. Laden Sie das Wörterbuch in R mit folgenden Befehlen. 
+
+```{r}
+sentiWS<-read.table("./data/sentiWS.txt", sep = "\t", header = TRUE)
+sentiWS<-as_tibble(sentiWS)
+sentiWS
+```
+
+Im Wörterbuch haben alle Einträge einen Wert zwischen -1 und 1. Ein positiver Wert zeigt eine positive Stimmung an, ein negativer Wert eine negative Stimmung. Ergänzen Sie das Wörterbuch um einen Faktor *POLARITY*, der anzeigt, ob ein Wort positiv oder negativ ist. 
+
+```{r}
+sentiWS<-sentiWS %>% 
+  mutate(POLARITY = ifelse(VALUE < 0, "negative", "positive"))
+sentiWS
+```
+
+Suchen Sie jetzt die Einträge für *freundlich* und *gemein* im Wörterbuch.
+
+<div class='think'>
+**Denkpause**  
+Was werden die Einträge für *freundlich* und *gemein* zeigen? 
+</div>
+
+Nutzen Sie den Befehl `filter()`. 
+
+```{r}
+sentiWS %>%
+  filter(WORD == "freundlich")
+sentiWS %>%
+  filter(WORD == "gemein")
+```
+
+Geben Sie jetzt jedem Wort in Ihrem Märchen mit der Funktion `inner_join()` einen Stimmungswert. (Notiz: Vermutlich ist nicht jedes Wort in Ihrem Märchen im Wörterbuch. Mit `inner_join()` werden nur die Wörter bearbeitet, die sowohl im Märchen als auch im Wörterbuch enthalten sind.)
+
+```{r}
+
+# Tokenisieren
+tokens_df<-text_df %>%
+  unnest_tokens(WORD, TEXT, to_lower = FALSE)
+
+# Stoppwörter
+stopwords_df<-tibble(read.csv("./data/stopwords.csv"))
+tokens_df<-tokens_df %>%
+  anti_join(stopwords_df, by = "WORD")
+
+# Stimmungswerte
+senti_df<-tokens_df %>%
+  inner_join(sentiWS, by = "WORD")
+senti_df
+```
+
+Welche Wörter tragen besonders stark zur Stimmung in Ihrem Märchen bei? Der folgende Code erzeugt eine Balkengrafik zur Veranschaulichung der Häufigkeit verschiedener Wörter (Types) und ihrer Stimmung. 
+
+```{r}
+library(ggplot2)
+
+senti_df %>%
+  count(TYPE, POLARITY, sort = TRUE) %>%
+  group_by(POLARITY) %>%
+  mutate(TYPE = reorder(TYPE, n)) %>%
+  slice_head(n = 30) %>%
+  ggplot(aes(n, TYPE, fill = POLARITY)) +
+  geom_col(show.legend = FALSE) + 
+  facet_wrap(~POLARITY, scales = "free") + 
+  labs(y=NULL, x=NULL)
+
+
+library(ggplot2)
+
+senti_df %>%
+  count(TYPE, POLARITY, sort = TRUE) %>%
+  group_by(POLARITY) %>%
+  mutate(TYPE = reorder(TYPE, n)) %>%
+  slice_head(n = 30) %>%
+  ggplot(aes(n, TYPE, fill = POLARITY)) +
+  geom_col(show.legend = FALSE) + 
+  facet_wrap(~POLARITY, scales = "free") + 
+  labs(y=NULL, x=NULL)
+```
+Auch eine schöne Art, Häufigkeiten zu veranschaulichen, sind Wortwolken. 
+
+```{r}
+senti_df %>%
+  count(TYPE, POLARITY, sort = TRUE) %>%
+  acast(TYPE ~ POLARITY, value.var = "n", fill = 0) %>%
+  comparison.cloud(colors = c("#B4464B", "#4682B4"),
+                   max.words = 100, title.size = 1)
+```
+
+Vergleichen Sie Ihre Märchen miteinander. Welche Gemeinsamkeiten, welche Unterschiede finden Sie? Wie gut passt das Ergebnis mit Ihrem subjektiven Leseeindruck zusammen?
+
+<div class='think'>
+**Denkpause**  
+Welches grundlegende Problem hat dieser Ansatz zur Stimmungsanalyse?  
+
+<details><summary>Tipp</summary>  
+Welche Stimmung drückt folgender Satz aus:  
+*Ich habe keinen guten Tag.*
+</details>
+</div>
+
+# Stimmung vergleichen
+
+Im Folgenden analysieren und interpretieren Sie die Stimmung in deutschen, chinesischen und arabischen Volksmärchen. 
+
+<div class='think'>
+**Denkpause**  
+Bevor Sie beginnen: Erwarten Sie Ihrem Gefühl nach Unterschiede? Wenn ja, welche?
+</div>
+
+Wiederholen Sie die Analyse für die drei Märchen-Korpora. 
+
+Lesen Sie als Erstes die Korpora ein. Zur Erinnerung: 
+
+```{r}
+src<-list.files("./data/corpus-wilhelm/")
+df<-data.frame(matrix(nrow = length(src), ncol = 2))
+colnames(df)<-c("TEXT", "DATEI")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/corpus-wilhelm/", src[i], sep = ""))
+  df[i,2]<-src[i]
+}
+wilhelm<-as_tibble(df)
+
+src<-list.files("./data/corpus-grimm/")
+df<-data.frame(matrix(nrow = length(src), ncol = 2))
+colnames(df)<-c("TEXT", "DATEI")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/corpus-grimm/", src[i], sep = ""))
+  df[i,2]<-src[i]
+}
+grimm<-as_tibble(df)
+
+src<-list.files("./data/corpus-weil/")
+df<-data.frame(matrix(nrow = length(src), ncol = 2))
+colnames(df)<-c("TEXT", "DATEI")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/corpus-weil/", src[i], sep = ""))
+  df[i,2]<-src[i]
+}
+weil<-as_tibble(df)
+
+rm(df, i, src)
+```

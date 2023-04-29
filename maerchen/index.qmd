@@ -1,0 +1,94 @@
+---
+title: "Mä**R**chen: Text Mining mit den sieben Zwergen"
+subtitle: "Einführung"
+author: "Dr. Daniel Jach"
+---
+
+## Lernziele
+
+**In diesem Kurs lernen oder üben Sie ...**
+
+* deutsche und chinesische und arabische Volksmärchen in deutscher Übersetzung zu lesen. 
+* in Märchen tradierte kulturspezifische Bilderwelten und Narrative zu erkennen und wiederzugeben.
+* ...
+
+* **sprachliche** Daten in **computerlesbare** Daten umzuwandeln.
+* Daten **quantitativ** zu **analysieren** und sachbezogen zu **interpretieren**.
+
+## R
+
+**R** Freie Programmiersprache für statistische Berechnungen und Grafiken
+
+![](images/applications-of-R.jpg){width=.85\textwidth}
+Anwendungen von R außerhalb der Wissenschaft^[https://data-flair.training/blogs/r-applications/]
+
+## Text Mining
+
+**Text Mining**  Vorgang, bei dem ungeordnete sprachliche Daten (Texte) mit dem Computer geordnet und dann nach bedeutungsvollen Mustern durchsucht werden ([https://www.ibm.com/cloud/learn/text-mining](https://www.ibm.com/cloud/learn/text-mining))
+
+Suche nach *Text Mining* auf dem Jobportal *Indeed.com* am 07.09.2021 ergibt Gesuche von:
+
+![](images/icon-amazon.jpeg){width=15%}
+![](images/icon-bmw.png){width=15%}
+![](images/icon-boston.png){width=15%}
+![](images/icon-deutsche.png){width=15%}
+![](images/icon-dlr.png){width=15%}
+![](images/icon-munichRE.png){width=15%}
+
+## Datengrundlage Text
+
+**Korpus** Große, digitale Sammlung von Texten
+
+**Korpus-Linguistik** Teil der Sprachwissenschaft, der Korpora und bestimmte Untersuchungsmethoden nutzt 
+
+| Korpus | Wörter |
+|--------|--------|
+|DeReKo | 46,9 Mrd. |
+|iWeb | 14 Bio. |
+|DiSKo | 180 k |
+
+| Unsere Korpora | Wörter | Texte |
+|----------------|--------|-------|
+| Grimm Märchenkorpus^[Walter, M. (2021). Märchenkorpus Version 1.0 (1.0). Humboldt-Universität zu Berlin. [https://www.laudatio-repository.org/browse/corpus/UyRUCnMB7CArCQ9C63ji/corpora](https://www.laudatio-repository.org/browse/corpus/UyRUCnMB7CArCQ9C63ji/corpora), 07.09.2012.] | 259 k | 211 |
+| Chinesische Volksmärchen^[Wikisource (ohne Datum). Chinesische Volksmärchen. Übersetzt und eingeleitet von Richard Wilhelm. 1914. [https://de.wikisource.org/wiki/Chinesische_Volksm\%C3\%A4rchen](https://de.wikisource.org/wiki/Chinesische_Volksm\%C3\%A4rchen), 07.09.2021.] | 108 k | 100 |
+| Arabische Volksmärchen^[Eden, J. (ohne Datum). Märchen aus 1001 Nacht. Übersetzt und eingeleitet von Gustav Weil. 1865. [https://eden.one/tausendundeinenacht](https://eden.one/tausendundeinenacht), 07.09.2021.] | 782 k | 169 |
+
+
+## Erste Aufgaben
+
+* Wählen Sie ein deutsches, ein chinesisches und ein arabisches Volksmärchen aus.
+
+|     |China "Intranet"|
+|-----|----------|
+|Deutsche Märchen| [shorturl.at/rwIK8](https://www.grimmstories.com/de/grimm_maerchen/list)|
+|Chinesische Märchen| [shorturl.at/jnzBW](http://www.zeno.org/M%C3%A4rchen/M/Asien/Richard+Wilhelm%3A+Chinesische+Volksm%C3%A4rchen)|
+|Arabische Märchen| [shorturl.at/dqxCP](https://eden.one/tausendundeinenacht)|
+
+* Lesen Sie Ihre Märchen. 
+* Suchen Sie im Internet ein passendes Bild für jedes Ihrer Märchen. 
+* Schicken Sie mir Bilder und Titel Ihrer Märchen. 
+
+## Erste Aufgaben
+
+Versuchen Sie, R und RStudio auf Ihrem Computer zu installieren. 
+
+**Windows/Mac**
+
+* R
+  1. Besuchen Sie CRAN (Comprehensive R Archive Network) [https://cran.r-project.org/](https://cran.r-project.org/).
+  2. Laden Sie die für Sie richtige Version von R (Windows, Mac) herunter.
+  3. Installieren Sie R auf Ihrem Computer. 
+* R Studio
+  1. Besuchen Sie [https://rstudio.com/products/rstudio/download/#download](https://rstudio.com/products/rstudio/download/#download).
+  2. Laden Sie die richtige Version für Ihren Computer herunter.
+  3. Installieren Sie R Studio auf Ihrem Computer.
+
+**Ubuntu** 
+
+```{r eval = FALSE, echo=TRUE}
+sudo apt-get install r-base
+sudo apt-get install gdebi-core
+wget https://download2.rstudio.org/server/debian9/x86_64/
+  rstudio-server-1.4.1103-amd64.deb
+sudo gdebi rstudio-server-1.4.1103-amd64.deb
+```

@@ -1,0 +1,238 @@
+---
+title: "Mä**R**chen: Text Mining mit den sieben Zwergen"
+subtitle: "Tokenisierung und Häufigkeit"
+author: "Dr. Daniel Jach"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+```
+
+Im Folgenden werden Sie **(1)** Ihr Märchen in R laden, **(2)** Wort-Tokens und Wort-Types zählen, **(3)** die Ergebnisse in einer Grafik visualisieren und vergleichen. Diese Abschnitte basieren auf @Silge.2017. Anschließend **(4)** vergleichen Sie drei große Korpora deutscher, chinesischer und arabischer Volksmärchen. 
+
+# Pakete installieren
+
+Bevor Sie beginnen, müssen Sie einige Pakete (packages) mit `install.packages("PAKETNAME")` installieren. Die Pakete enthalten verschiedene nötige Funktionen. Anschließend müssen Sie die installierten Pakete  mit `library(PAKETNAME)` aktivieren. Einmal aktiviert, bleibt das Paket aktiv. Das werden Sie später tun. 
+
+```{r eval=FALSE}
+install.packages(c("tidytext", "dplyr", "tm", "tools", "ggplot2", "gridExtra"), dependencies = TRUE)
+```
+
+# Märchen laden
+
+Lesen Sie zuerst Ihr Märchen in R ein. Hierfür nutzen Sie `readLines()`.
+
+```{r}
+fileConn<-file("./data/sample/das_liebespaar_in_der_schule.txt")
+text<-readLines(fileConn)
+close(fileConn)
+text
+```
+
+Das Objekt `text` enthält Ihren Text. Welche Art von Objekt ist `text`? 
+
+Als Nächstes wandeln Sie das Objekt `text` in einen data frame um. Diesmal benutzen Sie dafür die Funktion `tibble()`. Ein tibble ist eine besonders praktische Art von data frame. Aktivieren Sie das Paket `dplyr`. Dann benutzen Sie die Funktion `tibble()`.
+
+```{r}
+library(dplyr)
+
+text_df<-tibble(TEXT = text)
+text_df
+
+str(text_df)
+```
+
+<div class='think'>
+**Kleine Aufgabe**  
+Wie ist Ihr Text jetzt gespeichert? Zeigen Sie die interne Struktur Ihres tibble an. 
+</div>
+
+# Tokens und Types zählen
+
+Um die Wörter in Ihrem Text zu zählen, müssen Sie **den Text in einzelne Wörter aufteilen (tokenisieren)**. Das macht die Funktion `unnest_tokens()`. Sie können alles in eine Zeile schreiben oder einen Pipe-Operator `%>%` benutzen. `f(x)` ist identisch mit `x %>% f`. Ein Pipe-Operator macht komplexe Befehl besser lesbar.
+
+```{r}
+library(tidytext)
+
+# Befehl ohne Pipe
+print("Hello Chengdu!")
+
+# Befehl mit Pipe
+"Hello Chengdu!" %>%
+  print()
+
+# Befehl ohne Pipe
+tokens_df<-unnest_tokens(text_df, WORD, TEXT, to_lower = FALSE)
+
+# Befehl mit Pipe
+tokens_df<-text_df %>%
+  unnest_tokens(WORD, TEXT, to_lower = FALSE)
+tokens_df
+```
+
+<div class='think'>
+**Kleine Aufgabe**  
+Wie ist Ihr Text jetzt gespeichert? Zeigen Sie den tibble an. Wieviele Wörter (Tokens) enthält Ihr Text insgesamt? 
+</div>
+
+Ihr Text enthält noch sogenannte **Stopwörter**. Solche Wörter werden normalerweise vor der Analyse entfernt. Das tm-Paket enthält Listen von Stopwörtern in verschiedenen Sprachen, die Sie mit der Funktion `stopwords()` aufrufen. Ich habe einen data frame für Sie vorbereitet (ohne ä, ü, ö usw.). 
+
+```{r}
+library(tm)
+
+stopwords<-stopwords("de")
+stopwords
+
+stopwords_df<-read.table("./data/stopwords.csv", header = TRUE)
+stopwords_df
+```
+
+<div class='think'>
+**Denkpause**  
+Was sind Stoppwörter für Wörter? Wieso werden sie normalerweise vor der Analyse entfernt?
+</div>
+
+Um die Stopwörter aus Ihrem Text zu entfernen, führen Sie folgenden Befehl aus. 
+
+```{r}
+tokens_df<-tokens_df %>%
+  anti_join(stopwords_df, by = "WORD")
+tokens_df
+```
+
+Die Funktion `count()` **zählt Wörter**. Führen Sie hierzu folgenden Befehl aus. 
+
+```{r}
+freq_df<-tokens_df %>%
+  count(WORD, sort = TRUE)
+freq_df
+```
+
+<div class='think'>
+**Kleine Aufgabe**  
+Zeigen Sie das Ergebnis in Form eines tibble an. Wieviele verschiedene Wörter (Types) sind in Ihrem Text enthalten? Wie häufig ist das häufigste Wort (Type)? 
+</div>
+
+# Ergebnisse veranschaulichen
+
+**Visualisieren** Sie die **Häufigkeitsverteilung** für die 30 häufigsten Wörter in Ihrem Text als **Balkengrafik**. 
+
+```{r}
+library(ggplot2)
+
+freq_df[1:30,] %>%
+  mutate(WORD=factor(WORD, levels = rev(WORD))) %>%
+  ggplot(aes(x = n, y = WORD)) + 
+  geom_col(fill = "steelblue") + 
+  labs(y = NULL, x = "Anzahl") + 
+  ggtitle("Worthäufigkeit im Text") +
+  theme_light()
+```
+
+<div class='think'>
+**Kleine Aufgabe**  
+Vergleichen Sie Ihre Grafik mit denen Ihrer Mitstudierenden. Welche Unterschiede, welche Gemeinsamkeiten finden Sie? 
+</div>
+
+# Korpora vergleichen
+
+Einzelne Märchentexte zu analysieren macht Spaß und ist lehrreich, aber Text Mining nutzt normalerweise viele Texte und große Mengen von Daten. So werden Muster sichtbar, die an ein paar einzelnen Texten nicht erkennbar sind. 
+
+Das Grimm-Korpus besteht aus 211 Märchen der Brüder Grimm. Das Wilhelm-Korpus besteht aus 100 chinesischen Volksmärchen, das Weil-Korpus aus 169 arabischen Märchen, die ins Deutsche übertragen sind. 
+
+<div class='think'>
+**Aufgabe**  
+Bilden Sie Gruppen und erarbeiten Sie die Häufigkeitsverteilung für eines der Korpora. Vergleichen Sie dann Ihre Ergebnisse mit den Ergebnissen der anderen Gruppen. Welche Gemeinsamkeiten, welche Unterschiede finden Sie? Wie interpretieren Sie die Ergebnisse? Diskutieren Sie und stellen Sie dann das Ergebnis Ihrer Diskussion im Plenum vor.
+</div>
+
+Als Erstes lesen Sie die zwei Korpora ein. Sie können den Code kopieren und ausführen. 
+
+```{r}
+src<-list.files("./data/corpus-wilhelm/")
+df<-data.frame(matrix(nrow = length(src), ncol = 2))
+colnames(df)<-c("TEXT", "DATEI")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/corpus-wilhelm/", src[i], sep = ""))
+  df[i,2]<-src[i]
+}
+wilhelm<-as_tibble(df)
+
+src<-list.files("./data/corpus-grimm/")
+df<-data.frame(matrix(nrow = length(src), ncol = 2))
+colnames(df)<-c("TEXT", "DATEI")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/corpus-grimm/", src[i], sep = ""))
+  df[i,2]<-src[i]
+}
+grimm<-as_tibble(df)
+
+src<-list.files("./data/corpus-weil/")
+df<-data.frame(matrix(nrow = length(src), ncol = 2))
+colnames(df)<-c("TEXT", "DATEI")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/corpus-weil/", src[i], sep = ""))
+  df[i,2]<-src[i]
+}
+weil<-as_tibble(df)
+
+rm(df, i, src)
+
+wilhelm
+```
+
+Jetzt machen Sie ohne mich weiter. Versuchen Sie, die Schritte **(2)** und **(3)** selbstständig mit den Korpusdaten zu wiederholen. Wenn Sie Probleme haben, klicken Sie auf *Hilfe*.
+
+<details><summary>Hilfe</summary>
+
+```{r}
+wilhelm_tok<-wilhelm %>%
+  unnest_tokens(WORD, TEXT, to_lower = FALSE)
+grimm_tok<-grimm %>%
+  unnest_tokens(WORD, TEXT, to_lower = FALSE)
+weil_tok<-weil %>%
+  unnest_tokens(WORD, TEXT, to_lower = FALSE)
+
+stopwords_df<-read.table("./data/stopwords.csv", header = TRUE)
+
+grimm_tok<-anti_join(grimm_tok, stopwords_df)
+wilhelm_tok<-anti_join(wilhelm_tok, stopwords_df)
+weil_tok<-anti_join(weil_tok, stopwords_df)
+
+
+
+grimm_freq<-grimm_tok %>%
+  count(WORD, sort = TRUE)
+wilhelm_freq<-wilhelm_tok %>%
+  count(WORD, sort = TRUE)
+weil_freq<-weil_tok %>%
+  count(WORD, sort = TRUE)
+
+grimm_plot<-grimm_freq[1:20,] %>%
+  mutate(WORD=factor(WORD, levels = rev(WORD))) %>%
+  ggplot(aes(x = n, y = WORD)) + 
+  geom_col(fill = "steelblue") + 
+  labs(y = NULL, x = "Anzahl") + 
+  theme_light() +
+  ggtitle("Deutsch")
+
+wilhelm_plot<-wilhelm_freq[1:20,] %>%
+  mutate(WORD=factor(WORD, levels = rev(WORD))) %>%
+  ggplot(aes(x = n, y = WORD)) + 
+  geom_col(fill = "steelblue") + 
+  labs(y = NULL, x = "Anzahl") + 
+  theme_light() +
+  ggtitle("Chinesisch")
+
+weil_plot<-weil_freq[1:20,] %>%
+  mutate(WORD=factor(WORD, levels = rev(WORD))) %>%
+  ggplot(aes(x = n, y = WORD)) + 
+  geom_col(fill = "steelblue") + 
+  labs(y = NULL, x = "Anzahl") + 
+  theme_light() +
+  ggtitle("Arabisch") +
+  theme(axis.text.x = element_text(angle = 20, vjust = 0.5, hjust=1))
+
+library(gridExtra)
+grid.arrange(grimm_plot, wilhelm_plot, weil_plot, nrow = 1)
+```
+</details>

@@ -1,0 +1,62 @@
+---
+title: "Mä**R**chen: Text Mining mit den sieben Zwergen"
+subtitle: "Morphologische Analyse nach Propp"
+author: "Dr. Daniel Jach"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+library(dplyr)
+library(tidytext)
+library(tm)
+library(ggplot2)
+library(tools)
+library(topicmodels)
+library(tidyr)
+library(ape)
+library(cluster)
+```
+
+
+Der sowjetische Sprachwissenschaftler Vladimir Propp (1895-1970) hat 1928 - genau wie Sie gerade - russische Märchen miteinander verglichen und nach einem Muster gesucht. Er hat eine *Morphologie des Märchens* [@propp1972] erstellt. 
+
+Das Wort *Morphologie* bedeutet, Propp beschreibt die Funktionen der verschiedenen Teile in einem Märchen. Er ist wie ein Biologe, der die Körperteile einer Ameise nach ihren Funktionen beschreibt. Ein Vergleich vieler Ameisen zeigt, dass alle Ameisen Augen zum Sehen, Fühler zum Riechen, Beine zum Laufen usw. haben. 
+
+![](images/Ameise.jpg)
+
+Ein Vergleich vieler Märchen zeigt, dass alle Märchen Teile mit folgenden Funktionen haben. Nach Propp kommen nicht alle Funktionen in allen Märchen vor, aber sie erscheinen immer in dieser Reihenfolge. 
+
+> 1. Entfernung
+2. Verbot
+3. Verstoß
+4. Nachforschung
+5. Denunziation
+6. Hinterhalt
+7. Mitwisserschaft
+8. Schädigung (oder Versäumnis)
+9. Vermittlung
+10. Zustimmung des Helden
+11. Aufbruch des Helden
+12. Prüfung des Helden durch den Spender
+13. Reaktion des Helden
+14. Lieferung des Zauberinstruments
+15. Ortswechsel des Helden
+16. Kampf zwischen dem Helden und seinem Gegenspieler
+17. Der gezeichnete Held
+18. Sieg über den Gegenspieler
+19. Abwendung des Unglücks oder Versagen wie am Beginn
+20. Rückkehr des Helden
+21. Seine Verfolgung
+22. Der Held rettet sich
+23. Der Held kehrt unerkannt nach Hause zurück
+24. Ansprüche des falschen Helden
+25. Dem Helden wird eine schwere Aufgabe auferlegt
+26. Ausführung der Aufgabe
+27. Anerkennung des Helden
+28. Entlarvung des falschen Helden oder des Gegenspielers
+29. Verwandlung des Helden
+30. Bestrafung des Gegenspielers
+31. Hochzeit des Helden
+
+
+

@@ -1,0 +1,77 @@
+---
+references:
+- id: levshina2015
+  author:
+    - family: Levshina
+      given: Natalia
+  citation-key: levshina2015
+  DOI: 10.1075/z.195
+  event-place: Amsterdam
+  issued:
+    - year: 2015
+  language: en
+  publisher: John Benjamins
+  publisher-place: Amsterdam
+  title: 'How to do Linguistics with R: Data exploration and statistical analysis'
+  type: book
+  URL: http://www.jbe-platform.com/content/books/9789027268457
+
+- id: propp1972
+  author:
+    - family: Propp
+      given: Vladimir
+  citation-key: propp1972
+  event-place: München
+  issued:
+    - year: 1972
+  publisher: Hanser
+  publisher-place: München
+  title: Morphologie des Märchens
+  type: book
+
+- id: remus2010
+  abstract: "SentimentWortschatz, or SentiWS for short, is a publicly available German-language resource for sentiment analysis, opinion mining etc. It lists positive and negative sentiment bearing words weighted within the interval of [-1; 1] plus their part of speech tag, and if applicable, their inflections. The current version of SentiWS (v1.8b) contains 1,650 negative and 1,818 positive words, which sum up to 16,406 positive and 16,328 negative word forms, respectively. It not only contains adjectives and adverbs explicitly expressing a sentiment, but also nouns and verbs implicitly containing one. The present work describes the resource\x92s structure, the three sources utilised to assemble it and the semi-supervised method incorporated to weight the strength of its entries. Furthermore the resource\x92s contents are extensively evaluated using a German-language evaluation set we constructed. The evaluation set is verified being reliable and its shown that SentiWS provides a beneficial lexical resource for German-language sentiment analysis related tasks to build on."
+  author:
+    - family: Remus
+      given: Robert
+    - family: Quasthoff
+      given: Uwe
+    - family: Heyer
+      given: Gerhard
+  citation-key: remus2010
+  container-title: >-
+    Proceedings of the Seventh International Conference on Language Resources
+    and Evaluation (LREC'10)
+  event-place: Valletta
+  event-title: LREC 2010
+  issued:
+    - year: 2010
+  publisher: European Language Resources Association (ELRA)
+  publisher-place: Valletta
+  title: >-
+    SentiWS - A Publicly Available German-language Resource for Sentiment
+    Analysis
+  type: paper-conference
+  URL: http://www.lrec-conf.org/proceedings/lrec2010/pdf/490_Paper.pdf
+
+- id: silge2017
+  abstract: >-
+    A guide to text analysis within the tidy data framework, using the tidytext
+    package and other tidy tools
+  author:
+    - family: Silge
+      given: Julia
+    - family: Robinson
+      given: David
+  citation-key: silge2017
+  event-place: Sebastopol, CA
+  issued:
+    - year: 2017
+  language: en
+  publisher: O'Reilly
+  publisher-place: Sebastopol, CA
+  source: www.tidytextmining.com
+  title: 'Text Mining with R: A Tidy Approach'
+  type: book
+  URL: https://www.tidytextmining.com/
+...

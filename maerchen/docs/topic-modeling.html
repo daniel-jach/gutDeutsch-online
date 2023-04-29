@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Daniel Jach">
+
+<title>maeRchen - MäRchen: Text Mining mit den sieben Zwergen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">maeRchen</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">Kursbeschreibung</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Einführung</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./intro-to-R.html">
+ <span class="menu-text">Erste Schritte in R</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./tokenization-and-frequency.html">
+ <span class="menu-text">Tokenisierung und Häufigkeit</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sentiment-analysis.html">
+ <span class="menu-text">Sentiment Analysis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cosine-similarity.html">
+ <span class="menu-text">Cosinus-Ähnlichkeit</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./topic-modeling.html" aria-current="page">
+ <span class="menu-text">Topic Modeling</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./morphological-analysis.html">
+ <span class="menu-text">Morphologische Analyse nach Propp</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#pakete-installieren" id="toc-pakete-installieren" class="nav-link active" data-scroll-target="#pakete-installieren">Pakete installieren</a></li>
+  <li><a href="#distanz-matrix-erzeugen" id="toc-distanz-matrix-erzeugen" class="nav-link" data-scroll-target="#distanz-matrix-erzeugen">Distanz-Matrix erzeugen</a></li>
+  <li><a href="#clustern-und-cluster-visualisieren" id="toc-clustern-und-cluster-visualisieren" class="nav-link" data-scroll-target="#clustern-und-cluster-visualisieren">Clustern und Cluster visualisieren</a></li>
+  <li><a href="#themen-bestimmen" id="toc-themen-bestimmen" class="nav-link" data-scroll-target="#themen-bestimmen">Themen bestimmen</a></li>
+  <li><a href="#märchen-vergleichen" id="toc-märchen-vergleichen" class="nav-link" data-scroll-target="#märchen-vergleichen">Märchen vergleichen</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mä<strong>R</strong>chen: Text Mining mit den sieben Zwergen</h1>
+<p class="subtitle lead">Topic Modeling</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Daniel Jach </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Das letzte Mal haben Sie versucht, Ihre Märchen in Gruppen einzuteilen und Themen zu bestimmen. Ein Computer benutzt für diese Aufgaben clustering und topic modeling. Das ist schwierig und mathematisch kompliziert, aber intuitiv verständlich.</p>
+<p>Im Folgenden werden Sie <strong>(1)</strong> eine Distanz-Matrix erzeugen, <strong>(2)</strong> Ihre Märchen in Cluster gruppieren und die Ergebnisse visualisieren und <strong>(3)</strong> Themen in Ihren Märchen bestimmen. Für Details siehe <span class="citation" data-cites="levshina2015">Levshina (<a href="#ref-levshina2015" role="doc-biblioref">2015</a>)</span> und <span class="citation" data-cites="silge2017">Silge und Robinson (<a href="#ref-silge2017" role="doc-biblioref">2017</a>)</span>. Anschließend <strong>(4)</strong> wiederholen Sie die Analyse mit allen Märchen und versuchen, typische Themen für bestimmte Kulturkreise (deutsch, chinesisch, arabisch) zu ermitteln.</p>
+<section id="pakete-installieren" class="level1">
+<h1>Pakete installieren</h1>
+<p>Bevor Sie beginnen, laden Sie folgende Pakete und laden Sie Ihr Sample in R.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidytext)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tm)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tools)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(topicmodels)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ape)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cluster)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>src<span class="ot">&lt;-</span><span class="fu">list.files</span>(<span class="st">"./data/sample/"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df<span class="ot">&lt;-</span><span class="fu">data.frame</span>(<span class="fu">matrix</span>(<span class="at">nrow =</span> <span class="fu">length</span>(src), <span class="at">ncol =</span> <span class="dv">2</span>))</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(df)<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">"TEXT"</span>, <span class="st">"TITLE"</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(src)){</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">1</span>]<span class="ot">&lt;-</span><span class="fu">readLines</span>(<span class="fu">paste</span>(<span class="st">"./data/sample/"</span>, src[i], <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">2</span>]<span class="ot">&lt;-</span><span class="fu">sub</span>(<span class="st">".txt"</span>, <span class="st">""</span>, src[i], <span class="at">fixed =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>sample<span class="ot">&lt;-</span>df</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="distanz-matrix-erzeugen" class="level1">
+<h1>Distanz-Matrix erzeugen</h1>
+<p>Erstellen Sie zunächst eine document-term-Matrix für Ihre Märchen. Zur Erinnerung: Eine document-term-Matrix zeigt an, wie häufig jedes Wort in jedem Märchen vorkommt.</p>
+<details>
+<summary>
+Hilfe
+</summary>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>stopwords_df<span class="ot">&lt;-</span><span class="fu">tibble</span>(<span class="fu">read.csv</span>(<span class="st">"./data/stopwords.csv"</span>))</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>dtm<span class="ot">&lt;-</span>sample <span class="sc">%&gt;%</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(WORD, TEXT, <span class="at">to_lower =</span> <span class="cn">FALSE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(stopwords_df, <span class="at">by =</span> <span class="st">"WORD"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">count</span>(WORD, TITLE, <span class="at">sort =</span> <span class="cn">TRUE</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cast_dtm</span>(TITLE, WORD, n) <span class="sc">%&gt;%</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.matrix</span>()</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>dtm[<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>]</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</details>
+<p>Wie Sie schon gelernt haben, zeigt die document-term-Matrix die inhaltliche Ähnlichkeit zwischen den Märchen an. Dieses Mal brauchen Sie aber die Unterschiede. Sie können Ihre Ähnlichkeitsmatrix mit der Funktion <code>dist()</code> in eine Unterschiedlichkeitsmatrix (distance matrix) umwandeln.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>distanceMatrix<span class="ot">&lt;-</span><span class="fu">dist</span>(dtm)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>distanceMatrix</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="clustern-und-cluster-visualisieren" class="level1">
+<h1>Clustern und Cluster visualisieren</h1>
+<p>Jetzt bilden Sie Cluster, d.h. Sie gruppieren ähnliche Märchen zusammen. Das hier verwendete Verfahren heißt <em>hierarchical agglomerative clustering</em>. Es funktioniert im Prinzip so: Alle Märchen werden als Äste an einem Baum abgebildet. Der Baum wächst aber nicht von innen nach außen, sondern von außen nach innen. Der Computer vergleicht alle Märchen miteinander und gruppiert dann die ähnlichsten zusammen. Sie bilden die äußeren Äste. Dann vergleicht der Computer die Äste und gruppiert die ähnlichen wieder zusammen. So bilden sich dickere Äste. Und so weiter, bis zum Stamm.</p>
+<p><img src="./images/tree.png" style="width:33%;"></p>
+<p>Die Funktion <code>hclust()</code> (hierarchical cluster) gruppiert die Märchen in einem <q>Baum</q>. Anschließend können Sie die Ergebnisse mit <code>plot</code> und <code>as.phylo()</code> anzeigen. So ein <q>Baum</q> heißt <em>Dendrogramm</em>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>tree<span class="ot">&lt;-</span><span class="fu">hclust</span>(distanceMatrix, <span class="at">method =</span> <span class="st">"ward.D2"</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">as.phylo</span>(tree))</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Alternativ können Sie den <q>Baum</q> auch als <q>Fächer</q> oder als <q>Baum ohne Wurzeln</q> darstellen.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">as.phylo</span>(tree), <span class="at">type =</span> <span class="st">"fan"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">as.phylo</span>(tree), <span class="at">type =</span> <span class="st">"unrooted"</span>, <span class="at">cex =</span> <span class="fl">0.6</span>, <span class="at">no.margin =</span> <span class="cn">TRUE</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="think">
+<p><strong>Denkpause</strong><br>
+Was genau zeigt das Dendrogramm an? Denken Sie nach und formulieren Sie in eigenen Worten. Welche Märchen bilden im Dendrogramm eine Gruppe? Wie viele Gruppen zeigen sich?</p>
+</div>
+<p>Wie viele Gruppen sind sinnvoll? Eine Gruppe, zwei Gruppen, drei oder mehr? Sie sollen die Märchen so gruppieren, dass die Ähnlichkeit innerhalb der Gruppe möglichst groß und zwischen den Gruppen möglichst klein ist. Die Funktion <code>silhouette()</code> ermittelt, wie gut die Gruppen voneinander unterscheidbar sind. So können Sie die optimale Anzahl von Gruppen bestimmen.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>k<span class="ot">&lt;-</span><span class="dv">2</span> <span class="co"># zwei Cluster</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>k<span class="ot">&lt;-</span><span class="dv">3</span> <span class="co"># drei Cluster</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>k<span class="ot">&lt;-</span><span class="dv">4</span> <span class="co"># vier Cluster</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>clusterN<span class="ot">&lt;-</span><span class="fu">cutree</span>(tree, k)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>colors<span class="ot">&lt;-</span><span class="fu">rainbow</span>(k)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">as.phylo</span>(tree), <span class="at">type =</span> <span class="st">"fan"</span>, <span class="at">tip.color =</span> colors[clusterN], <span class="at">label.offset =</span> <span class="dv">5</span>, <span class="at">cex =</span> <span class="fl">0.7</span>)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(<span class="fu">silhouette</span>(clusterN, distanceMatrix))<span class="sc">$</span>avg.width</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>nClusters<span class="ot">&lt;-</span><span class="dv">2</span><span class="sc">:</span><span class="dv">9</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>asw<span class="ot">&lt;-</span><span class="fu">sapply</span>(nClusters, <span class="cf">function</span>(x) <span class="fu">summary</span>(<span class="fu">silhouette</span>(<span class="fu">cutree</span>(tree, <span class="at">k =</span> x), distanceMatrix))[<span class="st">"avg.width"</span>])</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(nClusters, asw, <span class="at">type =</span> <span class="st">"b"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="themen-bestimmen" class="level1">
+<h1>Themen bestimmen</h1>
+<p>Um die Themen in Ihren Märchen zu bestimmen, nutzen Sie einen Algorithmus namens <em>Latent Dirichlet allocation</em> (LDA). Die mathematischen Grundlagen müssen Sie wieder ignorieren. Der Algorithmus basiert auf zwei Annahmen:</p>
+<ol type="1">
+<li>Jedes Märchen ist eine Mischung aus verschiedenen Themen.</li>
+<li>Jedes Thema ist eine Mischung aus verschiedenen Wörtern.</li>
+</ol>
+<p>LDA ist eine mathematische Methode, die beides zur selben Zeit ermittelt: eine Mischung aus Themen für jedes Dokument und eine Mischung aus Wörtern für jedes Thema.</p>
+<p>Die Funktion <code>LDA()</code> benötigt dafür eine document-term-Matrix. Außerdem müssen Sie bei dieser Art von Statistik vorgeben, mit wie vielen Gruppen der Algorithmus arbeiten soll.</p>
+<div class="think">
+<p><strong>Denkpause</strong><br>
+Versuchen Sie einzuschätzen, wie viele verschiedene Themen in Ihren Märchen vorkommen.</p>
+</div>
+<p>Wenn Sie eine mögliche Anzahl von Themen eingeschätzt haben, führen Sie die Funktion aus. Der Parameter <code>k</code> gibt die Anzahl der Themen an.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>lda<span class="ot">&lt;-</span><span class="fu">LDA</span>(dtm, <span class="at">k =</span> <span class="dv">5</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>lda</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Jedes Thema ist eine Mischung aus Wörtern, erinnern Sie sich? Das ermittelte Modell enthält einen Wert <em>beta</em>, der angibt, wie wahrscheinlich ein bestimmtes Wort einem bestimmten Thema angehört. Der folgende Code ermittelt die zehn wahrscheinlichsten Wörter für jedes Thema. Versuchen Sie, jedem Thema einen Namen zu geben.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>word_topic<span class="ot">&lt;-</span><span class="fu">tidy</span>(lda, <span class="at">matrix =</span> <span class="st">"beta"</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>word_topic <span class="sc">%&gt;%</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(topic) <span class="sc">%&gt;%</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">top_n</span>(<span class="dv">10</span>, beta) <span class="sc">%&gt;%</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(topic, <span class="sc">-</span>beta) <span class="sc">%&gt;%</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">term =</span> <span class="fu">reorder_within</span>(term, beta, topic)) <span class="sc">%&gt;%</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(beta, term, <span class="at">fill =</span> <span class="fu">factor</span>(topic))) <span class="sc">+</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> topic, <span class="at">scales =</span> <span class="st">"free"</span>) <span class="sc">+</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_reordered</span>()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Jetzt möchten Sie noch ermitteln, wie viel von jedem Thema jedes Märchen enthält. Das Modell enthält einen Wert <em>gamma</em>, der angibt, wie wahrscheinlich ein bestimmtes Thema in einem bestimmten Märchen ist.</p>
+<div class="think">
+<p><strong>Denkpause</strong><br>
+Bevor Sie weitermachen, versuchen Sie einzuschätzen, wie wahrscheinlich jedes Thema in jedem Ihrer Märchen ist.</p>
+</div>
+<p>Der folgende Code ermittelt die Märchen-Thema-Wahrscheinlichkeit.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>document_topic<span class="ot">&lt;-</span><span class="fu">tidy</span>(lda, <span class="at">matrix =</span> <span class="st">"gamma"</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>document_topic <span class="sc">%&gt;%</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">document =</span> <span class="fu">reorder</span>(document, gamma <span class="sc">*</span> topic)) <span class="sc">%&gt;%</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="fu">factor</span>(topic), gamma)) <span class="sc">+</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> document) <span class="sc">+</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"topic"</span>, <span class="at">y =</span> <span class="fu">expression</span>(gamma))</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Vergleichen Sie das Ergebnis mit Ihrer Einschätzung.</p>
+</section>
+<section id="märchen-vergleichen" class="level1">
+<h1>Märchen vergleichen</h1>
+<p>Versuchen Sie jetzt, typische Themen für bestimmte Kulturkreise (deutsch, chinesisch, arabisch) zu ermitteln. Tipp: Nutzen Sie nicht das ganze Korpus, sondern eine Stichprobe! Das ganze Korpus ist zu groß für unsere kleinen Computer.</p>
+<details>
+<summary>
+Hilfe
+</summary>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>src<span class="ot">&lt;-</span><span class="fu">list.files</span>(<span class="st">"./data/corpus-grimm/"</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>df<span class="ot">&lt;-</span><span class="fu">data.frame</span>(<span class="fu">matrix</span>(<span class="at">nrow =</span> <span class="fu">length</span>(src), <span class="at">ncol =</span> <span class="dv">3</span>))</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(df)<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">"TEXT"</span>, <span class="st">"TITLE"</span>, <span class="st">"SOURCE"</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(src)){</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">1</span>]<span class="ot">&lt;-</span><span class="fu">readLines</span>(<span class="fu">paste</span>(<span class="st">"./data/corpus-grimm/"</span>, src[i], <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">2</span>]<span class="ot">&lt;-</span><span class="fu">sub</span>(<span class="st">".txt"</span>, <span class="st">""</span>, src[i], <span class="at">fixed =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">3</span>]<span class="ot">&lt;-</span><span class="st">"Deutsch"</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>grimm<span class="ot">&lt;-</span><span class="fu">as_tibble</span>(df)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>src<span class="ot">&lt;-</span><span class="fu">list.files</span>(<span class="st">"./data/corpus-wilhelm/"</span>)</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>df<span class="ot">&lt;-</span><span class="fu">data.frame</span>(<span class="fu">matrix</span>(<span class="at">nrow =</span> <span class="fu">length</span>(src), <span class="at">ncol =</span> <span class="dv">3</span>))</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(df)<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">"TEXT"</span>, <span class="st">"TITLE"</span>, <span class="st">"SOURCE"</span>)</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(src)){</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">1</span>]<span class="ot">&lt;-</span><span class="fu">readLines</span>(<span class="fu">paste</span>(<span class="st">"./data/corpus-wilhelm/"</span>, src[i], <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">2</span>]<span class="ot">&lt;-</span><span class="fu">sub</span>(<span class="st">".txt"</span>, <span class="st">""</span>, src[i], <span class="at">fixed =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">3</span>]<span class="ot">&lt;-</span><span class="st">"Chinesisch"</span></span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>wilhelm<span class="ot">&lt;-</span><span class="fu">as_tibble</span>(df)</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>src<span class="ot">&lt;-</span><span class="fu">list.files</span>(<span class="st">"./data/corpus-weil/"</span>)</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>df<span class="ot">&lt;-</span><span class="fu">data.frame</span>(<span class="fu">matrix</span>(<span class="at">nrow =</span> <span class="fu">length</span>(src), <span class="at">ncol =</span> <span class="dv">3</span>))</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(df)<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">"TEXT"</span>, <span class="st">"TITLE"</span>, <span class="st">"SOURCE"</span>)</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(src)){</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">1</span>]<span class="ot">&lt;-</span><span class="fu">readLines</span>(<span class="fu">paste</span>(<span class="st">"./data/corpus-weil/"</span>, src[i], <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">2</span>]<span class="ot">&lt;-</span><span class="fu">sub</span>(<span class="st">".txt"</span>, <span class="st">""</span>, src[i], <span class="at">fixed =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>  df[i,<span class="dv">3</span>]<span class="ot">&lt;-</span><span class="st">"Arabisch"</span></span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>weil<span class="ot">&lt;-</span><span class="fu">as_tibble</span>(df)</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>corpus<span class="ot">&lt;-</span><span class="fu">tibble</span>(<span class="fu">rbind</span>(grimm, wilhelm, weil))</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Zufallsstichprobe </span></span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>corpus<span class="ot">&lt;-</span>corpus <span class="sc">%&gt;%</span></span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(SOURCE) <span class="sc">%&gt;%</span></span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">50</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Stopwörter entfernen</span></span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>stopwords_df<span class="ot">&lt;-</span><span class="fu">tibble</span>(<span class="fu">read.csv</span>(<span class="st">"./data/stopwords.csv"</span>))</span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Distanz-Matrix erzeugen</span></span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a>dtm<span class="ot">&lt;-</span>corpus <span class="sc">%&gt;%</span></span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(WORD, TEXT, <span class="at">to_lower =</span> <span class="cn">FALSE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(stopwords_df, <span class="at">by =</span> <span class="st">"WORD"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">count</span>(WORD, TITLE, <span class="at">sort =</span> <span class="cn">TRUE</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cast_dtm</span>(TITLE, WORD, n) <span class="sc">%&gt;%</span></span>
+<span id="cb11-48"><a href="#cb11-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.matrix</span>()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Latent Dirichlet allocation ermittelt Themen je Märchen und Wörter je Thema</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>lda<span class="ot">&lt;-</span><span class="fu">LDA</span>(dtm, <span class="at">k =</span> <span class="dv">10</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>lda</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Wahrscheinlichkeit Thema/Märchen</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>document_topic<span class="ot">&lt;-</span><span class="fu">tidy</span>(lda, <span class="at">matrix =</span> <span class="st">"gamma"</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Quelle Märchen hinzufügen</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>document_topic<span class="ot">&lt;-</span>document_topic <span class="sc">%&gt;%</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(corpus[,<span class="fu">c</span>(<span class="st">"TITLE"</span>, <span class="st">"SOURCE"</span>)], <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"document"</span> <span class="ot">=</span> <span class="st">"TITLE"</span>))</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Wahrscheinlichkeit Themen nach Quelle</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>document_topic <span class="sc">%&gt;%</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="fu">factor</span>(topic), gamma)) <span class="sc">+</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="fu">aes</span>(<span class="at">y=</span>gamma, <span class="at">fill=</span>SOURCE)) <span class="sc">+</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> SOURCE) <span class="sc">+</span></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"topic"</span>, <span class="at">y =</span> <span class="fu">expression</span>(gamma)) <span class="sc">+</span> </span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"gamma"</span>)</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Wahrscheinlichkeit Wörter/Thema</span></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>word_topic<span class="ot">&lt;-</span><span class="fu">tidy</span>(lda, <span class="at">matrix =</span> <span class="st">"beta"</span>)</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>word_topic <span class="sc">%&gt;%</span></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(topic) <span class="sc">%&gt;%</span></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">top_n</span>(<span class="dv">10</span>, beta) <span class="sc">%&gt;%</span></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(topic, <span class="sc">-</span>beta) <span class="sc">%&gt;%</span></span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">term =</span> <span class="fu">reorder_within</span>(term, beta, topic)) <span class="sc">%&gt;%</span></span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(beta, term, <span class="at">fill =</span> <span class="fu">factor</span>(topic))) <span class="sc">+</span></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> topic, <span class="at">scales =</span> <span class="st">"free"</span>) <span class="sc">+</span></span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_reordered</span>()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</details>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-levshina2015" class="csl-entry" role="doc-biblioentry">
+Levshina, Natalia. 2015. <em>How to Do Linguistics with R: Data Exploration and Statistical Analysis</em>. Amsterdam: John Benjamins. <a href="https://doi.org/10.1075/z.195">https://doi.org/10.1075/z.195</a>.
+</div>
+<div id="ref-silge2017" class="csl-entry" role="doc-biblioentry">
+Silge, Julia, und David Robinson. 2017. <em>Text Mining with R: A Tidy Approach</em>. Sebastopol, CA: O’Reilly. <a href="https://www.tidytextmining.com/">https://www.tidytextmining.com/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,15 @@
+base
+methods
+datasets
+utils
+grDevices
+graphics
+stats
+RColorBrewer
+wordcloud
+reshape2
+NLP
+tm
+tools
+dplyr
+tidytext

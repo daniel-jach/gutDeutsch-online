@@ -1,0 +1,280 @@
+---
+title: "Mä**R**chen: Text Mining mit den sieben Zwergen"
+subtitle: "Topic Modeling"
+author: "Dr. Daniel Jach"
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+library(dplyr)
+library(tidytext)
+library(tm)
+library(ggplot2)
+library(tools)
+library(topicmodels)
+library(tidyr)
+library(ape)
+library(cluster)
+```
+
+Das letzte Mal haben Sie versucht, Ihre Märchen in Gruppen einzuteilen und Themen zu bestimmen. Ein Computer benutzt für diese Aufgaben clustering und topic modeling. Das ist schwierig und mathematisch kompliziert, aber intuitiv verständlich. 
+
+Im Folgenden werden Sie **(1)** eine Distanz-Matrix erzeugen, **(2)** Ihre Märchen in Cluster gruppieren und die Ergebnisse visualisieren und **(3)** Themen in Ihren Märchen bestimmen. Für Details siehe @levshina2015 und @silge2017. Anschließend **(4)** wiederholen Sie die Analyse mit allen Märchen und versuchen, typische Themen für bestimmte Kulturkreise (deutsch, chinesisch, arabisch) zu ermitteln. 
+
+# Pakete installieren
+
+Bevor Sie beginnen, laden Sie folgende Pakete und laden Sie Ihr Sample in R. 
+
+```{r}
+library(dplyr)
+library(tidytext)
+library(tm)
+library(ggplot2)
+library(tools)
+library(topicmodels)
+library(tidyr)
+library(ape)
+library(cluster)
+```
+
+```{r}
+
+src<-list.files("./data/sample/")
+df<-data.frame(matrix(nrow = length(src), ncol = 2))
+colnames(df)<-c("TEXT", "TITLE")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/sample/", src[i], sep = ""))
+  df[i,2]<-sub(".txt", "", src[i], fixed = TRUE)
+}
+sample<-df
+```
+
+# Distanz-Matrix erzeugen
+
+Erstellen Sie zunächst eine document-term-Matrix für Ihre Märchen. Zur Erinnerung: Eine document-term-Matrix zeigt an, wie häufig jedes Wort in jedem Märchen vorkommt. 
+
+<details><summary>Hilfe</summary>
+
+```{r}
+stopwords_df<-tibble(read.csv("./data/stopwords.csv"))
+
+dtm<-sample %>%
+  unnest_tokens(WORD, TEXT, to_lower = FALSE) %>%
+  anti_join(stopwords_df, by = "WORD") %>%
+  dplyr::count(WORD, TITLE, sort = TRUE) %>% 
+  cast_dtm(TITLE, WORD, n) %>%
+  as.matrix()
+dtm[1:4, 1:5]
+```
+
+</details>
+
+Wie Sie schon gelernt haben, zeigt die document-term-Matrix die inhaltliche Ähnlichkeit zwischen den Märchen an. Dieses Mal brauchen Sie aber die Unterschiede. Sie können Ihre Ähnlichkeitsmatrix mit der Funktion `dist()` in eine Unterschiedlichkeitsmatrix (distance matrix) umwandeln. 
+
+```{r}
+distanceMatrix<-dist(dtm)
+distanceMatrix
+```
+
+# Clustern und Cluster visualisieren
+
+Jetzt bilden Sie Cluster, d.h. Sie gruppieren ähnliche Märchen zusammen. Das hier verwendete Verfahren heißt *hierarchical agglomerative clustering*. Es funktioniert im Prinzip so: Alle Märchen werden als Äste an einem Baum abgebildet. Der Baum wächst aber nicht von innen nach außen, sondern von außen nach innen. Der Computer vergleicht alle Märchen miteinander und gruppiert dann die ähnlichsten zusammen. Sie bilden die äußeren Äste. Dann vergleicht der Computer die Äste und gruppiert die ähnlichen wieder zusammen. So bilden sich dickere Äste. Und so weiter, bis zum Stamm. 
+
+<img src="./images/tree.png" style="width:33%;" />
+
+Die Funktion `hclust()` (hierarchical cluster) gruppiert die Märchen in einem <q>Baum</q>. Anschließend können Sie die Ergebnisse mit `plot` und `as.phylo()` anzeigen. So ein <q>Baum</q> heißt *Dendrogramm*.  
+
+```{r}
+tree<-hclust(distanceMatrix, method = "ward.D2")
+plot(as.phylo(tree))
+```
+
+Alternativ können Sie den <q>Baum</q> auch als <q>Fächer</q> oder als <q>Baum ohne Wurzeln</q> darstellen. 
+
+```{r}
+plot(as.phylo(tree), type = "fan")
+plot(as.phylo(tree), type = "unrooted", cex = 0.6, no.margin = TRUE)
+```
+
+<div class='think'>
+**Denkpause**  
+Was genau zeigt das Dendrogramm an? Denken Sie nach und formulieren Sie in eigenen Worten. Welche Märchen bilden im Dendrogramm eine Gruppe? Wie viele Gruppen zeigen sich? 
+</div>
+
+Wie viele Gruppen sind sinnvoll? Eine Gruppe, zwei Gruppen, drei oder mehr? Sie sollen die Märchen so gruppieren, dass die Ähnlichkeit innerhalb der Gruppe möglichst groß und zwischen den Gruppen möglichst klein ist. Die Funktion `silhouette()` ermittelt, wie gut die Gruppen voneinander unterscheidbar sind. So können Sie die optimale Anzahl von Gruppen bestimmen. 
+
+```{r}
+k<-2 # zwei Cluster
+k<-3 # drei Cluster
+k<-4 # vier Cluster
+
+clusterN<-cutree(tree, k)
+
+colors<-rainbow(k)
+plot(as.phylo(tree), type = "fan", tip.color = colors[clusterN], label.offset = 5, cex = 0.7)
+
+summary(silhouette(clusterN, distanceMatrix))$avg.width
+
+nClusters<-2:9
+asw<-sapply(nClusters, function(x) summary(silhouette(cutree(tree, k = x), distanceMatrix))["avg.width"])
+plot(nClusters, asw, type = "b")
+```
+
+# Themen bestimmen
+
+Um die Themen in Ihren Märchen zu bestimmen, nutzen Sie einen Algorithmus namens *Latent Dirichlet allocation* (LDA). Die mathematischen Grundlagen müssen Sie wieder ignorieren. Der Algorithmus basiert auf zwei Annahmen: 
+
+1. Jedes Märchen ist eine Mischung aus verschiedenen Themen. 
+2. Jedes Thema ist eine Mischung aus verschiedenen Wörtern. 
+
+LDA ist eine mathematische Methode, die beides zur selben Zeit ermittelt: eine Mischung aus Themen für jedes Dokument und eine Mischung aus Wörtern für jedes Thema. 
+
+Die Funktion `LDA()` benötigt dafür eine document-term-Matrix. Außerdem müssen Sie bei dieser Art von Statistik vorgeben, mit wie vielen Gruppen der Algorithmus arbeiten soll. 
+
+<div class='think'>
+**Denkpause**  
+Versuchen Sie einzuschätzen, wie viele verschiedene Themen in Ihren Märchen vorkommen.
+</div>
+
+Wenn Sie eine mögliche Anzahl von Themen eingeschätzt haben, führen Sie die Funktion aus. Der Parameter `k` gibt die Anzahl der Themen an. 
+
+```{r}
+lda<-LDA(dtm, k = 5)
+lda
+```
+
+Jedes Thema ist eine Mischung aus Wörtern, erinnern Sie sich? Das ermittelte Modell enthält einen Wert *beta*, der angibt, wie wahrscheinlich ein bestimmtes Wort einem bestimmten Thema angehört. Der folgende Code ermittelt die zehn wahrscheinlichsten Wörter für jedes Thema. Versuchen Sie, jedem Thema einen Namen zu geben.
+
+```{r}
+word_topic<-tidy(lda, matrix = "beta")
+word_topic %>%
+  group_by(topic) %>%
+  top_n(10, beta) %>%
+  ungroup() %>%
+  arrange(topic, -beta) %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(beta, term, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  scale_y_reordered()
+```
+
+Jetzt möchten Sie noch ermitteln, wie viel von jedem Thema jedes Märchen enthält. Das Modell enthält einen Wert *gamma*, der angibt, wie wahrscheinlich ein bestimmtes Thema in einem bestimmten Märchen ist. 
+
+<div class='think'>
+**Denkpause**  
+Bevor Sie weitermachen, versuchen Sie einzuschätzen, wie wahrscheinlich jedes Thema in jedem Ihrer Märchen ist.
+</div>
+
+Der folgende Code ermittelt die Märchen-Thema-Wahrscheinlichkeit. 
+
+```{r}
+document_topic<-tidy(lda, matrix = "gamma")
+
+document_topic %>%
+  mutate(document = reorder(document, gamma * topic)) %>%
+  ggplot(aes(factor(topic), gamma)) +
+  geom_boxplot() +
+  facet_wrap(~ document) +
+  labs(x = "topic", y = expression(gamma))
+```
+
+Vergleichen Sie das Ergebnis mit Ihrer Einschätzung. 
+
+# Märchen vergleichen
+
+Versuchen Sie jetzt, typische Themen für bestimmte Kulturkreise (deutsch, chinesisch, arabisch) zu ermitteln. Tipp: Nutzen Sie nicht das ganze Korpus, sondern eine Stichprobe! Das ganze Korpus ist zu groß für unsere kleinen Computer.
+
+<details><summary>Hilfe</summary>
+
+```{r}
+src<-list.files("./data/corpus-grimm/")
+df<-data.frame(matrix(nrow = length(src), ncol = 3))
+colnames(df)<-c("TEXT", "TITLE", "SOURCE")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/corpus-grimm/", src[i], sep = ""))
+  df[i,2]<-sub(".txt", "", src[i], fixed = TRUE)
+  df[i,3]<-"Deutsch"
+}
+grimm<-as_tibble(df)
+
+src<-list.files("./data/corpus-wilhelm/")
+df<-data.frame(matrix(nrow = length(src), ncol = 3))
+colnames(df)<-c("TEXT", "TITLE", "SOURCE")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/corpus-wilhelm/", src[i], sep = ""))
+  df[i,2]<-sub(".txt", "", src[i], fixed = TRUE)
+  df[i,3]<-"Chinesisch"
+}
+wilhelm<-as_tibble(df)
+
+src<-list.files("./data/corpus-weil/")
+df<-data.frame(matrix(nrow = length(src), ncol = 3))
+colnames(df)<-c("TEXT", "TITLE", "SOURCE")
+for(i in 1:length(src)){
+  df[i,1]<-readLines(paste("./data/corpus-weil/", src[i], sep = ""))
+  df[i,2]<-sub(".txt", "", src[i], fixed = TRUE)
+  df[i,3]<-"Arabisch"
+}
+weil<-as_tibble(df)
+
+corpus<-tibble(rbind(grimm, wilhelm, weil))
+
+# Zufallsstichprobe 
+corpus<-corpus %>%
+  group_by(SOURCE) %>%
+  sample_n(size = 50) %>%
+  ungroup()
+
+# Stopwörter entfernen
+stopwords_df<-tibble(read.csv("./data/stopwords.csv"))
+
+# Distanz-Matrix erzeugen
+dtm<-corpus %>%
+  unnest_tokens(WORD, TEXT, to_lower = FALSE) %>%
+  anti_join(stopwords_df, by = "WORD") %>%
+  dplyr::count(WORD, TITLE, sort = TRUE) %>% 
+  cast_dtm(TITLE, WORD, n) %>%
+  as.matrix()
+```
+
+
+```{r}
+# Latent Dirichlet allocation ermittelt Themen je Märchen und Wörter je Thema
+lda<-LDA(dtm, k = 10)
+lda
+```
+
+```{r}
+# Wahrscheinlichkeit Thema/Märchen
+document_topic<-tidy(lda, matrix = "gamma")
+
+# Quelle Märchen hinzufügen
+document_topic<-document_topic %>%
+  left_join(corpus[,c("TITLE", "SOURCE")], by = c("document" = "TITLE"))
+
+# Wahrscheinlichkeit Themen nach Quelle
+document_topic %>%
+  ggplot(aes(factor(topic), gamma)) +
+  geom_boxplot(aes(y=gamma, fill=SOURCE)) +
+  facet_wrap(~ SOURCE) +
+  labs(x = "topic", y = expression(gamma)) + 
+  theme_minimal() + 
+  labs(y = "gamma")
+
+# Wahrscheinlichkeit Wörter/Thema
+word_topic<-tidy(lda, matrix = "beta")
+word_topic %>%
+  group_by(topic) %>%
+  top_n(10, beta) %>%
+  ungroup() %>%
+  arrange(topic, -beta) %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(beta, term, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  scale_y_reordered()
+```
+</details>
+
