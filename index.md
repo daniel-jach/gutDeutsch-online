@@ -4,7 +4,7 @@ Folgende Aktivitäten sind im Moment online:
 
 - [Einführung in die Sprachwissenschaft](linguistik/main.html)
 
-- [Sprachspielereien](sprachspielereien/docs/index.html)
+- [Sprachspielereien](sprachspielereien/index.html)
 
 - [MäRchen: Text Mining mit den 7 Zwergen](maerchen/docs/about.html)
 
