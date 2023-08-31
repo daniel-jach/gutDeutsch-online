@@ -1,13 +1,9 @@
-sprachspielereien/*
-!sprachspielereien/docs/
+# Ignore everything:
+*
 
-maerchen/*
-!maerchen/docs/
-
-.gitignore
+# except
+!linguistik/
+!linguistik/*
+!sprachspielereien/_book/
+!sprachspielereien/_book/*
 .Rproj.user
-.Rhistory
-.RData
-Gemfile
-Gemfile.lock
-gutDeutsch-online.Rproj
