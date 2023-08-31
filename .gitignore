@@ -4,6 +4,12 @@
 # except
 !linguistik/
 !linguistik/*
-!sprachspielereien/_book/
-!sprachspielereien/_book/*
+!sprachspielereien/
+!sprachspielereien/einheiten/
+!sprachspielereien/einheiten/*
+!maerchen/docs/
+!marchen/docs/*
+
+!qingdao/
+!qingdao/*
 .Rproj.user
