@@ -7,6 +7,8 @@
 !sprachspielereien/
 !sprachspielereien/einheiten/
 !sprachspielereien/einheiten/*
+!sprachspielereien/einheiten/**
+sprachspielereien/einheiten/external_videos/video_schoen.mp4
 !maerchen/docs/
 !marchen/docs/*
 
