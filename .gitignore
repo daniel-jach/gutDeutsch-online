@@ -15,3 +15,6 @@ sprachspielereien/einheiten/external_videos/*
 !qingdao/
 !qingdao/*
 .Rproj.user
+
+!temp/
+!temp/index.html
