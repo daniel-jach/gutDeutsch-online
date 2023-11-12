@@ -17,4 +17,4 @@ sprachspielereien/einheiten/external_videos/*
 .Rproj.user
 
 !temp/
-!temp/index.qmd
+!temp/index.html
