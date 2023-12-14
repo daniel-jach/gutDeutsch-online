@@ -43,6 +43,16 @@ img {
   margin-right: auto;
 }
 
+
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  padding: 15px;
+}
+
+
 .row {
   display: flex;
 }
@@ -54,7 +64,7 @@ img {
 
 .container {
  display: grid;
- align-items: center; 
+ align-items: center;
  grid-template-columns: 1fr 1fr 1fr;
  column-gap: 5px;
 }
