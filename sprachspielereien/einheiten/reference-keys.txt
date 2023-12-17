@@ -11,3 +11,6 @@ beschreiben-vergleichen-länder
 beschreiben-heimat
 beschreiben-charakter
 informationen-erfragen-urlaub
+ratschlaege-geben-kontakte
+absichten-formulieren-haustiere
+weihnachtszeit
